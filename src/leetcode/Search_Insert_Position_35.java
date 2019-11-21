@@ -1,0 +1,13 @@
+package leetcode;
+
+public class Search_Insert_Position_35 {
+	
+	public static int solution(int[] nums, int target) {
+		int n = nums.length;
+		for(int i=0;i<n;++i) {
+			if(nums[i]>=target) return i;
+		}
+		return n;
+	}
+
+}
