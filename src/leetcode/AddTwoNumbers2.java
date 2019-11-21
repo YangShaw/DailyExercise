@@ -1,8 +1,5 @@
 package leetcode;
 
-import java.util.LinkedList;
-import java.util.List;
-
 //  不能转成int来做。测试用例位数太多。
 //  如果想简化代码，参考官方题解，将两个链表是否为空放在一起判断。如果其中一个链表为空，那么用0来作为值填充。
 
@@ -17,15 +14,30 @@ public class AddTwoNumbers2 {
         }
     }
 
-    public ListNode addTwoNumbers(ListNode l1, ListNode l2){
+    public ListNode addTwoNumbers2(ListNode l1, ListNode l2){
         ListNode cur = new ListNode(0);
         //  存储头节点
         ListNode head = cur;
+        int carry = 0;
         while(l1!=null || l2!=null){
             int num1 = l1!=null?l1.val:0;
             int num2 = l2!=null?l2.val:0;
-            
+            int sum = num1+num2+carry;
+            carry = sum/10;
+            sum = sum%10;
+            cur.next = new ListNode(sum);
+            cur = cur.next;
+            if(l1!=null){
+                l1 = l1.next;
+            }
+            if(l2!=null){
+                l2 = l2.next;
+            }
         }
+        if(carry>0){
+            cur.next = new ListNode(carry);
+        }
+        return head.next;
     }
 
     public ListNode addTwoNumbers(ListNode l1, ListNode l2){
@@ -42,7 +54,7 @@ public class AddTwoNumbers2 {
             temp = temp%10;
             carry = 1;
         }
-        //  事实上不需要用一个temp来作为初始值，用0就可以。迷糊了。
+        //  事实上不需要用一个temp来作为初始值，结尾返回的时候直接返回head.next就可以了。好蠢啊我。
         ListNode cur = new ListNode(temp);
         ListNode head = cur;
         while(l1.next!=null && l2.next!=null){
