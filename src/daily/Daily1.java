@@ -1,12 +1,18 @@
 package daily;
 
 import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.List;
-import java.util.Map;
 
 public class Daily1 {
 	public static void main(String[] args) {
+		List<Integer> list = new ArrayList<>();
+		for(int i=0;i<5;++i){
+			list.add(0, i);
+		}
+		for(int i:list){
+			System.out.println(i);
+		}
+
 		String strarray = "hello world";
 		String[] arrays = strarray.split(" ");
 
@@ -39,30 +45,30 @@ public class Daily1 {
 		sb = sb.deleteCharAt(3);
 		System.out.println(sb);
 		
-		List<Integer> list = new ArrayList<>();
-		for(int i=0;i<10;i++)
-			list.add(i);
-		list.add(1);
-		list.add(2);
-		list.add(2);
-		list.add(1);
-		list.add(3);
-		System.out.println(list);
-		Map<Integer, Integer> map = new HashMap<>();
-		
-		for(Integer i : list) {
-			if(map.containsKey(i)) {
-				map.put(i, map.get(i)+1);
-			} else {
-				map.put(i, 1);
-			}
-		}
-		System.out.println(map.values());
-		List<Integer> temp = new ArrayList<>();
-		for(Integer i :map.keySet()){
-			temp.add(i);
-		}
-		System.out.println(temp);
+		//List<Integer> list = new ArrayList<>();
+		//for(int i=0;i<10;i++)
+		//	list.add(i);
+		//list.add(1);
+		//list.add(2);
+		//list.add(2);
+		//list.add(1);
+		//list.add(3);
+		//System.out.println(list);
+		//Map<Integer, Integer> map = new HashMap<>();
+		//
+		//for(Integer i : list) {
+		//	if(map.containsKey(i)) {
+		//		map.put(i, map.get(i)+1);
+		//	} else {
+		//		map.put(i, 1);
+		//	}
+		//}
+		//System.out.println(map.values());
+		//List<Integer> temp = new ArrayList<>();
+		//for(Integer i :map.keySet()){
+		//	temp.add(i);
+		//}
+		//System.out.println(temp);
 		
 //		for(int i=0;i<list.size();++i) {
 //			int cur = list.get(i);
