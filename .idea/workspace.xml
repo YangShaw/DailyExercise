@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e8793876-6e6a-4a88-a04e-e650c54289aa" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/Reverse7.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/MergeKLists.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/daily/Daily1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/daily/Daily1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/leetcode/ReverseList206.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/ReverseList206.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/daily/Daily1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/daily/Daily1.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -177,7 +174,7 @@
       <workItem from="1574209631799" duration="9651000" />
       <workItem from="1574253650124" duration="6149000" />
       <workItem from="1574296993097" duration="29250000" />
-      <workItem from="1574505728443" duration="5217000" />
+      <workItem from="1574505728443" duration="7847000" />
     </task>
     <servers />
   </component>
