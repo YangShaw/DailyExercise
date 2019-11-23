@@ -14,7 +14,7 @@ public class MergeKLists {
 
 
     //  使用最小堆
-    //  很巧连续两道题都用到了优先级队列。加深对使用heap这种数据结构的印象。    
+    //  很巧连续两道题都用到了优先级队列。加深对使用heap这种数据结构的印象。
     public ListNode mergeKLists(ListNode[] lists){
 
         if(lists.length==0){
