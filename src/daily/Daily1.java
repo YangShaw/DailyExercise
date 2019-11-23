@@ -5,6 +5,12 @@ import java.util.List;
 
 public class Daily1 {
 	public static void main(String[] args) {
+		String str7 = "9646324351";
+		String str8 = "99994477";
+		System.out.println(Integer.MAX_VALUE);
+		int num7 = Integer.parseInt(str8);
+		System.out.println(num7);
+
 		List<Integer> list = new ArrayList<>();
 		for(int i=0;i<5;++i){
 			list.add(0, i);
