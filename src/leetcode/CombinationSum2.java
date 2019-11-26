@@ -43,18 +43,23 @@ public class CombinationSum2 {
     我还能否成为你的船长
      */
 
-    public List<List<Integer>> combinationSum2(int[] candidates, int target){
-        List<List<Integer>> result = new ArrayList<>();
+    private List<List<Integer>> result;
+    private int[] candidates;
+    private ArrayList<Integer> beChosen;
+
+    public List<List<Integer>> combinationSum2(int[] nums, int target){
+        result = new ArrayList<>();
+
+        candidates = nums;
 
         //  排序是解题模式了
         Arrays.sort(candidates);
-        ArrayList<Integer> beChosen = new ArrayList<>();
-        backTrack(result, beChosen, candidates, target, 0);
+        beChosen = new ArrayList<>();
+        backTrack(target, 0);
         return result;
     }
 
-    private void backTrack(List<List<Integer>> result, ArrayList<Integer> beChosen,
-                           int[] candidates, int target, int start){
+    private void backTrack(int target, int start){
         if(target==0){
             result.add(new ArrayList<>(beChosen));
             return;
@@ -70,9 +75,9 @@ public class CombinationSum2 {
                 continue;
             }
 
-            
+
             beChosen.add(candidates[i]);
-            backTrack(result, beChosen, candidates, target-candidates[i], i+1);
+            backTrack(target-candidates[i], i+1);
             beChosen.remove(beChosen.size()-1);
         }
     }
