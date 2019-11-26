@@ -1,10 +1,29 @@
 package daily;
 
-import java.util.ArrayList;
-import java.util.List;
+import java.util.*;
 
 public class Daily1 {
 	public static void main(String[] args) {
+		HashSet<List<Integer>> listSet = new HashSet<>();
+		List<Integer> list1 = Arrays.asList(1, 2, 3);
+		List<Integer> list2 = Arrays.asList(2,3,4);
+		List<Integer> list3 = Arrays.asList(2,3,1);
+
+
+		listSet.add(list1);
+		listSet.add(list2);
+		listSet.add(list3);
+		for(List<Integer> list: listSet){
+			Collections.sort(list);
+			System.out.println(list);
+		}
+
+
+
+		listSet.stream().distinct();
+		System.out.println(listSet.size());
+
+
 		String str7 = "9646324351";
 		String str8 = "99994477";
 		System.out.println(Integer.MAX_VALUE);
