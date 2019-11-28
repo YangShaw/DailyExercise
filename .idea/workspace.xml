@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e8793876-6e6a-4a88-a04e-e650c54289aa" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/LowestCommonAncestor235.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/LowestCommonAncestor236.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/LowestCommonAncestor235.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/LowestCommonAncestor235.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -181,7 +182,7 @@
       <workItem from="1574698398862" duration="1210000" />
       <workItem from="1574751375324" duration="12948000" />
       <workItem from="1574818884244" duration="79000" />
-      <workItem from="1574901903329" duration="2747000" />
+      <workItem from="1574901903329" duration="3487000" />
     </task>
     <servers />
   </component>

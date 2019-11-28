@@ -12,6 +12,7 @@ public class LowestCommonAncestor235 {
         }
     }
 
+    //  利用二叉搜索树的性质
     public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q){
         int rootVal = root.val;
         int pVal = p.val;
