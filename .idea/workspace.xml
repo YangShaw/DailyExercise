@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e8793876-6e6a-4a88-a04e-e650c54289aa" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/KthSmallest230.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -181,7 +180,8 @@
       <workItem from="1574698398862" duration="1210000" />
       <workItem from="1574751375324" duration="12948000" />
       <workItem from="1574818884244" duration="79000" />
-      <workItem from="1574901903329" duration="5291000" />
+      <workItem from="1574901903329" duration="6776000" />
+      <workItem from="1575168806506" duration="2598000" />
     </task>
     <servers />
   </component>
