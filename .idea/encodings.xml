@@ -2,6 +2,7 @@
 <project version="4">
   <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="UTF-8">
     <file url="file://$PROJECT_DIR$/src/daily/P.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/javatest2/Problem1.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/leetcode/PreorderTraversal144.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/leetcode/ValidateStackSequences946.java" charset="GBK" />
     <file url="PROJECT" charset="UTF-8" />

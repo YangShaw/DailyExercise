@@ -4,6 +4,14 @@ import java.util.*;
 
 public class Daily1 {
 	public static void main(String[] args) {
+		ArrayList<Integer> a1 = new ArrayList<>();
+		a1.add(0);
+		a1.add(1);
+		a1.add(2);
+		ArrayList<Integer> a2 = new ArrayList<>(a1);
+		Collections.sort(a1);
+		System.out.println(a1.equals(a2));
+
 		HashSet<List<Integer>> listSet = new HashSet<>();
 		List<Integer> list1 = Arrays.asList(1, 2, 3);
 		List<Integer> list2 = Arrays.asList(2,3,4);
