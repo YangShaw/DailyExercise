@@ -4,43 +4,43 @@ import java.util.Scanner;
 
 public class MinSubArrayLen {
 
-	public int minSubArrayLen(int target, int[] array) {
-		
-		int n = array.length;
-		if(n==0) {
-			return 0;
-		}
-		
-		int start = 0;
-		int end = 1;
-		int sum = array[0];
-		int count = 1;
-		int min = n;
-		boolean flag = false;
-		while(start<end&&end<n) {
-			while(sum<target&&end<n) {
-				//	Ã»³¬¹ı´óĞ¡£¬¼ÌĞøÍùºó¼Ó
-				sum = sum+array[end];
-				end++;
-				count++;
-			} 
-			while(sum>=target&&start<end){
-//					³¬¹ıÁË£¬¿´¿´Ç°ÃæÄÜ²»ÄÜÉÙÒ»¸ö
-				flag = true;
-				sum = sum-array[start];
-				start++;
-				count--;
-			}
-			int temp = count+1;
-			if(temp<min) {
-				min = temp;
-			}
+    public int minSubArrayLen(int target, int[] array) {
 
-		}
-		if(flag) {
-			return min;
-		} else {
-			return 0;
-		}
-	}
+        int n = array.length;
+        if (n == 0) {
+            return 0;
+        }
+
+        int start = 0;
+        int end = 1;
+        int sum = array[0];
+        int count = 1;
+        int min = n;
+        boolean flag = false;
+        while (start < end && end < n) {
+            while (sum < target && end < n) {
+                //	Ã»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ğ¡ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+                sum = sum + array[end];
+                end++;
+                count++;
+            }
+            while (sum >= target && start < end) {
+//					ï¿½ï¿½ï¿½ï¿½ï¿½Ë£ï¿½ï¿½ï¿½ï¿½ï¿½Ç°ï¿½ï¿½ï¿½Ü²ï¿½ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½
+                flag = true;
+                sum = sum - array[start];
+                start++;
+                count--;
+            }
+            int temp = count + 1;
+            if (temp < min) {
+                min = temp;
+            }
+
+        }
+        if (flag) {
+            return min;
+        } else {
+            return 0;
+        }
+    }
 }

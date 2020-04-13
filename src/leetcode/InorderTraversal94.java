@@ -1,60 +1,64 @@
 package leetcode;
 
 import java.util.*;
+
 public class InorderTraversal94 {
-	
-//	Definition for a binary tree node.
-	 public class TreeNode {
-	     int val;
-	     TreeNode left;
-	     TreeNode right;
-	     TreeNode(int x) { val = x; }
-	 }
-	 
-	 public List<Integer> inorderTraversal(TreeNode root){
-		 List<Integer> result = new LinkedList<Integer>();
-		 
-		 if(root==null) {
-			 return result;
-		 }
-		 solution(root.left, result);
-		 result.add(root.val);
-		 solution(root.right, result);
-		 
-		 return result;
-	 }
-	 
-	 //	·ÇµÝ¹éµÄÐ´·¨
-	 public List<Integer> inorderTraversal2(TreeNode root){
-		 List<Integer> result = new LinkedList<Integer>();
-		 
-		 if(root==null) {
-			 return result;
-		 }
-		 
-		 Stack<TreeNode> stack = new Stack<TreeNode>();
-		 
-		 TreeNode cur = root;
-		 while(!stack.empty()||cur!=null) {
-			 while(cur!=null) {
-				 stack.push(cur);
-				 //	Ò»Ö±ÔÚ×ó±ßÍÆ½ø£¬Ò»Ö±µ½ÕÒµ½Ò¶×Ó½Úµã
-				 cur = cur.left;
-			 }
-			 cur = stack.pop();
-			 result.add(cur.val);
-			 cur = cur.right;
-		 }
-		 return result;
-	 }
-	 
-	 public void solution(TreeNode cur, List<Integer> list) {
-		 if(cur==null) {
-			 return;
-		 }
-		 solution(cur.left, list);
-		 list.add(cur.val);
-		 solution(cur.right, list);
-	 }
+
+    //	Definition for a binary tree node.
+    public class TreeNode {
+        int val;
+        TreeNode left;
+        TreeNode right;
+
+        TreeNode(int x) {
+            val = x;
+        }
+    }
+
+    public List<Integer> inorderTraversal(TreeNode root) {
+        List<Integer> result = new LinkedList<Integer>();
+
+        if (root == null) {
+            return result;
+        }
+        solution(root.left, result);
+        result.add(root.val);
+        solution(root.right, result);
+
+        return result;
+    }
+
+    //	ï¿½ÇµÝ¹ï¿½ï¿½Ð´ï¿½ï¿½
+    public List<Integer> inorderTraversal2(TreeNode root) {
+        List<Integer> result = new LinkedList<Integer>();
+
+        if (root == null) {
+            return result;
+        }
+
+        Stack<TreeNode> stack = new Stack<TreeNode>();
+
+        TreeNode cur = root;
+        while (!stack.empty() || cur != null) {
+            while (cur != null) {
+                stack.push(cur);
+                //	Ò»Ö±ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ½ï¿½ï¿½ï¿½Ò»Ö±ï¿½ï¿½ï¿½Òµï¿½Ò¶ï¿½Ó½Úµï¿½
+                cur = cur.left;
+            }
+            cur = stack.pop();
+            result.add(cur.val);
+            cur = cur.right;
+        }
+        return result;
+    }
+
+    public void solution(TreeNode cur, List<Integer> list) {
+        if (cur == null) {
+            return;
+        }
+        solution(cur.left, list);
+        list.add(cur.val);
+        solution(cur.right, list);
+    }
 
 }

@@ -1,62 +1,66 @@
 package leetcode;
 
 import java.util.*;
+
 public class PreorderTraversal144 {
 
-	//	ºÃ´¦ÔÚÓÚ¸ø¶¨µÄÊÇÒ»¸öÊ÷µÄ½Úµã£¬Ò²¾ÍÊÇÎÒÃÇ²»ÐèÒª¹¹ÔìÊ÷ÁË
-	
-	 //	Definition for a binary tree node.
-	 public class TreeNode {
-	     int val;
-	     TreeNode left;
-	     TreeNode right;
-	     TreeNode(int x) { val = x; }
-	 }
-	 
-//	 ²»ÄÜÊ¹ÓÃ¾²Ì¬µÄÈ«¾Ö±äÁ¿£¬ÒòÎªÔÚ¶à¸öÑùÀý½øÐÐ²âÊÔµÄÊ±ºò»á±£ÁôÏÂÀ´
+    //	ï¿½Ã´ï¿½ï¿½ï¿½ï¿½Ú¸ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½ï¿½ï¿½ï¿½Ä½Úµã£¬Ò²ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ç²ï¿½ï¿½ï¿½Òªï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+
+    //	Definition for a binary tree node.
+    public class TreeNode {
+        int val;
+        TreeNode left;
+        TreeNode right;
+
+        TreeNode(int x) {
+            val = x;
+        }
+    }
+
+//	 ï¿½ï¿½ï¿½ï¿½Ê¹ï¿½Ã¾ï¿½Ì¬ï¿½ï¿½È«ï¿½Ö±ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Îªï¿½Ú¶ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ð²ï¿½ï¿½Ôµï¿½Ê±ï¿½ï¿½á±£ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 //	public static List<Integer> result = new LinkedList<Integer>();
-	 
-	public List<Integer> preorderTraversal(TreeNode root){
-		List<Integer> result = new LinkedList<Integer>();
-		if(root==null) {
-			return result;
-		}
-		solution(root, result);
-		return result;
-	}
-	
-	//	·ÇµÝ¹éÐÎÊ½
-	public List<Integer> preorderTraversal2(TreeNode root){
-		List<Integer> result = new LinkedList<Integer>();
-		if(root==null) {
-			return result;
-		}
-		
-		Stack<TreeNode> stack = new Stack<TreeNode>();
-		stack.push(root);
-		while(!stack.empty()) {
-			TreeNode cur = stack.pop();
-			result.add(cur.val);
-			
-			//	ÕâÀï±ØÐëÒªÅÐ¶ÏÒ»ÏÂÊÇ·ñÎª¿Õ£¬ÒòÎªÈç¹ûÊÇnull»á°Ñ¿ÕµÄÄÚÈÝ¼ÓÈëµ½stackÖÐ£¬µ¼ÖÂ¿ÕÖ¸Õë´í¡£
-			if(cur.right!=null) {
-				stack.push(cur.right);
-			}
-			if(cur.left!=null) {
-				stack.push(cur.left);
-			}
-		}
-		
-		return result;
-	}
-	
-	public void solution(TreeNode cur, List<Integer> list) {
-		if(cur==null) {
-			return;
-		}
-		list.add(cur.val);
-		solution(cur.left, list);
-		solution(cur.right, list);
-	}
-	
+
+    public List<Integer> preorderTraversal(TreeNode root) {
+        List<Integer> result = new LinkedList<Integer>();
+        if (root == null) {
+            return result;
+        }
+        solution(root, result);
+        return result;
+    }
+
+    //	ï¿½ÇµÝ¹ï¿½ï¿½ï¿½Ê½
+    public List<Integer> preorderTraversal2(TreeNode root) {
+        List<Integer> result = new LinkedList<Integer>();
+        if (root == null) {
+            return result;
+        }
+
+        Stack<TreeNode> stack = new Stack<TreeNode>();
+        stack.push(root);
+        while (!stack.empty()) {
+            TreeNode cur = stack.pop();
+            result.add(cur.val);
+
+            //	ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Òªï¿½Ð¶ï¿½Ò»ï¿½ï¿½ï¿½Ç·ï¿½Îªï¿½Õ£ï¿½ï¿½ï¿½Îªï¿½ï¿½ï¿½ï¿½ï¿½nullï¿½ï¿½Ñ¿Õµï¿½ï¿½ï¿½ï¿½Ý¼ï¿½ï¿½ëµ½stackï¿½Ð£ï¿½ï¿½ï¿½ï¿½Â¿ï¿½Ö¸ï¿½ï¿½ï¿½
+            if (cur.right != null) {
+                stack.push(cur.right);
+            }
+            if (cur.left != null) {
+                stack.push(cur.left);
+            }
+        }
+
+        return result;
+    }
+
+    public void solution(TreeNode cur, List<Integer> list) {
+        if (cur == null) {
+            return;
+        }
+        list.add(cur.val);
+        solution(cur.left, list);
+        solution(cur.right, list);
+    }
+
 }

@@ -47,7 +47,7 @@ public class CombinationSum2 {
     private int[] candidates;
     private ArrayList<Integer> beChosen;
 
-    public List<List<Integer>> combinationSum2(int[] nums, int target){
+    public List<List<Integer>> combinationSum2(int[] nums, int target) {
         result = new ArrayList<>();
 
         candidates = nums;
@@ -59,26 +59,26 @@ public class CombinationSum2 {
         return result;
     }
 
-    private void backTrack(int target, int start){
-        if(target==0){
+    private void backTrack(int target, int start) {
+        if (target == 0) {
             result.add(new ArrayList<>(beChosen));
             return;
         }
         int n = candidates.length;
-        for(int i=start;i<n;++i){
+        for (int i = start; i < n; ++i) {
             //  这一步是剪枝
-            if(candidates[i]>target){
+            if (candidates[i] > target) {
                 break;
             }
             //  这一步也是剪枝，但更是去重。旨在，某一层中有连续相同元素是去掉。这一层的第一个和上一层相同不算重复。
-            if(i>start&&candidates[i]==candidates[i-1]){
+            if (i > start && candidates[i] == candidates[i - 1]) {
                 continue;
             }
 
 
             beChosen.add(candidates[i]);
-            backTrack(target-candidates[i], i+1);
-            beChosen.remove(beChosen.size()-1);
+            backTrack(target - candidates[i], i + 1);
+            beChosen.remove(beChosen.size() - 1);
         }
     }
 }

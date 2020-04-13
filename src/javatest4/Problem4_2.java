@@ -9,31 +9,31 @@ public class Problem4_2 {
         int n = s.nextInt();
         int[] list = new int[n];
         int[] sorted = new int[n];
-        for(int i=0;i<n;++i){
+        for (int i = 0; i < n; ++i) {
             int temp = s.nextInt();
             list[i] = temp;
             sorted[i] = temp;
         }
         Arrays.sort(sorted);
-        int min=n-1, max=0;
-        for(int i=0;i<n;++i){
+        int min = n - 1, max = 0;
+        for (int i = 0; i < n; ++i) {
             //  逐个比对数字
-            if(list[i]!=sorted[i]){
+            if (list[i] != sorted[i]) {
                 min = i;
                 break;
             }
         }
-        if(min==n-1){
+        if (min == n - 1) {
             //  原本就有序
             System.out.println(0);
             return;
         }
-        for(int i=n-1;i>min;--i){
-            if(list[i]!=sorted[i]){
+        for (int i = n - 1; i > min; --i) {
+            if (list[i] != sorted[i]) {
                 max = i;
                 break;
             }
         }
-        System.out.println(max-min+1);
+        System.out.println(max - min + 1);
     }
 }

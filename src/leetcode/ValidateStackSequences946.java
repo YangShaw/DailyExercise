@@ -1,26 +1,27 @@
 package leetcode;
 
 import java.util.*;
+
 public class ValidateStackSequences946 {
 
-	public boolean validateStackSequences(int[] pushed, int[] popped) {
-        
-		//	´æ·ÅpushedÄÚÈİ
-		Stack<Integer> stack = new Stack<Integer>();
-		//	¶¨Î»poppedÄÚÈİµÄÖ¸Õë
-		int j = 0;
-		
-		for(int i=0;i<pushed.length;++i) {
-			stack.push(pushed[i]);
-			while(!stack.empty()&&stack.peek()==popped[j]) {
-				//	µ±Õ»¶¥ÔªËØºÍ³öÕ»ĞòÁĞ×îÍ·ÉÏÔªËØÏàÍ¬Ê±£¬¿ÉÒÔ³öÕ»
-				stack.pop();
-				j++;
-			}
-		}
-		if(stack.empty()) {
-			return true;
-		}
-		return false;
+    public boolean validateStackSequences(int[] pushed, int[] popped) {
+
+        //	ï¿½ï¿½ï¿½pushedï¿½ï¿½ï¿½ï¿½
+        Stack<Integer> stack = new Stack<Integer>();
+        //	ï¿½ï¿½Î»poppedï¿½ï¿½ï¿½İµï¿½Ö¸ï¿½ï¿½
+        int j = 0;
+
+        for (int i = 0; i < pushed.length; ++i) {
+            stack.push(pushed[i]);
+            while (!stack.empty() && stack.peek() == popped[j]) {
+                //	ï¿½ï¿½Õ»ï¿½ï¿½Ôªï¿½ØºÍ³ï¿½Õ»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Í·ï¿½ï¿½Ôªï¿½ï¿½ï¿½ï¿½Í¬Ê±ï¿½ï¿½ï¿½ï¿½ï¿½Ô³ï¿½Õ»
+                stack.pop();
+                j++;
+            }
+        }
+        if (stack.empty()) {
+            return true;
+        }
+        return false;
     }
 }

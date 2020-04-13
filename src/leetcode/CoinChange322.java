@@ -1,58 +1,58 @@
 package leetcode;
 
 public class CoinChange322 {
-	
-	//	×ÔÉÏ¶øÏÂ£¬ÀûÓÃµÝ¹é
-	//	ÕâÖÖ½â·¨ÊÇÕýÈ·µÄ£¬µ«ÊÇ¸´ÔÓ¶ÈÌ«¸ß
-	public int coinChange2(int[] coins, int amount) {
-		if(amount==0) {
-			return 0;
-		}
-		
-		int type = coins.length;
-		int cost = Integer.MAX_VALUE;
-		for(int i=0;i<type;++i) {
-			if(amount-coins[i]>=0) {
-				int temp = coinChange2(coins, amount-coins[i])+1;
-				if(temp!=0) {
-					//	È·±£×ÓÎÊÌâÊÇÓÐ½âµÄ
-					cost = Math.min(cost, temp);
-				}
-			}
-		}
-			
-		return cost==Integer.MAX_VALUE?-1:cost;
-	}
-	
-	//	×Ôµ×ÏòÉÏ£¬ÀûÓÃ±¸ÍüÂ¼µÄDP£¬µü´ú·¨
-	public int coinChange(int[] coins, int amount) {
-		
-		int type = coins.length;
-		//	ÕâÀï×ÓÎÊÌâµÄ»®·ÖÊÇ¶Ôamount½øÐÐ´ÓÐ¡µ½´ó»®·Ö£¬¶ø²»ÊÇ¶ÔcoinsÊý×é½øÐÐ»®·Ö
-		
-		//	´æ´¢amountÈ¡¸÷¸öÖµÊ±ºòµÄ×îÓÅ½â
-		//	ÓÃfunc×÷Îª±äÁ¿Ãû¸üÉú¶¯Ò»µã£¬ÈÃÎÒÁªÏëµ½f(n)µÄº¯ÊýÐÎÊ½
-		int[] func = new int[amount+1];
-		func[0] = 0;	//	³õÖµ
-		for(int i=1;i<=amount;++i) {
-			//	±éÀúamount=kµÄ¸÷ÖÖÇé¿ö£¬×ÓÎÊÌâ´ÓÐ¡µ½´ó
-			int cost = Integer.MAX_VALUE;
-			for(int j=0;j<type;++j) {
-				//	±éÀúÃ¿ÖÖÇé¿ö
-				if(i-coins[j]>=0) {
-					//	¿ÉÒÔÓÃÒ»Ã¶coins[j]µÄÊ±ºò
-					if(func[i-coins[j]]!=Integer.MAX_VALUE) {
-						//	·ÀÖ¹Òç³ö
-						cost = Math.min(cost, func[i-coins[j]]+1);
-					}
-				}
-			}
-			
-			func[i] = cost;
-		}
-		
-		
-		return func[amount]==Integer.MAX_VALUE?-1 : func[amount];
-	}
+
+    //	ï¿½ï¿½ï¿½Ï¶ï¿½ï¿½Â£ï¿½ï¿½ï¿½ï¿½ÃµÝ¹ï¿½
+    //	ï¿½ï¿½ï¿½Ö½â·¨ï¿½ï¿½ï¿½ï¿½È·ï¿½Ä£ï¿½ï¿½ï¿½ï¿½Ç¸ï¿½ï¿½Ó¶ï¿½Ì«ï¿½ï¿½
+    public int coinChange2(int[] coins, int amount) {
+        if (amount == 0) {
+            return 0;
+        }
+
+        int type = coins.length;
+        int cost = Integer.MAX_VALUE;
+        for (int i = 0; i < type; ++i) {
+            if (amount - coins[i] >= 0) {
+                int temp = coinChange2(coins, amount - coins[i]) + 1;
+                if (temp != 0) {
+                    //	È·ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ð½ï¿½ï¿½
+                    cost = Math.min(cost, temp);
+                }
+            }
+        }
+
+        return cost == Integer.MAX_VALUE ? -1 : cost;
+    }
+
+    //	ï¿½Ôµï¿½ï¿½ï¿½ï¿½Ï£ï¿½ï¿½ï¿½ï¿½Ã±ï¿½ï¿½ï¿½Â¼ï¿½ï¿½DPï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+    public int coinChange(int[] coins, int amount) {
+
+        int type = coins.length;
+        //	ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä»ï¿½ï¿½ï¿½ï¿½Ç¶ï¿½amountï¿½ï¿½ï¿½Ð´ï¿½Ð¡ï¿½ï¿½ï¿½ó»®·Ö£ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ç¶ï¿½coinsï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ð»ï¿½ï¿½ï¿½
+
+        //	ï¿½æ´¢amountÈ¡ï¿½ï¿½ï¿½ï¿½ÖµÊ±ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Å½ï¿½
+        //	ï¿½ï¿½funcï¿½ï¿½Îªï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ã£¬ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ëµ½f(n)ï¿½Äºï¿½ï¿½ï¿½ï¿½ï¿½Ê½
+        int[] func = new int[amount + 1];
+        func[0] = 0;    //	ï¿½ï¿½Öµ
+        for (int i = 1; i <= amount; ++i) {
+            //	ï¿½ï¿½ï¿½ï¿½amount=kï¿½Ä¸ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ð¡ï¿½ï¿½ï¿½ï¿½
+            int cost = Integer.MAX_VALUE;
+            for (int j = 0; j < type; ++j) {
+                //	ï¿½ï¿½ï¿½ï¿½Ã¿ï¿½ï¿½ï¿½ï¿½ï¿½
+                if (i - coins[j] >= 0) {
+                    //	ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ò»Ã¶coins[j]ï¿½ï¿½Ê±ï¿½ï¿½
+                    if (func[i - coins[j]] != Integer.MAX_VALUE) {
+                        //	ï¿½ï¿½Ö¹ï¿½ï¿½ï¿½
+                        cost = Math.min(cost, func[i - coins[j]] + 1);
+                    }
+                }
+            }
+
+            func[i] = cost;
+        }
+
+
+        return func[amount] == Integer.MAX_VALUE ? -1 : func[amount];
+    }
 
 }

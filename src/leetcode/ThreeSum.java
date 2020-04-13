@@ -35,19 +35,19 @@ public class ThreeSum {
                 continue;
             }
             while (lp < rp) {
-            	//	固定起点，遍历lp和rp的所有组合方式
+                //	固定起点，遍历lp和rp的所有组合方式
                 int sum = nums[i] + nums[lp] + nums[rp];
                 if (sum == 0) {
-                	//	如果找到正确的一组
+                    //	如果找到正确的一组
                     result.add(Arrays.asList(nums[i], nums[lp], nums[rp]));
                     //这里不能break，因为可能同一个nums[i]后面有多个匹配的二元组
                     //break;
                     //	*但是为了避免重复，又要对前后相同的数字进行判断
-					//	这里的两个while如果忘记了什么意思，画个图就理解了
-                    while (lp < rp && nums[lp] == nums[lp+1]) {
+                    //	这里的两个while如果忘记了什么意思，画个图就理解了
+                    while (lp < rp && nums[lp] == nums[lp + 1]) {
                         lp++;
                     }
-                    while (lp < rp && nums[rp] == nums[rp-1]) {
+                    while (lp < rp && nums[rp] == nums[rp - 1]) {
                         rp--;
                     }
                     //	while中跳过的都是重复的。因为sum==0的时候两头的元素都利用上了，还得顺延到下一个。

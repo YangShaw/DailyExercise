@@ -4,8 +4,8 @@ import java.lang.reflect.Method;
 
 public class AnnoDemo {
 
-    @MyAnno(userName = "shaw", age=20)
-    public static void getInfo(String userName, int age){
+    @MyAnno(userName = "shaw", age = 20)
+    public static void getInfo(String userName, int age) {
         System.out.println(userName);
         System.out.println(age);
     }

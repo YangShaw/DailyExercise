@@ -1,65 +1,66 @@
 package leetcode;
-import java.math.*;
+
 public class Max_Subarray_53 {
-	
-	
-	//	ÕâÖÖË¼Â·¸ü¼ò½àÑÏ½÷£¬µ«ÊÇ¸´ÔÓ¶ÈÏàËÆ
-	public int maxSubArray(int[] nums) {
-		int result = nums[0];
-		int sum = 0;
-		for(int num: nums) {
-			if(sum>0) {
-				sum = sum+num;
-			} else {
-				sum = num;
-			}
-			result = Math.max(sum, result);
-		}
-		return result;
-	}
-	
-	public static int solution(int[] nums) {
-		int n = nums.length;
-		int i, j;
-		int value=Integer.MIN_VALUE;
-		for(i=0;i<n;) {
-				//	iÊÇÒ»¶Î×ÓÐòÁÐµÄ¿ªÍ·¡£Èç¹û¿ªÍ·ÊÇ¸ºÊý£¬Ö±½Ó²»ÓÃ¿´ÁË¡£
-            if(nums[i]>value)	
-            	value = nums[i];
-			if(nums[i]<=0) {	//	
-				++i;
-				continue;
-			}
-		    int sum = nums[i];	//	´Óµ±Ç°¿ªÊ¼ÇóºÍ
-            
-			for(j=i+1;j<n;j++) {	//	´ÓiµÄÏÂÒ»¸öÎ»ÖÃ¿ªÊ¼ÕÒ
-				if(nums[j]+sum<=0) {	//	¼ÓÕâ¸ö»¹²»Èç²»¼Ó
-					if(value<sum) {
-						value = sum;	//	µ±Ç°×î´óÖµ¡£ËäÈ»ÕâÒ»²¨ÒªÌø¹ýÁË£¬µ«ÊÇËüÇ°ÃæµÄ¿ÉÄÜÈ·ÊµÊÇ×î´óµÄÁË¡£
-					}
-					i=j+1;
-					break;	//	·ÅÆúÕâÒ»²¨£¬´ÓºóÃæ¿ªÊ¼
-				} 
-				if(nums[j]<0) {
-                    if(value<sum) {
-                    	value = sum;	//	Õâ¸öÖµÊÇ¸ºÊý£¬ÄÇ¾ÍÏÈ´æÒ»ÏÂ£¬¿´¿´ºóÃæ»¹»á²»»áÓÐ¸ü´óµÄ
+
+
+    //	ï¿½ï¿½ï¿½ï¿½Ë¼Â·ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ï½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ç¸ï¿½ï¿½Ó¶ï¿½ï¿½ï¿½ï¿½ï¿½
+    public int maxSubArray(int[] nums) {
+        int result = nums[0];
+        int sum = 0;
+        for (int num : nums) {
+            if (sum > 0) {
+                sum = sum + num;
+            } else {
+                sum = num;
+            }
+            result = Math.max(sum, result);
+        }
+        return result;
+    }
+
+    public static int solution(int[] nums) {
+        int n = nums.length;
+        int i, j;
+        int value = Integer.MIN_VALUE;
+        for (i = 0; i < n; ) {
+            //	iï¿½ï¿½Ò»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÐµÄ¿ï¿½Í·ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Í·ï¿½Ç¸ï¿½ï¿½ï¿½ï¿½ï¿½Ö±ï¿½Ó²ï¿½ï¿½Ã¿ï¿½ï¿½Ë¡ï¿½
+            if (nums[i] > value)
+                value = nums[i];
+            if (nums[i] <= 0) {    //
+                ++i;
+                continue;
+            }
+            int sum = nums[i];    //	ï¿½Óµï¿½Ç°ï¿½ï¿½Ê¼ï¿½ï¿½ï¿½
+
+            for (j = i + 1; j < n; j++) {    //	ï¿½ï¿½iï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½Î»ï¿½Ã¿ï¿½Ê¼ï¿½ï¿½
+                if (nums[j] + sum <= 0) {    //	ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ç²»ï¿½ï¿½
+                    if (value < sum) {
+                        value = sum;    //	ï¿½ï¿½Ç°ï¿½ï¿½ï¿½Öµï¿½ï¿½ï¿½ï¿½È»ï¿½ï¿½Ò»ï¿½ï¿½Òªï¿½ï¿½ï¿½ï¿½ï¿½Ë£ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ç°ï¿½ï¿½Ä¿ï¿½ï¿½ï¿½È·Êµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ë¡ï¿½
                     }
-					sum = sum+nums[j];
-				} else {
-					sum = sum+nums[j];
-					if(sum>value) {
-						value = sum;
-					}
-				}
-			}
-			if(j==n) return value;
-		}
-		return value;
-	}
-	public static void main(String[] args) {
-		
-		int nums[] = {1};
-		System.out.println(solution(nums));
-	}
+                    i = j + 1;
+                    break;    //	ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½ï¿½ï¿½ï¿½Óºï¿½ï¿½æ¿ªÊ¼
+                }
+                if (nums[j] < 0) {
+                    if (value < sum) {
+                        value = sum;    //	ï¿½ï¿½ï¿½Öµï¿½Ç¸ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ç¾ï¿½ï¿½È´ï¿½Ò»ï¿½Â£ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½æ»¹ï¿½á²»ï¿½ï¿½ï¿½Ð¸ï¿½ï¿½ï¿½ï¿½
+                    }
+                    sum = sum + nums[j];
+                } else {
+                    sum = sum + nums[j];
+                    if (sum > value) {
+                        value = sum;
+                    }
+                }
+            }
+            if (j == n) return value;
+        }
+        return value;
+    }
+
+    public static void main(String[] args) {
+
+        int nums[] = {1};
+        System.out.println(solution(nums));
+    }
 
 }

@@ -1,44 +1,46 @@
 package daily;
 
-class Sup{
-	public void method(Sup obj1, Sup obj2) {
-		System.out.println("sup: sup sup");
-	}
-	
+class Sup {
+    public void method(Sup obj1, Sup obj2) {
+        System.out.println("sup: sup sup");
+    }
+
 }
 
-class Sub extends Sup{
-		//	ÕâÐ©·½·¨¶¼ÊÇÖØÔØ¶ø·ÇÖØÐ´£¬²»»á²úÉú¶¯Ì¬Á´½ÓµÄÐ§¹û
-	
-	public void method(Sup o1, Sub o2) {
-		System.out.println("sub: sup, sub");
-	}
-	public void method(Sub o1, Sup o2) {
-		System.out.println("sub: sub, sup");
-	}
-	public void method(Sub o1, Sub o2) {
-		System.out.println("sub: sub, sub");
-	}
+class Sub extends Sup {
+    //	ï¿½ï¿½Ð©ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ø¶ï¿½ï¿½ï¿½ï¿½ï¿½Ð´ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì¬ï¿½ï¿½ï¿½Óµï¿½Ð§ï¿½ï¿½
+
+    public void method(Sup o1, Sub o2) {
+        System.out.println("sub: sup, sub");
+    }
+
+    public void method(Sub o1, Sup o2) {
+        System.out.println("sub: sub, sup");
+    }
+
+    public void method(Sub o1, Sub o2) {
+        System.out.println("sub: sub, sub");
+    }
 }
 
 public class L {
-	public static void main(String[] args) {
-		Sup sup = new Sup();
-		Sub sub = new Sub();
-		Sup supToSub = sub;
-		
-		sup.method(sup, sup);
-		sup.method(sub, sub);
-		sup.method(supToSub, supToSub);
-		
-		sub.method(sup, sup);	// sup sup sup
-		sub.method(sub, sub);	// sub sub sub
-		sub.method(supToSub, supToSub);	//	!sup sup sup
-		
-		//	ÉùÃ÷ÀàÐÍÊÇsup£¬supÖÐÖ»ÓÐÒ»¸ömethod£¬ÄÇÃ´¾Íµ÷ÓÃsupÖÐµÄ·½·¨
-		supToSub.method(sup, sup);	//	sup sup sup
-		supToSub.method(sub, sub);	//	!sup sup sup
-		supToSub.method(supToSub, supToSub);	//	!sup sup sup
-	}
+    public static void main(String[] args) {
+        Sup sup = new Sup();
+        Sub sub = new Sub();
+        Sup supToSub = sub;
+
+        sup.method(sup, sup);
+        sup.method(sub, sub);
+        sup.method(supToSub, supToSub);
+
+        sub.method(sup, sup);    // sup sup sup
+        sub.method(sub, sub);    // sub sub sub
+        sub.method(supToSub, supToSub);    //	!sup sup sup
+
+        //	ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½supï¿½ï¿½supï¿½ï¿½Ö»ï¿½ï¿½Ò»ï¿½ï¿½methodï¿½ï¿½ï¿½ï¿½Ã´ï¿½Íµï¿½ï¿½ï¿½supï¿½ÐµÄ·ï¿½ï¿½ï¿½
+        supToSub.method(sup, sup);    //	sup sup sup
+        supToSub.method(sub, sub);    //	!sup sup sup
+        supToSub.method(supToSub, supToSub);    //	!sup sup sup
+    }
 
 }

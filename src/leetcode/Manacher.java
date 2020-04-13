@@ -1,31 +1,31 @@
 package leetcode;
 
 public class Manacher {
-	
-	public static String Manacher(String input) {
 
-//		Ôö¼Ó¸¨Öú×Ö·û£¬Ê¹ÆæÅ¼Ò»ÖÂ
-		String t = "^#";
-		char[] inputc = input.toCharArray();
-		for(int i=0;i<inputc.length;++i) {
-			t = t+inputc[i];
-			t = t+"#";
-		}
-		t = t+'$';
-		System.out.println(t);
-		char[] tc = t.toCharArray();
-		
-		for(int i=0;i<tc.length;++i) {
-			
-		}
-		
-		return null;
-	}
-	
-	
-	public static void main(String[] args) {
-		String input = "noon";
-		Manacher(input);
-	}
+    public static String Manacher(String input) {
+
+//		ï¿½ï¿½ï¿½Ó¸ï¿½ï¿½ï¿½ï¿½Ö·ï¿½ï¿½ï¿½Ê¹ï¿½ï¿½Å¼Ò»ï¿½ï¿½
+        String t = "^#";
+        char[] inputc = input.toCharArray();
+        for (int i = 0; i < inputc.length; ++i) {
+            t = t + inputc[i];
+            t = t + "#";
+        }
+        t = t + '$';
+        System.out.println(t);
+        char[] tc = t.toCharArray();
+
+        for (int i = 0; i < tc.length; ++i) {
+
+        }
+
+        return null;
+    }
+
+
+    public static void main(String[] args) {
+        String input = "noon";
+        Manacher(input);
+    }
 
 }

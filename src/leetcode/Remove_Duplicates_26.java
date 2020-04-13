@@ -1,31 +1,31 @@
 package leetcode;
 
 public class Remove_Duplicates_26 {
-	
-	public static int solution(int[] nums) {
-		
-		int n = nums.length;
-		int count = 0;
-		for(int i=0;i<n;) {
-			int val = nums[i];
-			
-			//	²»ÐèÒª¶ÔÔ­Êý×é½øÐÐÒÆ¶¯£¬Ö±½Ó°ÑÔ­Êý×éÍêÈ«ÖØÐ´Ò»±é¡£·ÀÖ¹ÒÆ¶¯Êý×ÖµÄÂé·³
-			//	Õâ¸öË¼Â·Ïëµ½Êý¾Ý¿âÖÐº£Á¿Êý¾ÝµÄÔöÉ¾¸Ä²éµÈ¡£ÓÐÊ±ºòÖØÐÂ¹¹½¨Ë÷Òý¿ÉÄÜ±ÈÐÞ¸ÄË÷Òý¸ü¿ì
-			nums[count] = val;
-			++count;
-			int j;
-			for(j=i+1;j<n;j++) {
-				if(nums[j]!=val)
-					break;
-			}
-			i=j;
-		}
-		return count;
-	}
-	
-	public static void main(String[] args) {
-		int[] nums = {0,0,1,1,2,2,3,4,5,5,6,7,8};
-		System.out.println(solution(nums));
-	}
+
+    public static int solution(int[] nums) {
+
+        int n = nums.length;
+        int count = 0;
+        for (int i = 0; i < n; ) {
+            int val = nums[i];
+
+            //	ï¿½ï¿½ï¿½ï¿½Òªï¿½ï¿½Ô­ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ¶ï¿½ï¿½ï¿½Ö±ï¿½Ó°ï¿½Ô­ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½È«ï¿½ï¿½Ð´Ò»ï¿½é¡£ï¿½ï¿½Ö¹ï¿½Æ¶ï¿½ï¿½ï¿½ï¿½Öµï¿½ï¿½é·³
+            //	ï¿½ï¿½ï¿½Ë¼Â·ï¿½ëµ½ï¿½ï¿½ï¿½Ý¿ï¿½ï¿½Ðºï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ýµï¿½ï¿½ï¿½É¾ï¿½Ä²ï¿½È¡ï¿½ï¿½ï¿½Ê±ï¿½ï¿½ï¿½ï¿½ï¿½Â¹ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü±ï¿½ï¿½Þ¸ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+            nums[count] = val;
+            ++count;
+            int j;
+            for (j = i + 1; j < n; j++) {
+                if (nums[j] != val)
+                    break;
+            }
+            i = j;
+        }
+        return count;
+    }
+
+    public static void main(String[] args) {
+        int[] nums = {0, 0, 1, 1, 2, 2, 3, 4, 5, 5, 6, 7, 8};
+        System.out.println(solution(nums));
+    }
 
 }

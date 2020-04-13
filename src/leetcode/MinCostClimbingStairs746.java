@@ -1,25 +1,25 @@
 package leetcode;
 
 public class MinCostClimbingStairs746 {
-	
-	//	¶¯Ì¬¹æ»®
-	public int minCostClimbingStairs(int[] cost) {
-		
-		int n = cost.length;	//	n>=2
-		int[] result = new int[n+1];	//	result[k]¶ÔÓ¦ÅÀµ½cost[k]Ì¨½×µÄ´ú¼Û
-		
-		result[0] = 0;
-		result[1] = 0;
-		for(int i=2;i<=n;++i) {
-			//	¼ÆËãÃ¿Ò»¸öÎ»ÖÃµÄresultÖµ
-			//	ÅÀµ½iÎ»ÖÃ£¬ÒªÃ´ÊÇ´Ói-1ÅÀÉÏÀ´£¬ÒªÃ´ÊÇ´Ói-2ÅÀÉÏÀ´¡£
-			//	result[i-1]ÊÇÅÀµ½i-1µÄ´ú¼Û£¬cost[i-1]ÊÇ´Ói-1ÅÀµ½iÎ»ÖÃµÄ´ú¼Û£»ºóÃæµÄÀà±È¡£
-			result[i] = Math.min(result[i-1]+cost[i-1], result[i-2]+cost[i-2]);
-		}
-		
-		
-		return result[n];
-		
-	}
+
+    //	ï¿½ï¿½Ì¬ï¿½æ»®
+    public int minCostClimbingStairs(int[] cost) {
+
+        int n = cost.length;    //	n>=2
+        int[] result = new int[n + 1];    //	result[k]ï¿½ï¿½Ó¦ï¿½ï¿½ï¿½ï¿½cost[k]Ì¨ï¿½×µÄ´ï¿½ï¿½ï¿½
+
+        result[0] = 0;
+        result[1] = 0;
+        for (int i = 2; i <= n; ++i) {
+            //	ï¿½ï¿½ï¿½ï¿½Ã¿Ò»ï¿½ï¿½Î»ï¿½Ãµï¿½resultÖµ
+            //	ï¿½ï¿½ï¿½ï¿½iÎ»ï¿½Ã£ï¿½ÒªÃ´ï¿½Ç´ï¿½i-1ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÒªÃ´ï¿½Ç´ï¿½i-2ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+            //	result[i-1]ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½i-1ï¿½Ä´ï¿½ï¿½Û£ï¿½cost[i-1]ï¿½Ç´ï¿½i-1ï¿½ï¿½ï¿½ï¿½iÎ»ï¿½ÃµÄ´ï¿½ï¿½Û£ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½È¡ï¿½
+            result[i] = Math.min(result[i - 1] + cost[i - 1], result[i - 2] + cost[i - 2]);
+        }
+
+
+        return result[n];
+
+    }
 
 }

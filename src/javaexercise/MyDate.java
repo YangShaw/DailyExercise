@@ -6,70 +6,70 @@ import java.util.Date;
 
 public class MyDate {
 
-	private int year;
-	private int month;
-	private int day;
-	
-	//	´´½¨µ±Ç°ÈÕÆÚµÄDate¶ÔÏó
-	public MyDate() {
-		Calendar cal = Calendar.getInstance();
-		this.year = cal.get(Calendar.YEAR);
-		this.month = cal.get(Calendar.MONTH);
-		this.day = cal.get(Calendar.DATE);
+    private int year;
+    private int month;
+    private int day;
 
-	}
-	
-	//	¸ù¾ÝÁ÷ÊÅºÁÃëÊý´´½¨Date¶ÔÏó
-	public MyDate(long ms) {
-		this.setDate(ms);
-		
-	}
-	
-	//	¸ù¾ÝÖ¸¶¨µÄÄêÔÂÈÕ´´½¨Date¶ÔÏó
-	public MyDate(int year, int month, int day) {
-		this.year = year;
-		this.month = month;
-		this.day = day;
-	}
-	
-	public void setDate(long elapsedTime) {
-		SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
-		String target = sdf.format(new Date(elapsedTime));
-		String[] dateArray = target.split("-");
-		this.year = Integer.parseInt(dateArray[0]);
-		this.month = Integer.parseInt(dateArray[1]);
-		this.day = Integer.parseInt(dateArray[2]);
-	}
-	
+    //	ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ç°ï¿½ï¿½ï¿½Úµï¿½Dateï¿½ï¿½ï¿½ï¿½
+    public MyDate() {
+        Calendar cal = Calendar.getInstance();
+        this.year = cal.get(Calendar.YEAR);
+        this.month = cal.get(Calendar.MONTH);
+        this.day = cal.get(Calendar.DATE);
 
-	@Override
-	public String toString() {
-		return year + "/" + month + "/" + day;
-	}
+    }
 
-	public int getYear() {
-		return year;
-	}
+    //	ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Åºï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Dateï¿½ï¿½ï¿½ï¿½
+    public MyDate(long ms) {
+        this.setDate(ms);
 
-	public void setYear(int year) {
-		this.year = year;
-	}
+    }
 
-	public int getMonth() {
-		return month;
-	}
+    //	ï¿½ï¿½ï¿½ï¿½Ö¸ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Õ´ï¿½ï¿½ï¿½Dateï¿½ï¿½ï¿½ï¿½
+    public MyDate(int year, int month, int day) {
+        this.year = year;
+        this.month = month;
+        this.day = day;
+    }
 
-	public void setMonth(int month) {
-		this.month = month;
-	}
+    public void setDate(long elapsedTime) {
+        SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
+        String target = sdf.format(new Date(elapsedTime));
+        String[] dateArray = target.split("-");
+        this.year = Integer.parseInt(dateArray[0]);
+        this.month = Integer.parseInt(dateArray[1]);
+        this.day = Integer.parseInt(dateArray[2]);
+    }
 
-	public int getDay() {
-		return day;
-	}
 
-	public void setDay(int day) {
-		this.day = day;
-	}
-	
-	
+    @Override
+    public String toString() {
+        return year + "/" + month + "/" + day;
+    }
+
+    public int getYear() {
+        return year;
+    }
+
+    public void setYear(int year) {
+        this.year = year;
+    }
+
+    public int getMonth() {
+        return month;
+    }
+
+    public void setMonth(int month) {
+        this.month = month;
+    }
+
+    public int getDay() {
+        return day;
+    }
+
+    public void setDay(int day) {
+        this.day = day;
+    }
+
+
 }

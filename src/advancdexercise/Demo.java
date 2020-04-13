@@ -12,7 +12,7 @@ public class Demo {
                 = new PropertyDescriptor("person", PersonDao.class);
 
         //  得到想要注入属性的具体对象
-        Person person = (Person)descriptor.getPropertyType().newInstance();
+        Person person = (Person) descriptor.getPropertyType().newInstance();
 
         //  得到该属性的写方法（也就是setPerson)
         Method method = descriptor.getWriteMethod();
@@ -24,12 +24,12 @@ public class Demo {
         Method[] methods = annotation.getClass().getMethods();
 
         //  将注解上的信息填充到person对象上
-        for(Method m : methods){
+        for (Method m : methods) {
             //  得到注解上属性的名字（age或name)
             String name = m.getName();
-            try{
+            try {
 
-            } catch (Exception e){
+            } catch (Exception e) {
                 e.printStackTrace();
             }
         }

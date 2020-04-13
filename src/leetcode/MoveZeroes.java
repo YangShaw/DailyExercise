@@ -1,26 +1,26 @@
 package leetcode;
 
 class B {
-    public void p(double i){
-        System.out.println(i*2);
+    public void p(double i) {
+        System.out.println(i * 2);
     }
 
-    
+
 }
 
-class A extends B{
-    public void p(double i){
+class A extends B {
+    public void p(double i) {
         System.out.println(i);
     }
 }
 
 public class MoveZeroes {
-	public static void main(String[] args){
-	        B a = new A();
-	        a.p(10);
-	        a.p(10.0);
-	        //	×ÓÀàAÖØÐ´ÁË·½·¨p£¬¶¯Ì¬Á´½Ó£¬µ÷ÓÃ×ÓÀàµÄ·½·¨
-	}
+    public static void main(String[] args) {
+        B a = new A();
+        a.p(10);
+        a.p(10.0);
+        //	ï¿½ï¿½ï¿½ï¿½Aï¿½ï¿½Ð´ï¿½Ë·ï¿½ï¿½ï¿½pï¿½ï¿½ï¿½ï¿½Ì¬ï¿½ï¿½ï¿½Ó£ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä·ï¿½ï¿½ï¿½
+    }
 //	public void moveZeroes(int[] nums) {
 //		int pos = 0;
 //		int l = nums.length;
@@ -35,8 +35,6 @@ public class MoveZeroes {
 //		}
 //		
 //	}
-	
 
-	
-    
+
 }

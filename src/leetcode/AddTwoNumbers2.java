@@ -14,55 +14,55 @@ public class AddTwoNumbers2 {
         }
     }
 
-    public ListNode addTwoNumbers2(ListNode l1, ListNode l2){
+    public ListNode addTwoNumbers2(ListNode l1, ListNode l2) {
         ListNode cur = new ListNode(0);
         //  存储头节点
         ListNode head = cur;
         int carry = 0;
-        while(l1!=null || l2!=null){
-            int num1 = l1!=null?l1.val:0;
-            int num2 = l2!=null?l2.val:0;
-            int sum = num1+num2+carry;
-            carry = sum/10;
-            sum = sum%10;
+        while (l1 != null || l2 != null) {
+            int num1 = l1 != null ? l1.val : 0;
+            int num2 = l2 != null ? l2.val : 0;
+            int sum = num1 + num2 + carry;
+            carry = sum / 10;
+            sum = sum % 10;
             cur.next = new ListNode(sum);
             cur = cur.next;
-            if(l1!=null){
+            if (l1 != null) {
                 l1 = l1.next;
             }
-            if(l2!=null){
+            if (l2 != null) {
                 l2 = l2.next;
             }
         }
-        if(carry>0){
+        if (carry > 0) {
             cur.next = new ListNode(carry);
         }
         return head.next;
     }
 
-    public ListNode addTwoNumbers(ListNode l1, ListNode l2){
-        if(l1==null){
+    public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
+        if (l1 == null) {
             return l2;
         }
-        if(l2==null){
+        if (l2 == null) {
             return l1;
         }
 
         int carry = 0;
         int temp = l1.val + l2.val;
-        if(temp>9) {
-            temp = temp%10;
+        if (temp > 9) {
+            temp = temp % 10;
             carry = 1;
         }
         //  事实上不需要用一个temp来作为初始值，结尾返回的时候直接返回head.next就可以了。好蠢啊我。
         ListNode cur = new ListNode(temp);
         ListNode head = cur;
-        while(l1.next!=null && l2.next!=null){
+        while (l1.next != null && l2.next != null) {
             l1 = l1.next;
             l2 = l2.next;
-            temp = l1.val + l2.val+carry;
-            if(temp>9) {
-                temp = temp%10;
+            temp = l1.val + l2.val + carry;
+            if (temp > 9) {
+                temp = temp % 10;
                 carry = 1;
             } else {
                 carry = 0;
@@ -76,18 +76,18 @@ public class AddTwoNumbers2 {
         //  3 都遍历完
 
         boolean flag = true;
-        if(l1.next!=null){
-            if(carry==0){
+        if (l1.next != null) {
+            if (carry == 0) {
                 flag = false;
                 cur.next = l1.next;
             } else {
-                while(l1.next!=null){
+                while (l1.next != null) {
                     l1 = l1.next;
-                    if(l1.val==9){
+                    if (l1.val == 9) {
                         cur.next = new ListNode(0);
                         cur = cur.next;
                     } else {
-                        cur.next = new ListNode(l1.val+1);
+                        cur.next = new ListNode(l1.val + 1);
                         cur = cur.next;
                         cur.next = l1.next;
                         flag = false;
@@ -95,18 +95,18 @@ public class AddTwoNumbers2 {
                     }
                 }
             }
-        } else if(l2.next!=null){
-            if(carry==0){
+        } else if (l2.next != null) {
+            if (carry == 0) {
                 flag = false;
                 cur.next = l2.next;
             } else {
-                while(l2.next!=null){
+                while (l2.next != null) {
                     l2 = l2.next;
-                    if(l2.val==9){
+                    if (l2.val == 9) {
                         cur.next = new ListNode(0);
                         cur = cur.next;
                     } else {
-                        cur.next = new ListNode(l2.val+1);
+                        cur.next = new ListNode(l2.val + 1);
                         cur = cur.next;
                         cur.next = l2.next;
                         flag = false;
@@ -116,11 +116,11 @@ public class AddTwoNumbers2 {
             }
         } else {
             flag = false;
-            if(carry==1){
+            if (carry == 1) {
                 cur.next = new ListNode(1);
             }
         }
-        if(flag){
+        if (flag) {
             cur.next = new ListNode(1);
         }
         return head;

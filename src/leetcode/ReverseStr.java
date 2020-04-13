@@ -12,37 +12,37 @@ public class ReverseStr {
         System.out.println(reverseStr(s, k));
     }
 
-    public static String reverseStr(String s, int k){
+    public static String reverseStr(String s, int k) {
 
         char[] array = s.toCharArray();
         int length = array.length;
-        int step = 2*k;
+        int step = 2 * k;
         int i;
-        for(i=0;(i+step)<length;i=i+step){
+        for (i = 0; (i + step) < length; i = i + step) {
             System.out.println(i);
             reverse(i, k, array);
         }
-        if(length-i>=k){
-            System.out.println("dd+"+i);
+        if (length - i >= k) {
+            System.out.println("dd+" + i);
             reverse(i, k, array);
         } else {
             // **
-            reverse(i, length-i, array);
+            reverse(i, length - i, array);
         }
 
         return new String(array);
     }
 
     //  翻转从start开始的k个字符
-    public static void reverse(int start, int k, char[] array){
+    public static void reverse(int start, int k, char[] array) {
         // **
-        int maxIndex = start+k-1;
-        for(int i=start;i<start+k/2;++i){
-            System.out.println("swap "+i+"\t"+(maxIndex-i+start));
+        int maxIndex = start + k - 1;
+        for (int i = start; i < start + k / 2; ++i) {
+            System.out.println("swap " + i + "\t" + (maxIndex - i + start));
             char temp = array[i];
             // **
-            array[i] = array[maxIndex-i+start];
-            array[maxIndex-i+start] = temp;
+            array[i] = array[maxIndex - i + start];
+            array[maxIndex - i + start] = temp;
         }
     }
 }

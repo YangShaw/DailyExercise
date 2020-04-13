@@ -8,7 +8,8 @@ public class SubsetsWithDup {
 
     List<List<Integer>> result;
     int[] candidates;
-    public List<List<Integer>> subsetsWithDup(int[] nums){
+
+    public List<List<Integer>> subsetsWithDup(int[] nums) {
         result = new ArrayList<>();
         //  先把空集加进去
         result.add(new ArrayList<>());
@@ -19,7 +20,7 @@ public class SubsetsWithDup {
 
     }
 
-    private void backTrack(){
+    private void backTrack() {
 
     }
 }

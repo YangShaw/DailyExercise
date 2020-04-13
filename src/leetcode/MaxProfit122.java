@@ -4,30 +4,30 @@ import java.util.Scanner;
 
 public class MaxProfit122 {
 
-	public int maxProfit(int[] array) {
-		
-		int n = array.length;
-		if(n==0) {
-			return 0;
-		}
-		
-		int start = array[0];
-		int curMax = start;
-		int count = 0;
-		for(int i=1;i<n;++i) {
-			if(array[i]>curMax) {
-				//	»¹ÄÜ¼ÌÐø³ÖÓÐ
-				curMax = array[i];
-			} else {
-				//	Å×³öÇ°ÃæµÄ
-				count = count+curMax-start;
-				//	ÖØÐÂ¹ºÂò
-				start = array[i];
-				curMax = start;
-			}
-		}
-		count = count+curMax-start;
-		
-		return count;
-	}
+    public int maxProfit(int[] array) {
+
+        int n = array.length;
+        if (n == 0) {
+            return 0;
+        }
+
+        int start = array[0];
+        int curMax = start;
+        int count = 0;
+        for (int i = 1; i < n; ++i) {
+            if (array[i] > curMax) {
+                //	ï¿½ï¿½ï¿½Ü¼ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+                curMax = array[i];
+            } else {
+                //	ï¿½×³ï¿½Ç°ï¿½ï¿½ï¿½
+                count = count + curMax - start;
+                //	ï¿½ï¿½ï¿½Â¹ï¿½ï¿½ï¿½
+                start = array[i];
+                curMax = start;
+            }
+        }
+        count = count + curMax - start;
+
+        return count;
+    }
 }

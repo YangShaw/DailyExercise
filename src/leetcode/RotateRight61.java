@@ -1,10 +1,11 @@
 package leetcode;
 
 public class RotateRight61 {
-    public class ListNode{
+    public class ListNode {
         int val;
         ListNode next;
-        ListNode(int x){
+
+        ListNode(int x) {
             this.val = x;
         }
     }
@@ -29,28 +30,28 @@ public class RotateRight61 {
     我的未来谢谢你让我看见
      */
 
-    public ListNode rotateRight(ListNode head, int k){
-        if(head==null){
+    public ListNode rotateRight(ListNode head, int k) {
+        if (head == null) {
             return null;
         }
         int listLen = 0;
         ListNode cur = head;
         //  查长度
-        while(cur!=null) {
+        while (cur != null) {
             listLen++;
             cur = cur.next;
         }
 
         //  实际需要移动的步数
-        int realK = k%listLen;
+        int realK = k % listLen;
         //  不需要移动
-        if(realK==0){
+        if (realK == 0) {
             return head;
         }
 
 
         ListNode temp = head;
-        for(int i=1;i<listLen-realK;++i){
+        for (int i = 1; i < listLen - realK; ++i) {
             temp = temp.next;
         }
         //  前一段的终点
@@ -61,7 +62,7 @@ public class RotateRight61 {
         //  把前一段截断
         end.next = null;
 
-        while(pointer.next!=null){
+        while (pointer.next != null) {
             pointer = pointer.next;
         }
         pointer.next = head;

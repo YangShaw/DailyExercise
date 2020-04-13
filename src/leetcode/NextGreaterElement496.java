@@ -1,57 +1,59 @@
 package leetcode;
+
 import java.util.*;
+
 public class NextGreaterElement496 {
 
-	public int[] nextGreaterElement(int[] nums1, int[] nums2) {
-		//	ÀûÓÃ¹şÏ£±í¼ÇÂ¼nums2Êı×éÖĞÃ¿¸öÔªËØËùÔÚµÄÎ»ÖÃ¡£Ë«²ã±éÀú¡£
-		Map<Integer, Integer> map = new HashMap<Integer, Integer>();
-		int[] result = new int[nums1.length];
-		for(int i=0;i<nums2.length;++i) {
-			map.put(nums2[i], i);
-		}
-		
-		for(int i=0;i<nums1.length;++i) {
-			//	ÕÒµ½¸ÃÔªËØÔÚnums2Êı×éÖĞµÄÎ»ÖÃ
-			int position = map.get(nums1[i]);
-			int j = 0;
-			for(j=position+1;j<nums2.length;++j) {
-				if(nums2[j]>nums1[i]) {
-					result[i] = nums2[j];
-					break;
-				}
-			}
-			if(j==nums2.length) {
-				result[i] = -1;
-			}
-		}
-		return result;
-	}
-	
-	public int[] nextGreaterElement2(int[] nums1, int[] nums2) {
-		int[] result = new int[nums1.length];
-		Stack<Integer> stack = new Stack<Integer>();
-		Map<Integer, Integer> map = new HashMap<Integer, Integer>();
-		
-		for(int i=nums2.length-1;i>=0;--i) {
-			//	µ¹ĞòÈëÕ»
-			while(!stack.empty()&&stack.peek()<=nums2[i]) {
-				//	Èç¹ûºóÃæµÄÊı×Ö£¨ÏÈÈëÕ»µÄÊı×Ö£©±ÈÏÖÔÚµÄÊı×ÖĞ¡£¬ÄÇÃ´¿ÉÒÔÅ×ÆúÁË
-				//	ÒòÎªÔÙÍùÇ°µÄÊı×ÖÏòºóÕÒ´óÊıµÄÊ±ºò£¬»á±»Õâ¸ö´óµÄÀ¹×¡£¬²»¿ÉÄÜ¿´µÃµ½ºóÃæµÄĞ¡ÊıÁË
-				stack.pop();
-			}
-			if(stack.empty()) {
-				map.put(nums2[i], -1);
-			} else {
-				map.put(nums2[i], stack.peek());
-			}
-			stack.push(nums2[i]);
-		}
-		
-		int i=0;
-		for(int num : nums1) {
-			result[i++] = map.get(num);
-		}
-		return result;
-	}
-	
+    public int[] nextGreaterElement(int[] nums1, int[] nums2) {
+        //	ï¿½ï¿½ï¿½Ã¹ï¿½Ï£ï¿½ï¿½ï¿½Â¼nums2ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ã¿ï¿½ï¿½Ôªï¿½ï¿½ï¿½ï¿½ï¿½Úµï¿½Î»ï¿½Ã¡ï¿½Ë«ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+        Map<Integer, Integer> map = new HashMap<Integer, Integer>();
+        int[] result = new int[nums1.length];
+        for (int i = 0; i < nums2.length; ++i) {
+            map.put(nums2[i], i);
+        }
+
+        for (int i = 0; i < nums1.length; ++i) {
+            //	ï¿½Òµï¿½ï¿½ï¿½Ôªï¿½ï¿½ï¿½ï¿½nums2ï¿½ï¿½ï¿½ï¿½ï¿½Ğµï¿½Î»ï¿½ï¿½
+            int position = map.get(nums1[i]);
+            int j = 0;
+            for (j = position + 1; j < nums2.length; ++j) {
+                if (nums2[j] > nums1[i]) {
+                    result[i] = nums2[j];
+                    break;
+                }
+            }
+            if (j == nums2.length) {
+                result[i] = -1;
+            }
+        }
+        return result;
+    }
+
+    public int[] nextGreaterElement2(int[] nums1, int[] nums2) {
+        int[] result = new int[nums1.length];
+        Stack<Integer> stack = new Stack<Integer>();
+        Map<Integer, Integer> map = new HashMap<Integer, Integer>();
+
+        for (int i = nums2.length - 1; i >= 0; --i) {
+            //	ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Õ»
+            while (!stack.empty() && stack.peek() <= nums2[i]) {
+                //	ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ö£ï¿½ï¿½ï¿½ï¿½ï¿½Õ»ï¿½ï¿½ï¿½ï¿½ï¿½Ö£ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Úµï¿½ï¿½ï¿½ï¿½ï¿½Ğ¡ï¿½ï¿½ï¿½ï¿½Ã´ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+                //	ï¿½ï¿½Îªï¿½ï¿½ï¿½ï¿½Ç°ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ò´ï¿½ï¿½ï¿½ï¿½ï¿½Ê±ï¿½ò£¬»á±»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½×¡ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü¿ï¿½ï¿½Ãµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ğ¡ï¿½ï¿½ï¿½ï¿½
+                stack.pop();
+            }
+            if (stack.empty()) {
+                map.put(nums2[i], -1);
+            } else {
+                map.put(nums2[i], stack.peek());
+            }
+            stack.push(nums2[i]);
+        }
+
+        int i = 0;
+        for (int num : nums1) {
+            result[i++] = map.get(num);
+        }
+        return result;
+    }
+
 }

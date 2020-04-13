@@ -3,50 +3,50 @@ package daily;
 import java.util.Scanner;
 
 public class Question1 {
-	//3 5 -8 6 -3 4 -5 9
-	public static void main(String[] args) {
-		Scanner s = new Scanner(System.in);
-		int n = s.nextInt();
-		int[] array = new int[n];
-		for(int i=0;i<n;++i) {
-			array[i] = s.nextInt();
-		}
-		
-		int neg = -1;	//	¸ºÊıµÄÎ»ÖÃ
-		int sum = 0;
-		int start = 0;
-		int negsum = 0;
-		for(int i=0;i<n;++i) {
-			if(array[i]>0) {
-				if(neg==-1) {
-					// 	Èç¹û²»ĞèÒª¿¼ÂÇ¸ºÊı£¬ÄÇÃ´Ö±½Ó¼Ó
-					sum += array[i];
-				} else {
-					//	Èç¹ûĞèÒª¿¼ÂÇ¸ºÊı
-					negsum +=array[i];
-					if(negsum>=0) {
-						neg = -1;
-						sum = sum+negsum;
-//						System.out.println("µÖÏû"+sum);
-						negsum = 0;
-					}
-				}
-			} else {
-				neg = i;
-				negsum+=array[i];
-				if(negsum+sum<=0) {
-					//	Ö±½ÓÌø¹ıÇ°ÃæËùÓĞµÄ
-					sum=0;
-					//	´ÓÏÂÒ»Î»¿ªÊ¼¼ÆÊı
-					start = i+1;
-					neg = -1;
-					negsum=0;
-				} else if(negsum>=0) {
-					neg = -1;
-					sum = sum+negsum;
-				}
-			}
-		}
-		System.out.println(sum);
-	}
+    //3 5 -8 6 -3 4 -5 9
+    public static void main(String[] args) {
+        Scanner s = new Scanner(System.in);
+        int n = s.nextInt();
+        int[] array = new int[n];
+        for (int i = 0; i < n; ++i) {
+            array[i] = s.nextInt();
+        }
+
+        int neg = -1;    //	ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Î»ï¿½ï¿½
+        int sum = 0;
+        int start = 0;
+        int negsum = 0;
+        for (int i = 0; i < n; ++i) {
+            if (array[i] > 0) {
+                if (neg == -1) {
+                    // 	ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Òªï¿½ï¿½ï¿½Ç¸ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ã´Ö±ï¿½Ó¼ï¿½
+                    sum += array[i];
+                } else {
+                    //	ï¿½ï¿½ï¿½ï¿½ï¿½Òªï¿½ï¿½ï¿½Ç¸ï¿½ï¿½ï¿½
+                    negsum += array[i];
+                    if (negsum >= 0) {
+                        neg = -1;
+                        sum = sum + negsum;
+//						System.out.println("ï¿½ï¿½ï¿½ï¿½"+sum);
+                        negsum = 0;
+                    }
+                }
+            } else {
+                neg = i;
+                negsum += array[i];
+                if (negsum + sum <= 0) {
+                    //	Ö±ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ç°ï¿½ï¿½ï¿½ï¿½ï¿½Ğµï¿½
+                    sum = 0;
+                    //	ï¿½ï¿½ï¿½ï¿½Ò»Î»ï¿½ï¿½Ê¼ï¿½ï¿½ï¿½ï¿½
+                    start = i + 1;
+                    neg = -1;
+                    negsum = 0;
+                } else if (negsum >= 0) {
+                    neg = -1;
+                    sum = sum + negsum;
+                }
+            }
+        }
+        System.out.println(sum);
+    }
 }

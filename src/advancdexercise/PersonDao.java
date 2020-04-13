@@ -8,7 +8,7 @@ public class PersonDao {
         return person;
     }
 
-    @InjectPerson(name="shaw", age=20)
+    @InjectPerson(name = "shaw", age = 20)
     public void setPerson(Person person) {
         this.person = person;
     }

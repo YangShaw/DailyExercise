@@ -3,7 +3,6 @@ package jsonexercise;
 public class JsonDemo {
 
 
-
     public static void main(String[] args) {
         System.out.print("hel");
         System.out.print("world");
@@ -13,8 +12,6 @@ public class JsonDemo {
         // 观察x和y是否相等:
         System.out.println(x);
         System.out.println(y);
-
-
 
 
     }

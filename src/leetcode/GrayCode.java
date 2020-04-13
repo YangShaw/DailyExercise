@@ -12,8 +12,8 @@ public class GrayCode {
         //  需要在前面添加0的那些数和上一次计算的结果完全相同，不需要考虑。
         int head = 1;
         for (int i = 0; i < n; ++i) {
-            for(int j=result.size()-1;j>=0;--j){
-                result.add(head+result.get(j));
+            for (int j = result.size() - 1; j >= 0; --j) {
+                result.add(head + result.get(j));
             }
             //  左移一位的操作
             head = head << 1;

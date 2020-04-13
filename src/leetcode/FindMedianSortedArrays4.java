@@ -1,73 +1,73 @@
 package leetcode;
 
 public class FindMedianSortedArrays4 {
-	
-	public static double computeMedian(int[] nums) {
-		int l = nums.length;
-		int mid = l/2;
-    	if(l%2==1) {
-    		return nums[mid];
-    	} else {
-    		return (nums[mid-1]+nums[mid])/2.0;
-    	}
-	}
-	
-	public static double findMedianSortedArrays(int[] nums1, int[] nums2) {
+
+    public static double computeMedian(int[] nums) {
+        int l = nums.length;
+        int mid = l / 2;
+        if (l % 2 == 1) {
+            return nums[mid];
+        } else {
+            return (nums[mid - 1] + nums[mid]) / 2.0;
+        }
+    }
+
+    public static double findMedianSortedArrays(int[] nums1, int[] nums2) {
         int m = nums1.length;
         int n = nums2.length;
-        int l = m+n;
-        int mid = l/2;	//	ÆæÊıµÄÇé¿öÏÂµÄÖĞÎ»Êı£¬Å¼ÊıÊ±ºòÒªÕÒÕâ¸öÔªËØºÍËüÇ°ÃæµÄÔªËØ
+        int l = m + n;
+        int mid = l / 2;    //	ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Âµï¿½ï¿½ï¿½Î»ï¿½ï¿½ï¿½ï¿½Å¼ï¿½ï¿½Ê±ï¿½ï¿½Òªï¿½ï¿½ï¿½ï¿½ï¿½Ôªï¿½Øºï¿½ï¿½ï¿½Ç°ï¿½ï¿½ï¿½Ôªï¿½ï¿½
         System.out.println(mid);
-        
+
         int[] nums = new int[l];
-        int i=0,j=0;	//	±íÊ¾Á½¸öÊı×éÖĞÄ¿Ç°¼ìË÷µ½µÄÎ»ÖÃ
-        int cur = 0;	//	±íÊ¾µ±Ç°¶ÁÈ¡µ½µÄÎ»Êı
-        while(i<m&&j<n) {
-        	//	»¹ÔÚ´ÓÁ½¸öÊı×éÖĞ±È½Ïµ±Ç°ÔªËØ
-        	nums[cur] = nums1[i]<nums2[j] ? nums1[i++] : nums2[j++];
-        	if(cur==mid) {
-        		//	Ö±½Ó½áÊø¾ÍºÃÁË
-        		return computeMedian(nums);
-        	} else {
-        		cur++;
-        	}
+        int i = 0, j = 0;    //	ï¿½ï¿½Ê¾ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä¿Ç°ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Î»ï¿½ï¿½
+        int cur = 0;    //	ï¿½ï¿½Ê¾ï¿½ï¿½Ç°ï¿½ï¿½È¡ï¿½ï¿½ï¿½ï¿½Î»ï¿½ï¿½
+        while (i < m && j < n) {
+            //	ï¿½ï¿½ï¿½Ú´ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ğ±È½Ïµï¿½Ç°Ôªï¿½ï¿½
+            nums[cur] = nums1[i] < nums2[j] ? nums1[i++] : nums2[j++];
+            if (cur == mid) {
+                //	Ö±ï¿½Ó½ï¿½ï¿½ï¿½ï¿½Íºï¿½ï¿½ï¿½
+                return computeMedian(nums);
+            } else {
+                cur++;
+            }
         }
         System.out.println("cur = " + cur);
-        //	ÔÚÇ°ÃæµÄÑ­»·ÖĞ¾ÍÒÑ¾­½â¾öÁËÎÊÌâ
-        
+        //	ï¿½ï¿½Ç°ï¿½ï¿½ï¿½Ñ­ï¿½ï¿½ï¿½Ğ¾ï¿½ï¿½Ñ¾ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 
-        //	Èç¹ûÓĞÄ³¸öÊı×éÒÑ¾­µ½Í·ÁË£¬ÔÙÊıÁíÒ»¸öÊı×é
-        if(i==m) {
-        	//	Êınums2Êı×é
-        	while(true) {
-        		nums[cur]=nums2[j++];
-        		if(cur==mid) {
-        			return computeMedian(nums);
-        		}
-        		cur++;
-        	}
+
+        //	ï¿½ï¿½ï¿½ï¿½ï¿½Ä³ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ñ¾ï¿½ï¿½ï¿½Í·ï¿½Ë£ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+        if (i == m) {
+            //	ï¿½ï¿½nums2ï¿½ï¿½ï¿½ï¿½
+            while (true) {
+                nums[cur] = nums2[j++];
+                if (cur == mid) {
+                    return computeMedian(nums);
+                }
+                cur++;
+            }
         } else {
-        	while(true) {
-        		nums[cur]=nums1[i++];
-        		if(cur==mid) {
-        			return computeMedian(nums);
-        		}
-        		cur++;
-        	}
+            while (true) {
+                nums[cur] = nums1[i++];
+                if (cur == mid) {
+                    return computeMedian(nums);
+                }
+                cur++;
+            }
         }
-        
+
 //        if(l%2==1) {
 //    		return nums[mid];
 //    	} else {
 //    		return (nums[mid-1]+nums[mid])/2.0;
 //    	}
-	
+
     }
-	
-	public static void main(String[] args) {
-		int[] nums1 = {1,2};
-		int[] nums2 = {1,2,5,7,9,10,11};
-		System.out.println(findMedianSortedArrays(nums1, nums2));
-	}
+
+    public static void main(String[] args) {
+        int[] nums1 = {1, 2};
+        int[] nums2 = {1, 2, 5, 7, 9, 10, 11};
+        System.out.println(findMedianSortedArrays(nums1, nums2));
+    }
 
 }

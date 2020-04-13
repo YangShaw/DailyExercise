@@ -26,7 +26,7 @@ class MinStack {
 
     public void push(int x) {
         stack.push(x);
-        if(mins.empty()||mins.peek()>=x){
+        if (mins.empty() || mins.peek() >= x) {
             mins.push(x);
         } else {
             //  确保两个栈元素个数相同
@@ -35,21 +35,21 @@ class MinStack {
     }
 
     public void pop() {
-        if(!stack.empty()){
+        if (!stack.empty()) {
             stack.pop();
             mins.pop();
         }
     }
 
     public int top() {
-        if(!stack.empty()){
+        if (!stack.empty()) {
             return stack.peek();
         }
         throw new RuntimeException();
     }
 
     public int getMin() {
-        if(!mins.empty()){
+        if (!mins.empty()) {
             return mins.peek();
         }
         throw new RuntimeException();

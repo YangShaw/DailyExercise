@@ -2,83 +2,83 @@ package leetcode;
 
 public class IsSubsequence392 {
 
-	//	DPµÄ½â·¨£¬ºÍ½Ì²ÄÉÏµÄÀý×ÓÀàËÆ£¬µ«ÊÇ±ÈÄÇ¸ö¼ò»¯ÁË
-	//	DPÔÚÕâµÀÌâÖÐ¸´ÔÓ¶ÈºÜ¸ß£¬µ«ÊÇ×÷ÎªÁ·ÊÖÁËÀ´ÊìÏ¤Ò»ÏÂ¡£
-	public boolean isSubsequence2(String s, String t) {
-		
-		int sl = s.length();
-		int tl = t.length();
-		
-		boolean[][] dp = new boolean[sl+1][tl+1];
-		if(sl==0) {
-			return true;
-		}
-		if(sl>tl) {
-			return false;
-		}
-		
-		//	¸³³õÖµ
-		for(int i=0;i<tl;++i) {
-			dp[0][i] = true;
-		}
-		
-		for(int i=1;i<sl;++i) {
-			for(int j=1;j<tl;++j) {
-				if(s.charAt(i-1)==t.charAt(j-1)) {
-					//	µ±Ç°ÔªËØÏàÍ¬£¬ËµÃ÷µ±Ç°Î»ÖÃµÄÔªËØ²»ÊÇ×èÖ¹½á¹ûÎªtrueµÄÕÏ°­¡£ºöÂÔµôµ±Ç°ÔªËØ£¬¿¼²ìÇ°ÃæµÄ
-					//	ÍùÇ°ÍÆÒÆÒ»¸ö×ÓÎÊÌâ
-					dp[i][j] = dp[i-1][j-1];	//	s[i],t[j]Î»ÖÃµÄÔªËØÏàÍ¬£¬²»»á¶Ô½á¹û²úÉúÓ°Ïì
-				} else {
-					//	s[i],t[j]²»ÏàÍ¬£¬ËµÃ÷t[j]Õâ¸öÔªËØÃ»ÓÃÁË£¬Ö±½ÓÈ¥µôÕâ¸öÔªËØ
-					//	µ«ÊÇs[i]»¹Ã»ÓÐµÃµ½Æ¥Åä£¬ËùÒÔÖ»ÓÐt¿ÉÒÔÍùÇ°ÒÆ¶¯1
-					//	ÅÐ¶ÏsÊÇ²»ÊÇtµÄ×ÓÐòÁÐ£¬ËùÒÔÖ»ÄÜtÍùÇ°ÍÆÒÆ
-					dp[i][j] = dp[i][j-1];
-				}
-			}
-		}
-		
-		
-		return dp[sl][tl];
-	}
-	
-	
-	//	Ê±¼ä¸´ÔÓ¶ÈÖ»Ïàµ±ÓÚ±éÀúÁËÒ»±ét¡£
-	public boolean isSubsequence(String s, String t) {
-		
-		if(s.equals("")) {
-			return true;
-		}
-		
-		char[] sArray = s.toCharArray();
-		int sl = sArray.length;
-		
-		char[] tArray = t.toCharArray();
-		int tl = tArray.length;
-		
-		if(sl>tl){
-			return false;
-		}
-		
-		int pointer = 0;
-		boolean flag = false;
-		int i;
-		for(i=0;i<sl;++i) {
-			flag = false;
-			for(int j=pointer;j<tl;++j) {
-				if(tArray[j]==sArray[i]) {
-					pointer = j+1;
-					flag = true;
-					break;
-				}
-			}
-			if(!flag) {
-				return false;
-			}
-		}
-		if(i==sl&&flag) {
-			return true;
-		}
-		
-		return false;
-	}
+    //	DPï¿½Ä½â·¨ï¿½ï¿½ï¿½Í½Ì²ï¿½ï¿½Ïµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ£ï¿½ï¿½ï¿½ï¿½Ç±ï¿½ï¿½Ç¸ï¿½ï¿½ï¿½ï¿½ï¿½
+    //	DPï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ð¸ï¿½ï¿½Ó¶ÈºÜ¸ß£ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Îªï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ï¤Ò»ï¿½Â¡ï¿½
+    public boolean isSubsequence2(String s, String t) {
+
+        int sl = s.length();
+        int tl = t.length();
+
+        boolean[][] dp = new boolean[sl + 1][tl + 1];
+        if (sl == 0) {
+            return true;
+        }
+        if (sl > tl) {
+            return false;
+        }
+
+        //	ï¿½ï¿½ï¿½ï¿½Öµ
+        for (int i = 0; i < tl; ++i) {
+            dp[0][i] = true;
+        }
+
+        for (int i = 1; i < sl; ++i) {
+            for (int j = 1; j < tl; ++j) {
+                if (s.charAt(i - 1) == t.charAt(j - 1)) {
+                    //	ï¿½ï¿½Ç°Ôªï¿½ï¿½ï¿½ï¿½Í¬ï¿½ï¿½Ëµï¿½ï¿½ï¿½ï¿½Ç°Î»ï¿½Ãµï¿½Ôªï¿½Ø²ï¿½ï¿½ï¿½ï¿½ï¿½Ö¹ï¿½ï¿½ï¿½Îªtrueï¿½ï¿½ï¿½Ï°ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ôµï¿½ï¿½ï¿½Ç°Ôªï¿½Ø£ï¿½ï¿½ï¿½ï¿½ï¿½Ç°ï¿½ï¿½ï¿½
+                    //	ï¿½ï¿½Ç°ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+                    dp[i][j] = dp[i - 1][j - 1];    //	s[i],t[j]Î»ï¿½Ãµï¿½Ôªï¿½ï¿½ï¿½ï¿½Í¬ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ô½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ó°ï¿½ï¿½
+                } else {
+                    //	s[i],t[j]ï¿½ï¿½ï¿½ï¿½Í¬ï¿½ï¿½Ëµï¿½ï¿½t[j]ï¿½ï¿½ï¿½Ôªï¿½ï¿½Ã»ï¿½ï¿½ï¿½Ë£ï¿½Ö±ï¿½ï¿½È¥ï¿½ï¿½ï¿½ï¿½ï¿½Ôªï¿½ï¿½
+                    //	ï¿½ï¿½ï¿½ï¿½s[i]ï¿½ï¿½Ã»ï¿½ÐµÃµï¿½Æ¥ï¿½ä£¬ï¿½ï¿½ï¿½ï¿½Ö»ï¿½ï¿½tï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ç°ï¿½Æ¶ï¿½1
+                    //	ï¿½Ð¶ï¿½sï¿½Ç²ï¿½ï¿½ï¿½tï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ð£ï¿½ï¿½ï¿½ï¿½ï¿½Ö»ï¿½ï¿½tï¿½ï¿½Ç°ï¿½ï¿½ï¿½ï¿½
+                    dp[i][j] = dp[i][j - 1];
+                }
+            }
+        }
+
+
+        return dp[sl][tl];
+    }
+
+
+    //	Ê±ï¿½ä¸´ï¿½Ó¶ï¿½Ö»ï¿½àµ±ï¿½Ú±ï¿½ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½tï¿½ï¿½
+    public boolean isSubsequence(String s, String t) {
+
+        if (s.equals("")) {
+            return true;
+        }
+
+        char[] sArray = s.toCharArray();
+        int sl = sArray.length;
+
+        char[] tArray = t.toCharArray();
+        int tl = tArray.length;
+
+        if (sl > tl) {
+            return false;
+        }
+
+        int pointer = 0;
+        boolean flag = false;
+        int i;
+        for (i = 0; i < sl; ++i) {
+            flag = false;
+            for (int j = pointer; j < tl; ++j) {
+                if (tArray[j] == sArray[i]) {
+                    pointer = j + 1;
+                    flag = true;
+                    break;
+                }
+            }
+            if (!flag) {
+                return false;
+            }
+        }
+        if (i == sl && flag) {
+            return true;
+        }
+
+        return false;
+    }
 }

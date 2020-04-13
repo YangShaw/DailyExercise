@@ -2,74 +2,88 @@ package leetcode;
 
 public class MyCircularQueue622 {
 
-	public static int head;
-	public static int tail;
-	public static int[] queue;
-	public static int size;
-	
-	 /** Initialize your data structure here. Set the size of the queue to be k. */
+    public static int head;
+    public static int tail;
+    public static int[] queue;
+    public static int size;
+
+    /**
+     * Initialize your data structure here. Set the size of the queue to be k.
+     */
     public MyCircularQueue622(int k) {
-    	//	Ìø¹ýindex = 0²»ÓÃÒÔ±ãÓÚ¼ÆËã
-    	queue = new int[k+1];
-    	head = 1;
-    	tail = 1;
-    	size = 0;
-        
+        //	ï¿½ï¿½ï¿½ï¿½index = 0ï¿½ï¿½ï¿½ï¿½ï¿½Ô±ï¿½ï¿½Ú¼ï¿½ï¿½ï¿½
+        queue = new int[k + 1];
+        head = 1;
+        tail = 1;
+        size = 0;
+
     }
-    
-    /** Insert an element into the circular queue. Return true if the operation is successful. */
+
+    /**
+     * Insert an element into the circular queue. Return true if the operation is successful.
+     */
     public boolean enQueue(int value) {
-        if(this.isFull()) {
-        	return false;
+        if (this.isFull()) {
+            return false;
         }
         queue[tail] = value;
-        tail = (tail+1)%queue.length;
+        tail = (tail + 1) % queue.length;
         size++;
         return true;
     }
-    
-    /** Delete an element from the circular queue. Return true if the operation is successful. */
+
+    /**
+     * Delete an element from the circular queue. Return true if the operation is successful.
+     */
     public boolean deQueue() {
-    	if(this.isEmpty()) {
-    		return false;
-    	}
-    	queue[head] = 0;
-    	head = (head+1)%queue.length;
-    	size--;
-    	return true;
-        
+        if (this.isEmpty()) {
+            return false;
+        }
+        queue[head] = 0;
+        head = (head + 1) % queue.length;
+        size--;
+        return true;
+
     }
-    
-    /** Get the front item from the queue. */
+
+    /**
+     * Get the front item from the queue.
+     */
     public int Front() {
-    	if(this.isEmpty()) {
-    		return -1;
-    	}
-    	return queue[head];
-        
+        if (this.isEmpty()) {
+            return -1;
+        }
+        return queue[head];
+
     }
-    
-    /** Get the last item from the queue. */
+
+    /**
+     * Get the last item from the queue.
+     */
     public int Rear() {
-    	if(this.isEmpty()) {
-    		return -1;
-    	}
+        if (this.isEmpty()) {
+            return -1;
+        }
         return queue[tail];
     }
-    
-    /** Checks whether the circular queue is empty or not. */
+
+    /**
+     * Checks whether the circular queue is empty or not.
+     */
     public boolean isEmpty() {
-    	if(size==0) {
-    		return true;
-    	}
-    	return false;
-        
+        if (size == 0) {
+            return true;
+        }
+        return false;
+
     }
-    
-    /** Checks whether the circular queue is full or not. */
+
+    /**
+     * Checks whether the circular queue is full or not.
+     */
     public boolean isFull() {
-        if(size==queue.length-1) {
-        	return true;
+        if (size == queue.length - 1) {
+            return true;
         }
         return false;
     }

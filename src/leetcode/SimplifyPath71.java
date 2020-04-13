@@ -1,38 +1,40 @@
 package leetcode;
+
 import java.util.*;
+
 public class SimplifyPath71 {
 
-	public static String simplifyPath(String path) {
-		Stack<String> stack = new Stack<String>();
-		String[] array = path.split("/");
-		StringBuilder result = new StringBuilder("");
-		for(String s : array) {
-			if(s.equals(".")||s.equals("")) {
-				//	±íÊ¾µ±Ç°Ä¿Â¼£¬²»ÐèÒª´¦Àí
-				continue;
-			} else if(s.equals("..")) {
-				//	±íÊ¾Ìø×ªÉÏÒ»¼¶Ä¿Â¼£¬ÄÇÃ´È¡ÏûÉÏÒ»¼¶µÄÌø×ª¡£µ«Èç¹û¾ÍÔÚ¸ùÄ¿Â¼ÏÂ£¬Ôò²»ÓÃÌø×ª
-				if(!stack.isEmpty()) {
-					stack.pop();
-				}
-			} else {
-				stack.push(s);
-			}
-		}
-		if(stack.empty()) {
-			//	Èç¹û½á¹ûÊÇ¸ùÄ¿Â¼£¬ÄÇÃ´ÐèÒªÔö¼ÓÒ»¸ö/À´±íÊ¾Ö®
-			result.append("/");
-		} else {
-			for(String s : stack) {
-				result.append("/");
-				result.append(s);
-			}
-		}
-		return result.toString();
-	}
-	
-	public static void main(String[] args) {
-		String path = "/a//b////c/d//././/..";
-		System.out.println(simplifyPath(path));
-	}
+    public static String simplifyPath(String path) {
+        Stack<String> stack = new Stack<String>();
+        String[] array = path.split("/");
+        StringBuilder result = new StringBuilder("");
+        for (String s : array) {
+            if (s.equals(".") || s.equals("")) {
+                //	ï¿½ï¿½Ê¾ï¿½ï¿½Ç°Ä¿Â¼ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Òªï¿½ï¿½ï¿½ï¿½
+                continue;
+            } else if (s.equals("..")) {
+                //	ï¿½ï¿½Ê¾ï¿½ï¿½×ªï¿½ï¿½Ò»ï¿½ï¿½Ä¿Â¼ï¿½ï¿½ï¿½ï¿½Ã´È¡ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½×ªï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ú¸ï¿½Ä¿Â¼ï¿½Â£ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½×ª
+                if (!stack.isEmpty()) {
+                    stack.pop();
+                }
+            } else {
+                stack.push(s);
+            }
+        }
+        if (stack.empty()) {
+            //	ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ç¸ï¿½Ä¿Â¼ï¿½ï¿½ï¿½ï¿½Ã´ï¿½ï¿½Òªï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½/ï¿½ï¿½ï¿½ï¿½Ê¾Ö®
+            result.append("/");
+        } else {
+            for (String s : stack) {
+                result.append("/");
+                result.append(s);
+            }
+        }
+        return result.toString();
+    }
+
+    public static void main(String[] args) {
+        String path = "/a//b////c/d//././/..";
+        System.out.println(simplifyPath(path));
+    }
 }

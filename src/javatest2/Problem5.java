@@ -1,35 +1,36 @@
 package javatest2;
 
 import java.util.*;
+
 public class Problem5 {
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+    public static void main(String[] args) {
+        // TODO Auto-generated method stub
 
-		Scanner s = new Scanner(System.in);
-		int n = s.nextInt();
-		int[] array = new int[n];
-		for(int i=0;i<n;++i) {
-			array[i] = s.nextInt();
-		}
-		
-		int start = array[0];
-		int curMax = start;
-		int count = 0;
-		for(int i=1;i<n;++i) {
-			if(array[i]>curMax) {
-				//	»¹ÄÜ¼ÌÐø³ÖÓÐ
-				curMax = array[i];
-			} else {
-				//	Å×³öÇ°ÃæµÄ
-				count = count+curMax-start;
-				//	ÖØÐÂ¹ºÂò
-				start = array[i];
-				curMax = start;
-			}
-		}
-		count = count+curMax-start;
-		System.out.println(count);
-	}
+        Scanner s = new Scanner(System.in);
+        int n = s.nextInt();
+        int[] array = new int[n];
+        for (int i = 0; i < n; ++i) {
+            array[i] = s.nextInt();
+        }
+
+        int start = array[0];
+        int curMax = start;
+        int count = 0;
+        for (int i = 1; i < n; ++i) {
+            if (array[i] > curMax) {
+                //	ï¿½ï¿½ï¿½Ü¼ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+                curMax = array[i];
+            } else {
+                //	ï¿½×³ï¿½Ç°ï¿½ï¿½ï¿½
+                count = count + curMax - start;
+                //	ï¿½ï¿½ï¿½Â¹ï¿½ï¿½ï¿½
+                start = array[i];
+                curMax = start;
+            }
+        }
+        count = count + curMax - start;
+        System.out.println(count);
+    }
 
 }

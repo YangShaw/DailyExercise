@@ -1,29 +1,29 @@
 package leetcode;
 
 public class Merge_Sorted_Array_88 {
-	
-	public static void solution(int[] nums1, int m, int[] nums2, int n) {
-		int l = m+n-1;
-		int one=m-1, two=n-1;	//	±êÖ¾Á½¸öÊý×éµ±Ç°Ö¸ÕëÎ»ÖÃ£¬´ÓºóÍùÇ°¡£
-		
-		//	´ÓºóÍùÇ°´æ´¢£¬ÄÜ¾¡Á¿¼õÉÙÇ°ÃæµÄÒÆ¶¯
-		while(one>=0&&two>=0) {
-			if(nums1[one]>nums2[two]) {
-				nums1[l]=nums1[one];
-				one--;
-			} else {
-				nums1[l]=nums2[two];
-				two--;
-			}
-			l--;
-		}
-		
-		//	ÒòÎªÊ±°Ñtwo²¢Èëµ½one£¬ËùÒÔ¿´¿´twoÖÐÊÇ·ñ»¹ÓÐÊ£ÏÂµÄ¡£
-		if(two>=0) {
-			for(int i=0;i<=two;++i) {
-				nums1[i]=nums2[i];
-			}
-		}
-	}
+
+    public static void solution(int[] nums1, int m, int[] nums2, int n) {
+        int l = m + n - 1;
+        int one = m - 1, two = n - 1;    //	ï¿½ï¿½Ö¾ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½éµ±Ç°Ö¸ï¿½ï¿½Î»ï¿½Ã£ï¿½ï¿½Óºï¿½ï¿½ï¿½Ç°ï¿½ï¿½
+
+        //	ï¿½Óºï¿½ï¿½ï¿½Ç°ï¿½æ´¢ï¿½ï¿½ï¿½Ü¾ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ç°ï¿½ï¿½ï¿½ï¿½Æ¶ï¿½
+        while (one >= 0 && two >= 0) {
+            if (nums1[one] > nums2[two]) {
+                nums1[l] = nums1[one];
+                one--;
+            } else {
+                nums1[l] = nums2[two];
+                two--;
+            }
+            l--;
+        }
+
+        //	ï¿½ï¿½ÎªÊ±ï¿½ï¿½twoï¿½ï¿½ï¿½ëµ½oneï¿½ï¿½ï¿½ï¿½ï¿½Ô¿ï¿½ï¿½ï¿½twoï¿½ï¿½ï¿½Ç·ï¿½ï¿½ï¿½Ê£ï¿½ÂµÄ¡ï¿½
+        if (two >= 0) {
+            for (int i = 0; i <= two; ++i) {
+                nums1[i] = nums2[i];
+            }
+        }
+    }
 
 }

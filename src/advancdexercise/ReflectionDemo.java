@@ -45,11 +45,11 @@ public class ReflectionDemo {
         Class cls = String.class;
         String str = "hello world";
         Class cls2 = str.getClass();
-        String str2 = (String)cls2.newInstance();
+        String str2 = (String) cls2.newInstance();
 
         System.out.println(cls.toString());
         System.out.println(cls2.toString());
-        System.out.println(cls==cls2);
+        System.out.println(cls == cls2);
 
         System.out.println(str instanceof String);
     }
@@ -66,7 +66,7 @@ public class ReflectionDemo {
     static class Person {
         private String name;
 
-        Person(String name){
+        Person(String name) {
             this.name = name;
         }
 

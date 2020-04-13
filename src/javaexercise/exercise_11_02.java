@@ -4,37 +4,37 @@ import java.util.*;
 
 public class exercise_11_02 {
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		
-		//	´´½¨person¶ÔÏó
-		Person person1 = new Person("p1name","p1addr","p1phone","p1email");
-		//	Ïà½Ïperson£¬²¹³ägradeµÄ³õÊ¼»¯Öµ
-		Student student1 = new Student("s1name", "s1addr", "s1phone", "s1email", "1");
-		//	Ïà½Ïperson£¬²¹³ä°ì¹«ÊÒ¡¢¹¤×Ê¡¢ÊÜÆ¸ÈÕÆÚµÄ³õÊ¼»¯Öµ¡£ÕâÀïÓÃµ±Ç°ÈÕÆÚÎªÊÜÆ¸ÈÕÆÚ
-		Employee employee1 = new Employee("e1name", "e1addr", "e1phone", "e1email",
-				"e1office", 10000.0, new MyDate());
-		//	Ïà½Ïemployee£¬²¹³ä¼¶±ðºÍ°ì¹«Ê±¼äµÄ³õÊ¼»¯Öµ¡£
-		Faculty faculty1 = new Faculty("f1name", "f1addr", "f1phone", "f1email", "f1office",
-				15000.0,  new MyDate(), "f1level", 8);
-		//	Ïà½Ïemployee£¬²¹³äÖ°Î»³ÆºÅµÄ³õÊ¼»¯Öµ
-		Staff staff1 = new Staff("st1name", "st1addr", "st1phone", "st1email", "st1office", 
-				120000.0, new MyDate(), "st1title");
-		
-		List<Person> persons = new ArrayList<Person>();
-		persons.add(person1);
-		persons.add(student1);
-		persons.add(employee1);
-		persons.add(faculty1);
-		persons.add(staff1);
-		
-		for(Person p : persons) {
-			System.out.println(p);
-			System.out.println(p.getAddr());
-			System.out.println();
-		}
-		
-		
-	}
+    public static void main(String[] args) {
+        // TODO Auto-generated method stub
+
+        //	ï¿½ï¿½ï¿½ï¿½personï¿½ï¿½ï¿½ï¿½
+        Person person1 = new Person("p1name", "p1addr", "p1phone", "p1email");
+        //	ï¿½ï¿½ï¿½personï¿½ï¿½ï¿½ï¿½ï¿½ï¿½gradeï¿½Ä³ï¿½Ê¼ï¿½ï¿½Öµ
+        Student student1 = new Student("s1name", "s1addr", "s1phone", "s1email", "1");
+        //	ï¿½ï¿½ï¿½personï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ì¹«ï¿½Ò¡ï¿½ï¿½ï¿½ï¿½Ê¡ï¿½ï¿½ï¿½Æ¸ï¿½ï¿½ï¿½ÚµÄ³ï¿½Ê¼ï¿½ï¿½Öµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ãµï¿½Ç°ï¿½ï¿½ï¿½ï¿½Îªï¿½ï¿½Æ¸ï¿½ï¿½ï¿½ï¿½
+        Employee employee1 = new Employee("e1name", "e1addr", "e1phone", "e1email",
+                "e1office", 10000.0, new MyDate());
+        //	ï¿½ï¿½ï¿½employeeï¿½ï¿½ï¿½ï¿½ï¿½ä¼¶ï¿½ï¿½Í°ì¹«Ê±ï¿½ï¿½Ä³ï¿½Ê¼ï¿½ï¿½Öµï¿½ï¿½
+        Faculty faculty1 = new Faculty("f1name", "f1addr", "f1phone", "f1email", "f1office",
+                15000.0, new MyDate(), "f1level", 8);
+        //	ï¿½ï¿½ï¿½employeeï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ö°Î»ï¿½ÆºÅµÄ³ï¿½Ê¼ï¿½ï¿½Öµ
+        Staff staff1 = new Staff("st1name", "st1addr", "st1phone", "st1email", "st1office",
+                120000.0, new MyDate(), "st1title");
+
+        List<Person> persons = new ArrayList<Person>();
+        persons.add(person1);
+        persons.add(student1);
+        persons.add(employee1);
+        persons.add(faculty1);
+        persons.add(staff1);
+
+        for (Person p : persons) {
+            System.out.println(p);
+            System.out.println(p.getAddr());
+            System.out.println();
+        }
+
+
+    }
 
 }

@@ -3,43 +3,44 @@ package leetcode;
 import java.util.Stack;
 
 public class StockSpanner_901 {
-	
-	//	add cache
-	public static Stack<Integer> stack ;
-	public static Stack<Integer> result;	//	另一个栈存储对应位置的个数
-	public static int lastCase;
-	public StockSpanner_901() {
-		stack = new Stack<Integer>();
-		result = new Stack<Integer>();
-		lastCase = 0;
-	}
-	
-	public int next(int price) {
-		if(price==lastCase) {
-			int temp = result.peek();
-			stack.push(price);
-			result.push(temp);
-			return temp;
-		}
-		
-		//	先把当前元素入栈
-		if(stack.empty()||price<stack.peek()) {
-			//	前面没有元素，则只能是1
-			stack.push(price);
-			result.push(1);
-			return 1;
-		}
-		
-		int ans = 1;
-		while(!stack.empty()&&price>=stack.peek()) {
-			stack.pop();
-			ans = ans+result.pop();
-		}
-		stack.push(price);
-		result.push(ans);
-		
-		return ans;
-	}
+
+    //	add cache
+    public static Stack<Integer> stack;
+    public static Stack<Integer> result;    //	锟斤拷一锟斤拷栈锟芥储锟斤拷应位锟矫的革拷锟斤拷
+    public static int lastCase;
+
+    public StockSpanner_901() {
+        stack = new Stack<Integer>();
+        result = new Stack<Integer>();
+        lastCase = 0;
+    }
+
+    public int next(int price) {
+        if (price == lastCase) {
+            int temp = result.peek();
+            stack.push(price);
+            result.push(temp);
+            return temp;
+        }
+
+        //	锟饺把碉拷前元锟斤拷锟斤拷栈
+        if (stack.empty() || price < stack.peek()) {
+            //	前锟斤拷没锟斤拷元锟截ｏ拷锟斤拷只锟斤拷锟斤拷1
+            stack.push(price);
+            result.push(1);
+            return 1;
+        }
+
+        int ans = 1;
+        while (!stack.empty() && price >= stack.peek()) {
+            stack.pop();
+            ans = ans + result.pop();
+        }
+        stack.push(price);
+        result.push(ans);
+
+        return ans;
+    }
 
 
 }

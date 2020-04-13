@@ -9,34 +9,34 @@ public class Problem2 {
         Scanner s = new Scanner(System.in);
         int n = s.nextInt();
         ArrayList<Integer> list = new ArrayList<>(n);
-        for(int i=0;i<n;++i){
+        for (int i = 0; i < n; ++i) {
             int temp = s.nextInt();
             list.add(temp);
         }
         ArrayList<Integer> sorted = new ArrayList<>(list);
         Collections.sort(sorted);
 
-        int min=n-1, max=0;
-        for(int i=0;i<n;++i){
+        int min = n - 1, max = 0;
+        for (int i = 0; i < n; ++i) {
             //  逐个比对数字
-            if(list.get(i)!=sorted.get(i)){
+            if (list.get(i) != sorted.get(i)) {
                 min = i;
                 break;
             }
         }
-        if(min==n-1){
+        if (min == n - 1) {
             //  原本就有序
             System.out.println(0);
             return;
         }
 
-        for(int i=n-1;i>min;--i){
-            if(list.get(i)!=sorted.get(i)){
+        for (int i = n - 1; i > min; --i) {
+            if (list.get(i) != sorted.get(i)) {
                 max = i;
                 break;
             }
         }
-        System.out.println(max-min+1);
+        System.out.println(max - min + 1);
 
     }
 }

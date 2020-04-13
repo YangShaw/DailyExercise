@@ -1,43 +1,43 @@
 package leetcode;
 
 public class DivisorGame1025 {
-	
-	public boolean solution(int n) {
-		return n%2==0;
-	}
-	
-	//	ÎÒ¸Ğ¾õÎÒĞ´µÄ´úÂëºÜĞşÑ§£¬¹À¼ÆµÈµ½Ã÷ÌìÎÒ×Ô¼º¾Í¿´²»¶®ÁË¡£¡£
-	//	µİ¹éµÄ·½·¨£¬Ê±¼ä¸´ÔÓ¶ÈÌ«¸ß
-	
-	public boolean divisorGame(int n) {
-		
-		if(n==1) {
-			return false;
-		}	
-		return game(n, true);
-		//	1Ò»¶¨¿ÉÒÔÕû³ı
-	}
-	
-	public boolean game(int n, boolean flag) {
-		if(n==2) {
-			//	»áÓ®¡£Èç¹ûflag=true£¬ÒªÇóÓ®£¬ÄÇÃ´ÕâÖÖÇé¿ö»áÓ®¡£
-			return flag;
-		}
-		
-		//	1Ò»¶¨¿ÉÒÔÕû³ı
-		//	Ñ¡Ôñ1ÒâÎ¶×Å¹ıÁËÒ»ÂÖ£¬ÄÇÃ´ºóÃæµÄÒªÇóÊä²ÅÄÜÊÇÓ®
-		if(game(n-1, !flag)==flag) {
-			return flag;
-		} else {
-			for(int i=2;i<n;++i) {
-				if(n%i==0) {
-					if(game(n-i, !flag)==flag) {
-						return flag;
-					}
-				}
-			}
-		}
-		return !flag;
-	}
+
+    public boolean solution(int n) {
+        return n % 2 == 0;
+    }
+
+    //	ï¿½Ò¸Ğ¾ï¿½ï¿½ï¿½Ğ´ï¿½Ä´ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ñ§ï¿½ï¿½ï¿½ï¿½ï¿½ÆµÈµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ô¼ï¿½ï¿½Í¿ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ë¡ï¿½ï¿½ï¿½
+    //	ï¿½İ¹ï¿½Ä·ï¿½ï¿½ï¿½ï¿½ï¿½Ê±ï¿½ä¸´ï¿½Ó¶ï¿½Ì«ï¿½ï¿½
+
+    public boolean divisorGame(int n) {
+
+        if (n == 1) {
+            return false;
+        }
+        return game(n, true);
+        //	1Ò»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+    }
+
+    public boolean game(int n, boolean flag) {
+        if (n == 2) {
+            //	ï¿½ï¿½Ó®ï¿½ï¿½ï¿½ï¿½ï¿½flag=trueï¿½ï¿½Òªï¿½ï¿½Ó®ï¿½ï¿½ï¿½ï¿½Ã´ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ó®ï¿½ï¿½
+            return flag;
+        }
+
+        //	1Ò»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+        //	Ñ¡ï¿½ï¿½1ï¿½ï¿½Î¶ï¿½Å¹ï¿½ï¿½ï¿½Ò»ï¿½Ö£ï¿½ï¿½ï¿½Ã´ï¿½ï¿½ï¿½ï¿½ï¿½Òªï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ó®
+        if (game(n - 1, !flag) == flag) {
+            return flag;
+        } else {
+            for (int i = 2; i < n; ++i) {
+                if (n % i == 0) {
+                    if (game(n - i, !flag) == flag) {
+                        return flag;
+                    }
+                }
+            }
+        }
+        return !flag;
+    }
 
 }

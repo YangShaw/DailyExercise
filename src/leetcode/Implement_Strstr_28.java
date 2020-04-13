@@ -1,50 +1,50 @@
 package leetcode;
 
 public class Implement_Strstr_28 {
-	
-	public static int solution(String haystack, String needle) {
-		for (int i = 0; ; i++) {
-		    for (int j = 0; ; j++) {
-		      if (j == needle.length()) 
-		    	  return i;	//	Æ¥ÅäÍê³É
-		      if (i + j == haystack.length()) 
-		    	  return -1; //Æ¥ÅäÊ§°Ü
-		      if (needle.charAt(j) != haystack.charAt(i + j)) 
-		    	  break;	//	ÅĞ¶Ïµ±Ç°ÊÇ·ñÊ§Åä
-		    }
-		}
-	}
-	
-	//	Ò»¶¨³Ì¶ÈµÄ±©Á¦£¬µ«ÊÇ×öÁËÓÅ»¯¿ÉÒÔÌáÇ°ÖÕÖ¹
-	public int strStr(String haystack, String needle) {
-		char start = needle.charAt(0);
-		int haystackLength = haystack.length();
-		int needleLength = needle.length();
-		for(int i=0;i<haystackLength;++i) {
-			if(haystack.charAt(i)!=start) {
-				//	Ê×ÏÈÕÒµ½¿ªÍ·Æ¥ÅäµÄ²¿·Ö
-				continue;
-			}
-			if(i+needleLength>haystackLength) {
-				//	Ê£ÓàÎ´Æ¥ÅäµÄ³¤¶ÈÒÑ¾­²»×ãÁË
-				return -1;
-			}
-			int j;
-			for(j=1;j<needleLength;++j) {
-				if(needle.charAt(j)!=haystack.charAt(i+j)) {
-					break;
-				}
-			}
-			if(j==needleLength) {
-				return i;
-			}
-		}
-		return -1;
-	}
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+    public static int solution(String haystack, String needle) {
+        for (int i = 0; ; i++) {
+            for (int j = 0; ; j++) {
+                if (j == needle.length())
+                    return i;    //	Æ¥ï¿½ï¿½ï¿½ï¿½ï¿½
+                if (i + j == haystack.length())
+                    return -1; //Æ¥ï¿½ï¿½Ê§ï¿½ï¿½
+                if (needle.charAt(j) != haystack.charAt(i + j))
+                    break;    //	ï¿½Ğ¶Ïµï¿½Ç°ï¿½Ç·ï¿½Ê§ï¿½ï¿½
+            }
+        }
+    }
 
-	}
+    //	Ò»ï¿½ï¿½ï¿½Ì¶ÈµÄ±ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Å»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ç°ï¿½ï¿½Ö¹
+    public int strStr(String haystack, String needle) {
+        char start = needle.charAt(0);
+        int haystackLength = haystack.length();
+        int needleLength = needle.length();
+        for (int i = 0; i < haystackLength; ++i) {
+            if (haystack.charAt(i) != start) {
+                //	ï¿½ï¿½ï¿½ï¿½ï¿½Òµï¿½ï¿½ï¿½Í·Æ¥ï¿½ï¿½Ä²ï¿½ï¿½ï¿½
+                continue;
+            }
+            if (i + needleLength > haystackLength) {
+                //	Ê£ï¿½ï¿½Î´Æ¥ï¿½ï¿½Ä³ï¿½ï¿½ï¿½ï¿½Ñ¾ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+                return -1;
+            }
+            int j;
+            for (j = 1; j < needleLength; ++j) {
+                if (needle.charAt(j) != haystack.charAt(i + j)) {
+                    break;
+                }
+            }
+            if (j == needleLength) {
+                return i;
+            }
+        }
+        return -1;
+    }
+
+    public static void main(String[] args) {
+        // TODO Auto-generated method stub
+
+    }
 
 }

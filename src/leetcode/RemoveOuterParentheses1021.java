@@ -1,40 +1,42 @@
 package leetcode;
 
 import java.util.*;
+
 public class RemoveOuterParentheses1021 {
 
-	public static String removeOuterParentheses(String s) {
+    public static String removeOuterParentheses(String s) {
         StringBuilder result = new StringBuilder("");
         Stack<Character> stack = new Stack<Character>();
-        
+
         char[] sArray = s.toCharArray();
         int head = 0;
         int tail = 0;
-        for(int i=0;i<sArray.length;++i) {
-        	if(stack.isEmpty()) {
-        		stack.push(sArray[i]);
-        		head = i;
-        	} else if(sArray[i]=='(') {
-        		stack.push('(');
-        	} else {
-        		//	Èç¹ûÊÇÓÒÀ¨ºÅ£¬ÄÇÃ´³öÕ»£¬ÌáÈ¡³öÕâÒ»¶ÔÀ¨ºÅ
-        		stack.pop();
-        	}
-        	
-        	//	ÕâÊ±ºò¿ÉÄÜ³öÕ»ÍêÁË£¬Èç¹ûÊÇ¿ÕÁË£¬ËµÃ÷ÕâÒ»¶ÔÔ­Óï½áÊøÁË
-        	if(stack.isEmpty()) {
-        		tail = i;
-        		//	ÌáÈ¡ÕâÒ»²¿·ÖµÄ×Ó´®
-        		result.append(s.substring(head+1, tail));
-        	}
-        	
+        for (int i = 0; i < sArray.length; ++i) {
+            if (stack.isEmpty()) {
+                stack.push(sArray[i]);
+                head = i;
+            } else if (sArray[i] == '(') {
+                stack.push('(');
+            } else {
+                //	ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Å£ï¿½ï¿½ï¿½Ã´ï¿½ï¿½Õ»ï¿½ï¿½ï¿½ï¿½È¡ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+                stack.pop();
+            }
+
+            //	ï¿½ï¿½Ê±ï¿½ï¿½ï¿½ï¿½Ü³ï¿½Õ»ï¿½ï¿½ï¿½Ë£ï¿½ï¿½ï¿½ï¿½ï¿½Ç¿ï¿½ï¿½Ë£ï¿½Ëµï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½Ô­ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+            if (stack.isEmpty()) {
+                tail = i;
+                //	ï¿½ï¿½È¡ï¿½ï¿½Ò»ï¿½ï¿½ï¿½Öµï¿½ï¿½Ó´ï¿½
+                result.append(s.substring(head + 1, tail));
+            }
+
         }
         System.out.println(result.toString());
         return result.toString();
     }
-	public static void main(String[] args) {
-		String s = "(()())((()))";
-		removeOuterParentheses(s);
-	}
-	
+
+    public static void main(String[] args) {
+        String s = "(()())((()))";
+        removeOuterParentheses(s);
+    }
+
 }

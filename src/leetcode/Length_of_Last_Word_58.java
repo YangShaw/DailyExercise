@@ -1,25 +1,25 @@
 package leetcode;
 
 public class Length_of_Last_Word_58 {
-	
-	//	这种方法速度更慢，说明可能是split的问题.也对，确实没必要进行split。
-	public int lengthOfLastWord(String s) {
-		String[] array = s.split(" ");
-		int l = array.length;
-		if(l==0) {
-			return 0;
-		}
-		return array[l-1].length();
-	}
+
+    //	锟斤拷锟街凤拷锟斤拷锟劫度革拷锟斤拷锟斤拷说锟斤拷锟斤拷锟斤拷锟斤拷split锟斤拷锟斤拷锟斤拷.也锟皆ｏ拷确实没锟斤拷要锟斤拷锟斤拷split锟斤拷
+    public int lengthOfLastWord(String s) {
+        String[] array = s.split(" ");
+        int l = array.length;
+        if (l == 0) {
+            return 0;
+        }
+        return array[l - 1].length();
+    }
 
 
-	//	更新。之前我写的都是些啥玩意= =
-	public static int solution(String s) {
-		s = s.trim();
+    //	锟斤拷锟铰★拷之前锟斤拷写锟侥讹拷锟斤拷些啥锟斤拷锟斤拷= =
+    public static int solution(String s) {
+        s = s.trim();
         int p = s.lastIndexOf(' ');
-		int n = s.length();
-		return n-p-1;
-	}
-	
-	
+        int n = s.length();
+        return n - p - 1;
+    }
+
+
 }
