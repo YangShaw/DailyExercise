@@ -9,7 +9,6 @@ public class CombinationSum39 {
 
     public List<List<Integer>> combinationSum(int[] candidates, int target) {
         List<List<Integer>> result = new ArrayList<>();
-        int currentSum = 0;
 
         //  排序，可以提前终止某一轮循环
         Arrays.sort(candidates);
