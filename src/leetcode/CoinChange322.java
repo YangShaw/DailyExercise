@@ -2,6 +2,8 @@ package leetcode;
 
 public class CoinChange322 {
 
+
+
     //	���϶��£����õݹ�
     //	���ֽⷨ����ȷ�ģ����Ǹ��Ӷ�̫��
     public int coinChange2(int[] coins, int amount) {
@@ -24,34 +26,25 @@ public class CoinChange322 {
         return cost == Integer.MAX_VALUE ? -1 : cost;
     }
 
-    //	�Ե����ϣ����ñ���¼��DP��������
+    //动态规划
     public int coinChange(int[] coins, int amount) {
 
         int type = coins.length;
-        //	����������Ļ����Ƕ�amount���д�С���󻮷֣������Ƕ�coins������л���
-
-        //	�洢amountȡ����ֵʱ������Ž�
-        //	��func��Ϊ������������һ�㣬�������뵽f(n)�ĺ�����ʽ
         int[] func = new int[amount + 1];
-        func[0] = 0;    //	��ֵ
+        func[0] = 0;
+        // 对每个金额找出需要的最小的情况，并记录在dp数组func中
         for (int i = 1; i <= amount; ++i) {
-            //	����amount=k�ĸ���������������С����
             int cost = Integer.MAX_VALUE;
             for (int j = 0; j < type; ++j) {
-                //	����ÿ�����
                 if (i - coins[j] >= 0) {
-                    //	������һöcoins[j]��ʱ��
                     if (func[i - coins[j]] != Integer.MAX_VALUE) {
-                        //	��ֹ���
+                        //比较当前的花费和前面的最优花费+1（加上当前面额）
                         cost = Math.min(cost, func[i - coins[j]] + 1);
                     }
                 }
             }
-
             func[i] = cost;
         }
-
-
         return func[amount] == Integer.MAX_VALUE ? -1 : func[amount];
     }
 

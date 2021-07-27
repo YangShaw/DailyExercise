@@ -1,0 +1,11 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2020-08-06-15-46-05
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	version	user_agent	origin	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	tags	username	password	proxied	orig_fuids	orig_filenames	orig_mime_types	resp_fuids	resp_filenames	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	string	string	count	count	count	string	count	string	set[enum]	string	string	set[string]	vector[string]	vector[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1470824303.897526	C44ihz4TozgYUILEoi	10.10.10.108	41046	91.189.88.162	80	1	-	-	-	-	1.1	-	-	0	0	302	Found	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1470824306.204871	CNdq4N22ASxcwqUOWk	10.10.10.108	53152	120.52.72.22	80	1	-	-	-	-	1.1	-	-	0	2037449	200	OK	-	-	(empty)	-	-	-	-	-	-	F994f42eiT7e5csnb5	-	application/x-gzip
+#close	2020-08-06-15-46-05

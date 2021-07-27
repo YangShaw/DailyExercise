@@ -1,8 +1,5 @@
 package daily;
-import java.util.HashSet;
-import java.util.Iterator;
-import java.util.Scanner;
-import java.util.Set;
+import java.util.*;
 
 
 public class BlackBoxTest {
@@ -68,7 +65,7 @@ public class BlackBoxTest {
         randomPrint(set3, Integer.MIN_VALUE, b);
     }
 
-    private static int boundaryInput(Scanner input, String flag){
+    public static int boundaryInput(Scanner input, String flag){
         int b = 0;
         while (true) {
             try {
@@ -86,20 +83,32 @@ public class BlackBoxTest {
         }
     }
 
-    private static boolean boundaryChecking(int b, int c){
+    public static boolean boundaryChecking(int b, int c){
         if (b > c) {
             return false;
         }
         return true;
     }
 
-    private static Set<Integer> randomGenerate(int d, int left, int right){
+    public static Set<Integer> randomGenerate(int d, int left, int right){
+        System.out.println("random");
         Set<Integer> set = new HashSet<Integer>();
         for(int i = 0; i < d; ) {
-            final int x = (int) (Math.random() * (right)%(right-left+1) + left);
+            int x = (int) (Math.random() * (right)%(right-left+1) + left);
             if(set.add(x)){
+                System.out.println("gen"+i);
                 i++;
             }
+        }
+        return set;
+    }
+
+    public static List<Integer> randomGenerate2(int d, int left, int right){
+        List<Integer> set = new ArrayList<>();
+        for(int i = 0; i < d; i++) {
+            System.out.println(i);
+            int x = (int) (Math.random() * (right)%(right-left+1) + left);
+            set.add(x);
         }
         return set;
     }

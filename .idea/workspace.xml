@@ -2,11 +2,59 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e8793876-6e6a-4a88-a04e-e650c54289aa" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/leetcode/Max_Subarray_53.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/Max_Subarray_53.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/NextPermutation31.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/NextPermutation31.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DailyExercise.iml" beforeDir="false" afterPath="$PROJECT_DIR$/DailyExercise.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/META-INF/DailyExercise.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/bin/META-INF/DailyExercise.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/daily/BlackBoxTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/daily/BlackBoxTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/daily/Daily1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/daily/Daily1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/Add_Binary_67.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/Add_Binary_67.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/Climb_Stairs_70.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/Climb_Stairs_70.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/CoinChange322.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/CoinChange322.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/CombinationSum39.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/CombinationSum39.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/Delete_Duplicates_82$ListNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/Delete_Duplicates_82.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/FindKthLargest215.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/FindKthLargest215.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/GetIntersectionNode160.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/GetIntersectionNode160.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/HeightChecker1051.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/HeightChecker1051.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/LRUCache.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/LowestCommonAncestor236.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/LowestCommonAncestor236.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/MaxProfit121.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/MaxProfit121.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/Max_Area_11.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/Max_Area_11.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/Merge_Sorted_Array_88.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/Merge_Sorted_Array_88.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/Merge_Sorted_List_std$ListNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/Merge_Sorted_List_std.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/MinStack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/NextPermutation31.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/NextPermutation31.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/ReverseList206.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/ReverseList206.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/ThreeSum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/Trap42.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/Trap42.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/Two_Sum_1_hash.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/Two_Sum_1_hash.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/Valid_Parentheses_20.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/Valid_Parentheses_20.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/WordBreak139.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/WordBreak139.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/daily/BlackBoxTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/daily/BlackBoxTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/daily/Daily1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/daily/Daily1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/Add_Binary_67.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/Add_Binary_67.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/Climb_Stairs_70.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/Climb_Stairs_70.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/CoinChange322.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/CoinChange322.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/Delete_Duplicates_82.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/DeleteDuplicates83.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/FindKthLargest215.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/FindKthLargest215.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/GetIntersectionNode160.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/GetIntersectionNode160.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/HeightChecker1051.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/HeightChecker1051.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/LRUCache.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/LRUCache146.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/LowestCommonAncestor236.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/LowestCommonAncestor236.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/MaxProfit121.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/MaxProfit121.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/Max_Area_11.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/Max_Area_11.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/Merge_Sorted_Array_88.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/Merge_Sorted_Array_88.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/Merge_Sorted_List_std.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/MergeTwoLists21.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/MinStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/MinStack155.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/ReverseList206.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/ReverseList206.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/ThreeSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/ThreeSum15.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/Trap42.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/Trap42.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/Two_Sum_1_hash.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/Two_Sum_1_hash.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/Valid_Parentheses_20.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/Valid_Parentheses_20.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/WordBreak139.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/WordBreak139.java" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,6 +82,8 @@
       <list>
         <option value="FxmlFile" />
         <option value="AnnotationType" />
+        <option value="JUnit4 Test Class" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -52,41 +102,48 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
   </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="false" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="create.test.in.the.same.root" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="daily" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="javatest3" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Application.NextPermutation31">
-    <configuration name="BlackBoxTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="daily.BlackBoxTest" />
+  <component name="RunManager" selected="Application.No01minDistance">
+    <configuration name="No01basicBag" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithm.chapter2.bagproblem.No01basicBag" />
       <module name="DailyExercise" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="daily.*" />
+          <option name="PATTERN" value="algorithm.chapter2.bagproblem.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -94,12 +151,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GenerateParenthesis22" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.GenerateParenthesis22" />
+    <configuration name="No01minDistance" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithm.chapter2.subSeq.No01minDistance" />
       <module name="DailyExercise" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.*" />
+          <option name="PATTERN" value="algorithm.chapter2.subSeq.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -107,12 +164,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LetterCombinations17" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.LetterCombinations17" />
+    <configuration name="Problem1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="interview0418tengxun.Problem1" />
       <module name="DailyExercise" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.*" />
+          <option name="PATTERN" value="interview0418tengxun.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,12 +177,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NextPermutation31" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.NextPermutation31" />
+    <configuration name="Problem2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="interview0418tengxun.Problem2" />
       <module name="DailyExercise" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.*" />
+          <option name="PATTERN" value="interview0418tengxun.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,12 +190,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Rotate48" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.Rotate48" />
+    <configuration name="Problem3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="interview0418tengxun.Problem3" />
       <module name="DailyExercise" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.*" />
+          <option name="PATTERN" value="interview0418tengxun.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -148,11 +205,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.NextPermutation31" />
-        <item itemvalue="Application.LetterCombinations17" />
-        <item itemvalue="Application.GenerateParenthesis22" />
-        <item itemvalue="Application.Rotate48" />
-        <item itemvalue="Application.BlackBoxTest" />
+        <item itemvalue="Application.No01minDistance" />
+        <item itemvalue="Application.No01basicBag" />
+        <item itemvalue="Application.Problem1" />
+        <item itemvalue="Application.Problem2" />
+        <item itemvalue="Application.Problem3" />
       </list>
     </recent_temporary>
   </component>
@@ -224,33 +281,196 @@
       <workItem from="1586578626348" duration="4525000" />
       <workItem from="1586609239330" duration="1296000" />
       <workItem from="1586794969664" duration="2058000" />
-      <workItem from="1586875330692" duration="5707000" />
+      <workItem from="1586875330692" duration="7253000" />
+      <workItem from="1586956164029" duration="5424000" />
+      <workItem from="1587223284139" duration="3524000" />
+      <workItem from="1587281474309" duration="4797000" />
+      <workItem from="1587296415372" duration="546000" />
+      <workItem from="1587296984263" duration="220000" />
+      <workItem from="1587297279726" duration="366000" />
+      <workItem from="1587298075431" duration="229000" />
+      <workItem from="1587298329629" duration="2537000" />
+      <workItem from="1587444064308" duration="2737000" />
+      <workItem from="1587655469532" duration="4135000" />
+      <workItem from="1587663777467" duration="19000" />
+      <workItem from="1587664120816" duration="119000" />
+      <workItem from="1588169723721" duration="79000" />
+      <workItem from="1589338517307" duration="157000" />
+      <workItem from="1592718953798" duration="1587000" />
+      <workItem from="1594479921095" duration="4039000" />
+      <workItem from="1594621808541" duration="4418000" />
+      <workItem from="1594799091027" duration="7208000" />
+      <workItem from="1594952336705" duration="4140000" />
+      <workItem from="1594970716414" duration="5062000" />
+      <workItem from="1595122963018" duration="11848000" />
+      <workItem from="1595137876495" duration="11105000" />
+      <workItem from="1595305545864" duration="36723000" />
+      <workItem from="1595477233746" duration="1862000" />
+      <workItem from="1595659968822" duration="3667000" />
+      <workItem from="1595735134848" duration="1551000" />
+      <workItem from="1596249476997" duration="1175000" />
+      <workItem from="1597022568786" duration="8620000" />
+      <workItem from="1598166562957" duration="4087000" />
+      <workItem from="1598231425687" duration="946000" />
+      <workItem from="1598760696780" duration="2651000" />
+      <workItem from="1600015785405" duration="3779000" />
+      <workItem from="1600047885692" duration="673000" />
+      <workItem from="1600569036716" duration="2302000" />
+      <workItem from="1614183156757" duration="1751000" />
+      <workItem from="1614271599391" duration="1384000" />
+      <workItem from="1614442670995" duration="1471000" />
+      <workItem from="1614529208258" duration="3240000" />
+      <workItem from="1614787803922" duration="3539000" />
+      <workItem from="1615649578253" duration="5777000" />
+      <workItem from="1615781360853" duration="673000" />
+      <workItem from="1615805112017" duration="9879000" />
+      <workItem from="1615881367277" duration="2352000" />
+      <workItem from="1616061652734" duration="15958000" />
+      <workItem from="1616151128353" duration="15470000" />
+      <workItem from="1616212126016" duration="7373000" />
+      <workItem from="1616576068945" duration="46045000" />
+      <workItem from="1616990243827" duration="13303000" />
+      <workItem from="1617011786152" duration="48872000" />
+      <workItem from="1617756630362" duration="18177000" />
+      <workItem from="1617931155938" duration="62608000" />
+      <workItem from="1618277693907" duration="20581000" />
+      <workItem from="1618629805904" duration="31286000" />
+      <workItem from="1618801645636" duration="13081000" />
+      <workItem from="1619071595975" duration="712000" />
     </task>
+    <task id="LOCAL-00001" summary="next permutation 31">
+      <created>1586881652640</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1586881652640</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="next permutation 31" />
+    <option name="LAST_COMMIT_MESSAGE" value="next permutation 31" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="765" y="225" key="#com.intellij.ide.util.MemberChooser" timestamp="1618752558711">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-1308" y="180" key="#com.intellij.ide.util.MemberChooser/-1920.0.1536.832/0.0.1920.1040@-1920.0.1536.832" timestamp="1617950887290" />
+    <state x="765" y="225" key="#com.intellij.ide.util.MemberChooser/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1618752558711" />
+    <state width="1493" height="183" key="GridCell.Tab.0.bottom" timestamp="1619088739522">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="196" key="GridCell.Tab.0.bottom/-1920.0.1536.832/0.0.1920.1040@-1920.0.1536.832" timestamp="1618280733405" />
+    <state width="1877" height="183" key="GridCell.Tab.0.bottom/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1619071688471" />
+    <state width="1493" height="183" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1619088739522" />
+    <state width="1493" height="183" key="GridCell.Tab.0.center" timestamp="1619088739522">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="196" key="GridCell.Tab.0.center/-1920.0.1536.832/0.0.1920.1040@-1920.0.1536.832" timestamp="1618280733405" />
+    <state width="1877" height="183" key="GridCell.Tab.0.center/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1619071688471" />
+    <state width="1493" height="183" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1619088739522" />
+    <state width="1493" height="183" key="GridCell.Tab.0.left" timestamp="1619088739522">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="196" key="GridCell.Tab.0.left/-1920.0.1536.832/0.0.1920.1040@-1920.0.1536.832" timestamp="1618280733405" />
+    <state width="1877" height="183" key="GridCell.Tab.0.left/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1619071688471" />
+    <state width="1493" height="183" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1619088739522" />
+    <state width="1493" height="183" key="GridCell.Tab.0.right" timestamp="1619088739522">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="196" key="GridCell.Tab.0.right/-1920.0.1536.832/0.0.1920.1040@-1920.0.1536.832" timestamp="1618280733405" />
+    <state width="1877" height="183" key="GridCell.Tab.0.right/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1619071688471" />
+    <state width="1493" height="183" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1619088739522" />
+    <state width="1493" height="2" key="GridCell.Tab.1.bottom" timestamp="1618116945133">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1493" height="2" key="GridCell.Tab.1.bottom/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1618116945133" />
+    <state width="1493" height="2" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1618112620411" />
+    <state width="1493" height="2" key="GridCell.Tab.1.center" timestamp="1618116945133">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1493" height="2" key="GridCell.Tab.1.center/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1618116945133" />
+    <state width="1493" height="2" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1618112620410" />
+    <state width="1493" height="2" key="GridCell.Tab.1.left" timestamp="1618116945133">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1493" height="2" key="GridCell.Tab.1.left/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1618116945133" />
+    <state width="1493" height="2" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1618112620407" />
+    <state width="1493" height="2" key="GridCell.Tab.1.right" timestamp="1618116945133">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1493" height="2" key="GridCell.Tab.1.right/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1618116945133" />
+    <state width="1493" height="2" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1618112620411" />
+    <state x="270" y="56" key="SettingsEditor" timestamp="1615650852999">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="270" y="56" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1615650852999" />
+    <state x="425" y="187" key="run.anything.popup" timestamp="1615827661090">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1615827661090" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1618817278668">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1618817278668" />
+    <state x="498" y="178" width="672" height="538" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1617758763554" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/leetcode/MinStack.java</url>
+          <url>file://$PROJECT_DIR$/src/leetcode/MinStack155.java</url>
           <line>32</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/week726/Problem2.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/algorithm/chapter1/datastructure/No09priorityQueue.java</url>
+          <line>67</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/algorithm/chapter1/datastructure/No09priorityQueue.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/algorithm/chapter1/array/No06randomizedSet.java</url>
+          <line>99</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/interview0411meituan/Problem4.java</url>
+          <line>62</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/leetcode/ReverseKGroup25.java</url>
+          <line>11</line>
+          <properties class="leetcode.ReverseKGroup25" method="reverseKGroup">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -2,7 +2,7 @@ package leetcode;
 
 import java.util.Arrays;
 
-public class HeightChecker1051 {
+public class  HeightChecker1051 {
 
     public static int heightChecker(int[] heights) {
         int result = 0;
@@ -14,7 +14,6 @@ public class HeightChecker1051 {
                 result++;
             }
         }
-
 
         return result;
     }

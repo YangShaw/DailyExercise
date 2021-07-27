@@ -1,0 +1,14 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2020-08-06-15-49-26
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	version	user_agent	origin	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	tags	username	password	proxied	orig_fuids	orig_filenames	orig_mime_types	resp_fuids	resp_filenames	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	string	string	count	count	count	string	count	string	set[enum]	string	string	set[string]	vector[string]	vector[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1472191390.667524	CFDTXG1Y6TdFx6JXAj	10.10.10.100	58294	178.255.83.1	80	1	-	-	-	-	1.1	-	-	0	472	200	OK	-	-	(empty)	-	-	-	-	-	-	FnytPf4rOwO0BIuZEe	-	application/ocsp-response
+1472191390.991285	CUniXu14u2TQMoIk4d	10.10.10.100	36581	117.18.237.29	80	1	-	-	-	-	1.1	-	-	0	471	200	OK	-	-	(empty)	-	-	-	-	-	-	FUXsweG1Fo7CmC57	-	application/ocsp-response
+1472191392.632828	CUniXu14u2TQMoIk4d	10.10.10.100	36581	117.18.237.29	80	2	-	-	-	-	1.1	-	-	0	471	200	OK	-	-	(empty)	-	-	-	-	-	-	FKcevS1j5dUDvGyvs8	-	application/ocsp-response
+1472191395.402872	CUniXu14u2TQMoIk4d	10.10.10.100	36581	117.18.237.29	80	3	-	-	-	-	1.1	-	-	0	471	200	OK	-	-	(empty)	-	-	-	-	-	-	FEpTOm4jhC9UnZlUhb	-	application/ocsp-response
+1472191395.473745	CUniXu14u2TQMoIk4d	10.10.10.100	36581	117.18.237.29	80	4	-	-	-	-	1.1	-	-	0	471	200	OK	-	-	(empty)	-	-	-	-	-	-	F8fg1A3pDmMKR506Tg	-	application/ocsp-response
+#close	2020-08-06-15-49-26

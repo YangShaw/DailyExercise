@@ -33,6 +33,7 @@ public class WordBreak139 {
         int[] visited = new int[n];
         Queue<Integer> queue = new LinkedList<>();
 
+        //BFS就是遍历字符串的每个位置作为起点，首先从0号位开始
         queue.add(0);
         while(!queue.isEmpty()){
             int current = queue.remove();

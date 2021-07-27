@@ -1,0 +1,17 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2020-08-06-15-47-08
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	version	user_agent	origin	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	tags	username	password	proxied	orig_fuids	orig_filenames	orig_mime_types	resp_fuids	resp_filenames	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	string	string	count	count	count	string	count	string	set[enum]	string	string	set[string]	vector[string]	vector[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1471018069.360212	C7uu9s8LF84uvKAs3	10.10.10.108	34776	120.52.72.20	80	1	-	-	-	-	1.1	-	-	0	16903	200	OK	-	-	(empty)	-	-	-	-	-	-	FBetgB3a8JXNyfXpo3	-	application/x-bzip2
+1471018250.818167	C6CC3m108fLBlRntF3	10.10.10.108	34777	120.52.72.20	80	1	-	-	-	-	1.1	-	-	0	392595	200	OK	-	-	(empty)	-	-	-	-	-	-	FKCHAY3tAzzNyaSXYj	-	application/x-bzip2
+1471018521.897909	Crx9lf1JB465CsCUR1	10.10.10.108	34778	120.52.72.20	80	1	-	-	-	-	1.1	-	-	0	16903	200	OK	-	-	(empty)	-	-	-	-	-	-	FJyYuh1brDVK1Vndbk	-	application/x-bzip2
+1471018691.755623	CQ7p1Z17lRS18VDpF4	10.10.10.108	34779	120.52.72.20	80	1	-	-	-	-	1.1	-	-	0	1572231	200	OK	-	-	(empty)	-	-	-	-	-	-	FSCkmY1uFk77IT1Tlg	-	application/x-bzip2
+1471019359.843558	CWXe572D8Tos0YqyD9	10.10.10.108	34780	120.52.72.20	80	1	-	-	-	-	1.1	-	-	0	1179015	200	OK	-	-	(empty)	-	-	-	-	-	-	FuvT0f2gab73I4rcR3	-	application/x-bzip2
+1471019984.905373	Ch3I7h4FIm3zJOts4	10.10.10.108	34781	120.52.72.20	80	1	-	-	-	-	1.1	-	-	0	392595	200	OK	-	-	(empty)	-	-	-	-	-	-	F0Q7g4RzrcsXRecec	-	application/x-bzip2
+1471020268.574597	C6VJ4x3wh16wyBwNn1	10.10.10.108	34782	120.52.72.20	80	1	-	-	-	-	1.1	-	-	0	654739	200	OK	-	-	(empty)	-	-	-	-	-	-	FsmPmeIqgrtJ8GPia	-	application/x-bzip2
+1471020768.034944	CNMr8K1hGL0uXJqDCh	10.10.10.108	34784	120.52.72.20	80	1	-	-	-	-	1.1	-	-	0	1179015	200	OK	-	-	(empty)	-	-	-	-	-	-	F3obUl36rI7BoMWrS	-	application/x-bzip2
+#close	2020-08-06-15-47-08

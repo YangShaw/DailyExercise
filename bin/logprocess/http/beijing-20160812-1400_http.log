@@ -1,0 +1,16 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2020-08-06-15-46-59
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	version	user_agent	origin	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	tags	username	password	proxied	orig_fuids	orig_filenames	orig_mime_types	resp_fuids	resp_filenames	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	string	string	count	count	count	string	count	string	set[enum]	string	string	set[string]	vector[string]	vector[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1470981991.410344	CwcNyb1I0HpkCCOKM8	10.10.10.108	34424	120.52.72.20	80	1	-	-	-	-	1.1	-	-	0	392595	200	OK	-	-	(empty)	-	-	-	-	-	-	FdkVTHgBucGW8rhG3	-	application/x-bzip2
+1470982261.097989	C8zOgF8J7XGyzDq2a	10.10.10.108	34425	120.52.72.20	80	1	-	-	-	-	1.1	-	-	0	654739	200	OK	-	-	(empty)	-	-	-	-	-	-	FK4e0G2LEoqjD9aVMi	-	application/x-bzip2
+1470982662.103788	CaeP2f4M6GdAmDvVA9	10.10.10.108	34426	120.52.72.20	80	1	-	-	-	-	1.1	-	-	0	2229031	200	OK	-	-	(empty)	-	-	-	-	-	-	FC3Kwo2q5WaSmZx086	-	application/x-bzip2
+1470983654.569010	CO7bno3EyPf9BJA3v6	10.10.10.108	34427	120.52.72.20	80	1	-	-	-	-	1.1	-	-	0	1179015	200	OK	-	-	(empty)	-	-	-	-	-	-	FSHtpZ10Bmq3ekJhYg	-	application/x-bzip2
+1470984291.794412	Ct4fRozhNq03Bhi2g	10.10.10.108	34428	120.52.72.20	80	1	-	-	-	-	1.1	-	-	0	16903	200	OK	-	-	(empty)	-	-	-	-	-	-	FuG3En4iCttCaOPvi2	-	application/x-bzip2
+1470984503.170048	CgaweB3rSj84PFDGb4	10.10.10.108	34429	120.52.72.20	80	1	-	-	-	-	1.1	-	-	0	392595	200	OK	-	-	(empty)	-	-	-	-	-	-	Fp6Fvo18jZaxrQMEX3	-	application/x-bzip2
+1470984795.960147	CCfabD2YP6FwaLpAs4	10.10.10.108	34430	120.52.72.20	80	1	-	-	-	-	1.1	-	-	0	1048576	200	OK	-	-	(empty)	-	-	-	-	-	-	Fn274I27FHXDLqDXs9	-	application/x-bzip2
+#close	2020-08-06-15-46-59

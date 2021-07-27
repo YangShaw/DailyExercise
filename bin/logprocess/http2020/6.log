@@ -1,0 +1,25 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2020-07-31-19-16-55
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	version	user_agent	origin	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	tags	username	password	proxied	orig_fuids	orig_filenames	orig_mime_types	resp_fuids	resp_filenames	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	string	string	count	count	count	string	count	string	set[enum]	string	string	set[string]	vector[string]	vector[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1588392472.737770	CcaeSRrTX0W4Q9f3j	10.10.10.11	49162	23.204.146.186	80	1	GET	www.msftncsi.com	/ncsi.txt	-	-	Microsoft NCSI	-	0	0	-	-	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1588393494.919893	CfFZtb2Y5Z6BihcOcc	10.10.10.11	49314	59.80.44.36	80	1	HEAD	download.windowsupdate.com	/v9/windowsupdate/redir/muv4wuredir.cab?2005020527	-	1.1	Windows-Update-Agent	-	0	0	200	OK	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1588393499.229716	CfFZtb2Y5Z6BihcOcc	10.10.10.11	49314	59.80.44.36	80	2	HEAD	download.windowsupdate.com	/v9/windowsupdate/redir/muv4wuredir.cab?2005020527	-	1.1	Windows-Update-Agent	-	0	0	200	OK	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1588393500.968358	CfFZtb2Y5Z6BihcOcc	10.10.10.11	49314	59.80.44.36	80	3	HEAD	download.windowsupdate.com	/v9/windowsupdate/redir/muv4wuredir.cab?2005020527	-	1.1	Windows-Update-Agent	-	0	0	200	OK	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1588393506.930090	CsemON3R5mrf0yqcp1	10.10.10.11	49321	104.81.67.220	80	1	GET	go.microsoft.com	/fwlink/?LinkID=121721&clcid=0x409&arch=x86&eng=0.0.0.0&asdelta=0.0.0.0&prod=925A3ACA-C353-458A-AC8D-A7E5EB378092	-	1.1	MpCommunication	-	0	0	302	Moved Temporarily	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1588393919.039777	CZcma64cMsSHBXoWc2	10.10.10.11	49376	59.80.44.36	80	1	HEAD	download.windowsupdate.com	/v9/windowsupdate/redir/muv4wuredir.cab?2005020534	-	1.1	Windows-Update-Agent	-	0	0	200	OK	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1588393920.248801	CZcma64cMsSHBXoWc2	10.10.10.11	49376	59.80.44.36	80	2	HEAD	download.windowsupdate.com	/v9/windowsupdate/redir/muv4wuredir.cab?2005020534	-	1.1	Windows-Update-Agent	-	0	0	200	OK	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1588394226.537125	CROIz6ojAxIeahyE9	10.10.10.11	49418	104.81.67.220	80	1	GET	go.microsoft.com	/fwlink/?LinkID=121721&clcid=0x409&arch=x86&eng=0.0.0.0&asdelta=0.0.0.0&prod=925A3ACA-C353-458A-AC8D-A7E5EB378092	-	1.1	MpCommunication	-	0	0	302	Moved Temporarily	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1588396682.086017	CyfPvrIrAh3OqOBeg	10.10.10.11	49730	123.125.110.218	80	1	HEAD	download.windowsupdate.com	/v9/windowsupdate/redir/muv4wuredir.cab?2005020620	-	1.1	Windows-Update-Agent	-	0	0	200	OK	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1588396683.331054	CyfPvrIrAh3OqOBeg	10.10.10.11	49730	123.125.110.218	80	2	HEAD	download.windowsupdate.com	/v9/windowsupdate/redir/muv4wuredir.cab?2005020620	-	1.1	Windows-Update-Agent	-	0	0	200	OK	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1588398189.732542	CFiRGt1ICzQHX06ohl	10.10.10.11	49924	23.75.45.205	80	1	GET	go.microsoft.com	/fwlink/?LinkID=121721&clcid=0x409&arch=x86&eng=0.0.0.0&asdelta=0.0.0.0&prod=925A3ACA-C353-458A-AC8D-A7E5EB378092	-	1.1	MpCommunication	-	0	0	302	Moved Temporarily	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1588405822.056886	CGDxIK2iZ6dIQJx0h3	10.10.10.11	50891	42.48.244.186	80	1	HEAD	download.windowsupdate.com	/v9/windowsupdate/redir/muv4wuredir.cab?2005020852	-	1.1	Windows-Update-Agent	-	0	0	200	OK	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1588405825.783287	CGDxIK2iZ6dIQJx0h3	10.10.10.11	50891	42.48.244.186	80	2	HEAD	download.windowsupdate.com	/v9/windowsupdate/redir/muv4wuredir.cab?2005020852	-	1.1	Windows-Update-Agent	-	0	0	200	OK	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1588406290.308284	C9A5s32e4tGcAeqzQf	10.10.10.11	50953	72.247.184.129	80	1	GET	www.msftncsi.com	/ncsi.txt	-	1.1	Microsoft NCSI	-	0	14	200	OK	-	-	(empty)	-	-	-	-	-	-	F2FKcx1dNAGWOfB1E7	-	text/plain
+1588406352.759700	CaVlHO19m9rJ47RsEi	10.10.10.11	50959	72.247.184.129	80	1	GET	www.msftncsi.com	/ncsi.txt	-	1.1	Microsoft NCSI	-	0	14	200	OK	-	-	(empty)	-	-	-	-	-	-	Fd5z661wVRK4arXdKc	-	text/plain
+1588413332.918509	CAD11w4nWsuFQYklm8	10.10.10.11	51842	172.230.188.80	80	1	GET	go.microsoft.com	/fwlink/?LinkID=121721&clcid=0x409&arch=x86&eng=0.0.0.0&asdelta=0.0.0.0&prod=925A3ACA-C353-458A-AC8D-A7E5EB378092	-	1.1	MpCommunication	-	0	0	302	Moved Temporarily	-	-	(empty)	-	-	-	-	-	-	-	-	-
+#close	2020-07-31-19-17-08

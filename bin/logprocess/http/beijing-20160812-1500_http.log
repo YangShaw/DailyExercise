@@ -1,0 +1,18 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2020-08-06-15-47-00
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	version	user_agent	origin	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	tags	username	password	proxied	orig_fuids	orig_filenames	orig_mime_types	resp_fuids	resp_filenames	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	string	string	count	count	count	string	count	string	set[enum]	string	string	set[string]	vector[string]	vector[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1470985446.381316	Cg2Rhj40szKIHyAkIb	10.10.10.108	34431	120.52.72.20	80	1	-	-	-	-	1.1	-	-	0	654739	200	OK	-	-	(empty)	-	-	-	-	-	-	F0ahYp4X3m09S7HTP1	-	application/x-bzip2
+1470985891.659845	CYTNz333yb3WBNdlZ1	10.10.10.108	34432	120.52.72.20	80	1	-	-	-	-	1.1	-	-	0	392595	200	OK	-	-	(empty)	-	-	-	-	-	-	FtUOW44qUjmlp0nRlb	-	application/x-bzip2
+1470986207.453701	CrStJU1PcOfOYT9vBa	10.10.10.108	34433	120.52.72.20	80	1	-	-	-	-	1.1	-	-	0	1441159	200	OK	-	-	(empty)	-	-	-	-	-	-	F9exBGh02hiJcPwq4	-	application/x-bzip2
+1470986978.476599	C7ndp31jqOoa7yDJ7f	10.10.10.108	34435	120.52.72.20	80	1	-	-	-	-	1.1	-	-	0	392595	200	OK	-	-	(empty)	-	-	-	-	-	-	FesmAu1gey4pmRT7j	-	application/x-bzip2
+1470987192.815346	CdTOnK2s9wGqacAk05	10.10.10.108	43935	120.52.72.24	80	1	-	-	-	-	1.1	-	-	0	0	304	Not Modified	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1470987193.232816	CcBDxzYNUQP4o1Vbj	10.10.10.108	36480	91.189.88.149	80	1	-	-	-	-	1.1	-	-	0	0	302	Found	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1470987197.104638	CdTOnK2s9wGqacAk05	10.10.10.108	43935	120.52.72.24	80	2	-	-	-	-	1.1	-	-	0	134298	200	OK	-	-	(empty)	-	-	-	-	-	-	FVFTOE3lnDH7uv86u4	-	application/x-bzip2
+1470987199.631019	CdTOnK2s9wGqacAk05	10.10.10.108	43935	120.52.72.24	80	3	-	-	-	-	1.1	-	-	0	720988	200	OK	-	-	(empty)	-	-	-	-	-	-	FBipUD4ePQMcgfgxg3	-	application/x-bzip2
+1470987196.735452	CuMQ0XIPhlJlzyWdd	10.10.10.108	54506	120.52.72.22	80	1	-	-	-	-	1.1	-	-	0	5036265	200	OK	-	-	(empty)	-	-	-	-	-	-	FtWkhG3Q9Q5mcOIOYg	-	application/x-gzip
+#close	2020-08-06-15-47-00

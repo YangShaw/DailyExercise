@@ -16,9 +16,7 @@ public class Max_Area_11 {
                 right--;
             }
             int temp = lower * (right - left + 1);
-            if (temp > result) {
-                result = temp;
-            }
+            result = Math.max(result, temp);
         }
         return result;
     }

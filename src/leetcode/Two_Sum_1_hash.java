@@ -5,6 +5,23 @@ import java.util.Map;
 
 public class Two_Sum_1_hash {
 
+    public int[] twoSum2(int[] nums, int target){
+        Map<Integer, Integer> map = new HashMap<>();
+        int l = nums.length;
+        int[] result = new int[2];
+        for(int i=0; i<l; ++i){
+            int wanted = target-nums[i];
+            if(map.containsKey(wanted)){
+                result[0] = i;
+                result[1] = map.get(wanted);
+                break;
+            } else {
+                map.put(nums[i], i);
+            }
+        }
+        return result;
+    }
+
     public static int[] twoSum(int[] nums, int target) {
         Map<Integer, Integer> map = new HashMap<>();
         for (int i = 0; i < nums.length; ++i) {

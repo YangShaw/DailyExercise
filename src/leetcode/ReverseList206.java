@@ -23,6 +23,18 @@ public class ReverseList206 {
         reverseList2(head);
     }
 
+    public ListNode reverseList3(ListNode head){
+        ListNode pre = null;
+        ListNode cur = head;
+        while(cur!=null){
+            ListNode curNext = cur.next;
+            cur.next = pre;
+            pre = cur;
+            cur = curNext;
+        }
+        return pre;
+    }
+
     public static ListNode reverseList2(ListNode head) {
         if (head == null) {
             return null;

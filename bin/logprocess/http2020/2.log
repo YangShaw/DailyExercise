@@ -1,0 +1,21 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2020-07-31-19-00-21
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	version	user_agent	origin	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	tags	username	password	proxied	orig_fuids	orig_filenames	orig_mime_types	resp_fuids	resp_filenames	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	string	string	count	count	count	string	count	string	set[enum]	string	string	set[string]	vector[string]	vector[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1578442184.836971	C43eOm1edBHsYL5xv1	10.10.10.11	56752	121.22.246.203	80	1	HEAD	download.windowsupdate.com	/v9/windowsupdate/redir/muv4wuredir.cab?2001080112	-	-	Windows-Update-Agent	-	0	0	-	-	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1578442208.867513	CMujNg5bTnKoTHold	10.10.10.11	56753	121.22.246.203	80	1	HEAD	download.windowsupdate.com	/v9/windowsupdate/redir/muv4wuredir.cab?2001080112	-	-	Windows-Update-Agent	-	0	0	-	-	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1578442230.498017	CNhLor1XgmT4ertEZi	10.10.10.11	56759	121.22.246.203	80	1	HEAD	download.windowsupdate.com	/v9/windowsupdate/redir/muv4wuredir.cab?2001080112	-	-	Windows-Update-Agent	-	0	0	-	-	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1578442252.088553	Clww9qATqvI3rtVSi	10.10.10.11	56760	121.22.246.203	80	1	HEAD	download.windowsupdate.com	/v9/windowsupdate/redir/muv4wuredir.cab?2001080112	-	-	Windows-Update-Agent	-	0	0	-	-	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1578442273.739057	CpumxS210hyCVRDFLg	10.10.10.11	56768	124.163.207.47	80	1	HEAD	download.microsoft.com	/v9/windowsupdate/redir/muv4wuredir.cab?2001080113	-	-	Windows-Update-Agent	-	0	0	-	-	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1578442297.799598	CCEKcT2C9NQkfphiCi	10.10.10.11	56774	124.163.207.47	80	1	HEAD	download.microsoft.com	/v9/windowsupdate/redir/muv4wuredir.cab?2001080113	-	-	Windows-Update-Agent	-	0	0	-	-	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1578442319.410111	C8ffdF1wV0qPcDcoX9	10.10.10.11	56775	124.163.207.47	80	1	HEAD	download.microsoft.com	/v9/windowsupdate/redir/muv4wuredir.cab?2001080113	-	-	Windows-Update-Agent	-	0	0	-	-	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1578442340.990715	CeMmVR5txjsImMGO6	10.10.10.11	56781	124.163.207.47	80	1	HEAD	download.microsoft.com	/v9/windowsupdate/redir/muv4wuredir.cab?2001080113	-	-	Windows-Update-Agent	-	0	0	-	-	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1578442362.831182	CMgwZS1OHK2G7wmBg8	10.10.10.11	56782	40.67.189.14	80	1	HEAD	www.update.microsoft.com	/v9/windowsupdate/redir/muv4wuredir.cab?2001080115	-	-	Windows-Update-Agent	-	0	0	-	-	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1578442416.872409	CI1IsL1zB6WJIPpHxi	10.10.10.11	56793	40.67.189.14	80	1	HEAD	www.update.microsoft.com	/v9/windowsupdate/redir/muv4wuredir.cab?2001080115	-	-	Windows-Update-Agent	-	0	0	-	-	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1578442466.993614	CHyOG3kKlcNj1dWAh	10.10.10.11	56799	40.67.189.14	80	1	HEAD	www.update.microsoft.com	/v9/windowsupdate/redir/muv4wuredir.cab?2001080115	-	-	Windows-Update-Agent	-	0	0	-	-	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1578442513.364666	C0VXjnqAHQB1ogAUh	10.10.10.11	56805	40.67.189.14	80	1	HEAD	www.update.microsoft.com	/v9/windowsupdate/redir/muv4wuredir.cab?2001080115	-	-	Windows-Update-Agent	-	0	0	-	-	-	-	(empty)	-	-	-	-	-	-	-	-	-
+#close	2020-07-31-19-00-21

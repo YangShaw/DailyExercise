@@ -1,0 +1,117 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2020-08-06-15-47-20
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	version	user_agent	origin	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	tags	username	password	proxied	orig_fuids	orig_filenames	orig_mime_types	resp_fuids	resp_filenames	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	string	string	count	count	count	string	count	string	set[enum]	string	string	set[string]	vector[string]	vector[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1471066364.575604	CVxtrUs4plxQWJIgl	10.10.10.108	45153	210.32.158.231	80	1	-	-	-	-	1.1	-	-	0	162	404	Not Found	-	-	(empty)	-	-	-	-	-	-	FLYDRl18nw2QNcyrq4	-	text/html
+1471066364.623500	CVxtrUs4plxQWJIgl	10.10.10.108	45153	210.32.158.231	80	2	-	-	-	-	1.1	-	-	0	0	304	Not Modified	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1471066364.671194	CVxtrUs4plxQWJIgl	10.10.10.108	45153	210.32.158.231	80	3	-	-	-	-	1.1	-	-	0	0	304	Not Modified	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1471066364.726604	CVxtrUs4plxQWJIgl	10.10.10.108	45153	210.32.158.231	80	4	-	-	-	-	1.1	-	-	0	0	304	Not Modified	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1471066364.778774	CVxtrUs4plxQWJIgl	10.10.10.108	45153	210.32.158.231	80	5	-	-	-	-	1.1	-	-	0	0	304	Not Modified	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1471066364.825202	CVxtrUs4plxQWJIgl	10.10.10.108	45153	210.32.158.231	80	6	-	-	-	-	1.1	-	-	0	0	304	Not Modified	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1471066364.872379	CVxtrUs4plxQWJIgl	10.10.10.108	45153	210.32.158.231	80	7	-	-	-	-	1.1	-	-	0	0	304	Not Modified	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1471066364.920047	CVxtrUs4plxQWJIgl	10.10.10.108	45153	210.32.158.231	80	8	-	-	-	-	1.1	-	-	0	0	304	Not Modified	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1471066364.967492	CVxtrUs4plxQWJIgl	10.10.10.108	45153	210.32.158.231	80	9	-	-	-	-	1.1	-	-	0	0	304	Not Modified	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1471066365.017902	CVxtrUs4plxQWJIgl	10.10.10.108	45153	210.32.158.231	80	10	-	-	-	-	1.1	-	-	0	162	404	Not Found	-	-	(empty)	-	-	-	-	-	-	FIjRn8SGxeAWvbCcd	-	text/html
+1471066365.066579	CVxtrUs4plxQWJIgl	10.10.10.108	45153	210.32.158.231	80	11	-	-	-	-	1.1	-	-	0	162	404	Not Found	-	-	(empty)	-	-	-	-	-	-	FfPWwd3eaSS3CHseP1	-	text/html
+1471066365.113294	CVxtrUs4plxQWJIgl	10.10.10.108	45153	210.32.158.231	80	12	-	-	-	-	1.1	-	-	0	162	404	Not Found	-	-	(empty)	-	-	-	-	-	-	F1g9oD2iLJxKFPFs09	-	text/html
+1471066365.147750	CDAF6d1xfEFOwyks45	10.10.10.108	57332	91.189.92.191	80	1	-	-	-	-	1.1	-	-	0	227	404	Not Found	-	-	(empty)	-	-	-	-	-	-	FWwzaz11cDs1zMr6R9	-	text/html
+1471066365.160969	CVxtrUs4plxQWJIgl	10.10.10.108	45153	210.32.158.231	80	13	-	-	-	-	1.1	-	-	0	162	404	Not Found	-	-	(empty)	-	-	-	-	-	-	Fhlikt35ciXZGdDWbb	-	text/html
+1471066365.208149	CVxtrUs4plxQWJIgl	10.10.10.108	45153	210.32.158.231	80	14	-	-	-	-	1.1	-	-	0	162	404	Not Found	-	-	(empty)	-	-	-	-	-	-	FjMqnd1KgZUGbLmlN8	-	text/html
+1471066365.257001	CVxtrUs4plxQWJIgl	10.10.10.108	45153	210.32.158.231	80	15	-	-	-	-	1.1	-	-	0	162	404	Not Found	-	-	(empty)	-	-	-	-	-	-	FP7qYlsSTzdUP1qJh	-	text/html
+1471066365.305000	CVxtrUs4plxQWJIgl	10.10.10.108	45153	210.32.158.231	80	16	-	-	-	-	1.1	-	-	0	162	404	Not Found	-	-	(empty)	-	-	-	-	-	-	Ff5O2aaB80QVjR8V8	-	text/html
+1471066365.351439	CVxtrUs4plxQWJIgl	10.10.10.108	45153	210.32.158.231	80	17	-	-	-	-	1.1	-	-	0	162	404	Not Found	-	-	(empty)	-	-	-	-	-	-	Fj1Ke72f8GnGUBxpEk	-	text/html
+1471066365.359444	CJPsio2FIXga4klnf4	10.10.10.108	56708	208.77.20.11	80	1	-	-	-	-	1.1	-	-	0	345	404	Not Found	-	-	(empty)	-	-	-	-	-	-	F01PKu1w278crevIn4	-	text/html
+1471066365.398097	CVxtrUs4plxQWJIgl	10.10.10.108	45153	210.32.158.231	80	18	-	-	-	-	1.1	-	-	0	162	404	Not Found	-	-	(empty)	-	-	-	-	-	-	F9SIwN3Cz7ULqKyx57	-	text/html
+1471066365.445787	CVxtrUs4plxQWJIgl	10.10.10.108	45153	210.32.158.231	80	19	-	-	-	-	1.1	-	-	0	162	404	Not Found	-	-	(empty)	-	-	-	-	-	-	Fs9V3bpfFEgzROnb3	-	text/html
+1471066365.463464	CDAF6d1xfEFOwyks45	10.10.10.108	57332	91.189.92.191	80	2	-	-	-	-	1.1	-	-	0	0	304	Not Modified	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1471066365.499636	CVxtrUs4plxQWJIgl	10.10.10.108	45153	210.32.158.231	80	20	-	-	-	-	1.1	-	-	0	162	404	Not Found	-	-	(empty)	-	-	-	-	-	-	Fo4vv94wYIr8lbelY6	-	text/html
+1471066365.017245	C0ueBX14wZbJk8r4Cd	10.10.10.108	37195	91.189.88.149	80	1	-	-	-	-	1.1	-	-	0	65878	200	OK	-	-	(empty)	-	-	-	-	-	-	FwalrLDQQZM0QdrH2	-	text/plain
+1471066365.547126	CVxtrUs4plxQWJIgl	10.10.10.108	45153	210.32.158.231	80	21	-	-	-	-	1.1	-	-	0	162	404	Not Found	-	-	(empty)	-	-	-	-	-	-	FZf7o51tUn5PE0irg5	-	text/html
+1471066365.548864	Cy1K5Q3OLlypK9nMM8	10.10.10.108	43118	91.189.88.162	80	1	-	-	-	-	1.1	-	-	0	311	404	Not Found	-	-	(empty)	-	-	-	-	-	-	FSZZnb2TfYEcvFhVyb	-	text/html
+1471066365.590304	CJPsio2FIXga4klnf4	10.10.10.108	56708	208.77.20.11	80	2	-	-	-	-	1.1	-	-	0	0	304	Not Modified	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1471066365.636476	C0ueBX14wZbJk8r4Cd	10.10.10.108	37195	91.189.88.149	80	2	-	-	-	-	1.1	-	-	0	0	302	Found	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1471066365.673539	CVxtrUs4plxQWJIgl	10.10.10.108	45153	210.32.158.231	80	22	-	-	-	-	1.1	-	-	0	162	404	Not Found	-	-	(empty)	-	-	-	-	-	-	FeP9A1ccZnaJw24gl	-	text/html
+1471066365.727871	CVxtrUs4plxQWJIgl	10.10.10.108	45153	210.32.158.231	80	23	-	-	-	-	1.1	-	-	0	162	404	Not Found	-	-	(empty)	-	-	-	-	-	-	F6B3FQ2GEccjsXBkMh	-	text/html
+1471066365.918040	CVxtrUs4plxQWJIgl	10.10.10.108	45153	210.32.158.231	80	24	-	-	-	-	1.1	-	-	0	162	404	Not Found	-	-	(empty)	-	-	-	-	-	-	Fu4Saq2J7ywvupy4U4	-	text/html
+1471066365.924863	CDAF6d1xfEFOwyks45	10.10.10.108	57332	91.189.92.191	80	3	-	-	-	-	1.1	-	-	0	0	304	Not Modified	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1471066366.138432	CDAF6d1xfEFOwyks45	10.10.10.108	57332	91.189.92.191	80	4	-	-	-	-	1.1	-	-	0	0	302	Found	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1471066366.143520	CZMAtv4k7m24ccYXX1	10.10.10.108	37201	91.189.88.149	80	1	-	-	-	-	1.1	-	-	0	0	302	Found	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1471066366.239782	CQd5qJ208NT7frqqg9	10.10.10.108	56709	208.77.20.11	80	1	-	-	-	-	1.1	-	-	0	0	304	Not Modified	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1471066366.248996	Cl3hTa1w5R1Ovk7zJg	10.10.10.108	55229	120.52.72.22	80	1	-	-	-	-	1.1	-	-	0	0	304	Not Modified	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1471066366.261338	C2JKea4H2OfMjwpXZd	10.10.10.108	47760	120.52.72.21	80	1	-	-	-	-	1.1	-	-	0	13022	200	OK	-	-	(empty)	-	-	-	-	-	-	Fj9lMJ1q7IOBqp7AYi	-	application/x-bzip2
+1471066366.660452	CMgDpqeNnm1UL0zc1	10.10.10.108	37205	91.189.88.149	80	1	-	-	-	-	1.1	-	-	0	0	302	Found	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1471066366.747321	CKdpxB24xcflhC3Kuf	10.10.10.108	57338	91.189.92.191	80	1	-	-	-	-	1.1	-	-	0	0	302	Found	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1471066366.824602	Ck1euu4ZmZK6J03Gk5	10.10.10.108	56716	208.77.20.11	80	1	-	-	-	-	1.1	-	-	0	0	304	Not Modified	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1471066366.683900	C2JKea4H2OfMjwpXZd	10.10.10.108	47760	120.52.72.21	80	2	-	-	-	-	1.1	-	-	0	130451	200	OK	-	-	(empty)	-	-	-	-	-	-	FtWZUIa3oBOxbsur9	-	application/x-bzip2
+1471066366.911177	CkXita2VrROtnCOocd	10.10.10.108	35167	120.52.72.20	80	1	-	-	-	-	1.1	-	-	0	0	304	Not Modified	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1471066367.094983	Cwt8BxBwHL3wnjCxi	10.10.10.108	34011	91.189.95.83	80	1	-	-	-	-	1.1	-	-	0	0	304	Not Modified	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1471066367.141400	CZYGqZ10njA5Am8XVj	10.10.10.108	37208	91.189.88.149	80	1	-	-	-	-	1.1	-	-	0	0	302	Found	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1471066367.189166	CnIH8r4gDRovOIJwe	10.10.10.108	40717	120.52.72.19	80	1	-	-	-	-	1.1	-	-	0	4990	200	OK	-	-	(empty)	-	-	-	-	-	-	FYHa0911FHCkeTZPe	-	application/x-bzip2
+1471066367.262461	CDBVde3sq3CclJbnv2	10.10.10.108	57344	91.189.92.191	80	1	-	-	-	-	1.1	-	-	0	0	302	Found	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1471066367.292170	CpoYuo40WMrb0PYg2	10.10.10.108	56720	208.77.20.11	80	1	-	-	-	-	1.1	-	-	0	0	304	Not Modified	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1471066367.308856	CcU3493ij0HZad7wik	10.10.10.108	60481	120.52.72.23	80	1	-	-	-	-	1.1	-	-	0	0	304	Not Modified	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1471066367.612463	Cwt8BxBwHL3wnjCxi	10.10.10.108	34011	91.189.95.83	80	2	-	-	-	-	1.1	-	-	0	0	304	Not Modified	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1471066367.629420	CQcNCW3HC8CJS6Vdaj	10.10.10.108	37212	91.189.88.149	80	1	-	-	-	-	1.1	-	-	0	0	302	Found	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1471066367.833607	CZzH5q4EDbMOvhXE1j	10.10.10.108	56724	208.77.20.11	80	1	-	-	-	-	1.1	-	-	0	345	404	Not Found	-	-	(empty)	-	-	-	-	-	-	Fm2ity4cG3yh6gcPqh	-	text/html
+1471066368.111848	CxzWgBMR5Cl2bqyk7	10.10.10.108	37216	91.189.88.149	80	1	-	-	-	-	1.1	-	-	0	0	302	Found	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1471066368.126401	CZzH5q4EDbMOvhXE1j	10.10.10.108	56724	208.77.20.11	80	2	-	-	-	-	1.1	-	-	0	345	404	Not Found	-	-	(empty)	-	-	-	-	-	-	F19KW81wY3tC6psVl7	-	text/html
+1471066368.177131	Cwt8BxBwHL3wnjCxi	10.10.10.108	34011	91.189.95.83	80	3	-	-	-	-	1.1	-	-	0	0	304	Not Modified	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1471066368.184104	C2JKea4H2OfMjwpXZd	10.10.10.108	47760	120.52.72.21	80	3	-	-	-	-	1.1	-	-	0	12708	200	OK	-	-	(empty)	-	-	-	-	-	-	FF7iWcFuTUKSQnAWi	-	application/x-bzip2
+1471066368.413460	CZzH5q4EDbMOvhXE1j	10.10.10.108	56724	208.77.20.11	80	3	-	-	-	-	1.1	-	-	0	345	404	Not Found	-	-	(empty)	-	-	-	-	-	-	FaqAk61XM1UPt9Vvd	-	text/html
+1471066367.651973	CkXita2VrROtnCOocd	10.10.10.108	35167	120.52.72.20	80	2	-	-	-	-	1.1	-	-	0	480271	200	OK	-	-	(empty)	-	-	-	-	-	-	Fz4k8V3f50AU7cJqxh	-	application/x-bzip2
+1471066368.532338	CQJImH38dr8ZvUMOsf	10.10.10.108	37217	91.189.88.149	80	1	-	-	-	-	1.1	-	-	0	0	302	Found	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1471066368.688630	CZzH5q4EDbMOvhXE1j	10.10.10.108	56724	208.77.20.11	80	4	-	-	-	-	1.1	-	-	0	345	404	Not Found	-	-	(empty)	-	-	-	-	-	-	F0k77s2gVq8y4r1R5	-	text/html
+1471066368.761512	Cwt8BxBwHL3wnjCxi	10.10.10.108	34011	91.189.95.83	80	4	-	-	-	-	1.1	-	-	0	0	304	Not Modified	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1471066368.918968	CZzH5q4EDbMOvhXE1j	10.10.10.108	56724	208.77.20.11	80	5	-	-	-	-	1.1	-	-	0	345	404	Not Found	-	-	(empty)	-	-	-	-	-	-	Fg4X9A2EqIgyYXdP3i	-	text/html
+1471066369.026717	C0gvh14Sf3UPoElZR1	10.10.10.108	37218	91.189.88.149	80	1	-	-	-	-	1.1	-	-	0	0	302	Found	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1471066369.390229	CEinks1QRvFN78HXWg	10.10.10.108	37219	91.189.88.149	80	1	-	-	-	-	1.1	-	-	0	0	302	Found	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1471066369.765140	C7vmR72JKsbxmFKIPl	10.10.10.108	37220	91.189.88.149	80	1	-	-	-	-	1.1	-	-	0	0	302	Found	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1471066369.784593	CcU3493ij0HZad7wik	10.10.10.108	60481	120.52.72.23	80	2	-	-	-	-	1.1	-	-	0	0	304	Not Modified	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1471066370.129617	Ck1pvF3t4VniOLs6h9	10.10.10.108	37221	91.189.88.149	80	1	-	-	-	-	1.1	-	-	0	0	302	Found	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1471066370.148776	C2JKea4H2OfMjwpXZd	10.10.10.108	47760	120.52.72.21	80	4	-	-	-	-	1.1	-	-	0	0	304	Not Modified	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1471066370.531212	Cwt8BxBwHL3wnjCxi	10.10.10.108	34011	91.189.95.83	80	5	-	-	-	-	1.1	-	-	0	0	304	Not Modified	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1471066370.608106	CzTQbr3jG8nJMLJOuj	10.10.10.108	37222	91.189.88.149	80	1	-	-	-	-	1.1	-	-	0	0	302	Found	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1471066368.552809	Cy1K5Q3OLlypK9nMM8	10.10.10.108	43118	91.189.88.162	80	2	-	-	-	-	1.1	-	-	0	65876	200	OK	-	-	(empty)	-	-	-	-	-	-	FZji4BJ26FHrRgECd	-	text/plain
+1471066374.758042	Cgu93p4Y0e8YuJkSwl	10.10.10.108	53938	91.189.88.152	80	1	-	-	-	-	1.1	-	-	0	0	304	Not Modified	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1471066374.861531	Cgu93p4Y0e8YuJkSwl	10.10.10.108	53938	91.189.88.152	80	2	-	-	-	-	1.1	-	-	0	0	302	Found	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1471066375.752824	CuOT5A3nGSIEndm9G1	10.10.10.108	53939	91.189.88.152	80	1	-	-	-	-	1.1	-	-	0	0	302	Found	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1471066375.851377	CGvnrJxO6KqTghpsh	10.10.10.108	40730	120.52.72.19	80	1	-	-	-	-	1.1	-	-	0	15908	200	OK	-	-	(empty)	-	-	-	-	-	-	FCwkiwigQqVVnaeE1	-	application/x-bzip2
+1471066379.361657	CQrc1L3GEK6v0FFwEk	10.10.10.108	53940	91.189.88.152	80	1	-	-	-	-	1.1	-	-	0	0	302	Found	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1471066380.055893	C8uQk81m9ul0Ed1Tx2	10.10.10.108	53942	91.189.88.152	80	1	-	-	-	-	1.1	-	-	0	0	302	Found	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1471066385.657598	CK8LjF4HlqyuPxc5Di	10.10.10.108	53943	91.189.88.152	80	1	-	-	-	-	1.1	-	-	0	0	302	Found	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1471066386.349693	CirPVZ1QteIDZzDwWd	10.10.10.108	53944	91.189.88.152	80	1	-	-	-	-	1.1	-	-	0	0	302	Found	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1471066385.678892	Cl3hTa1w5R1Ovk7zJg	10.10.10.108	55229	120.52.72.22	80	2	-	-	-	-	1.1	-	-	0	844720	200	OK	-	-	(empty)	-	-	-	-	-	-	FkKhHe1rDm6q6KRVZ4	-	application/x-bzip2
+1471066387.059859	CDxOZv4f5ZPKen5Ikk	10.10.10.108	53945	91.189.88.152	80	1	-	-	-	-	1.1	-	-	0	0	302	Found	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1471066387.120347	CUlGky26iyTlQ9u5Ma	10.10.10.108	60499	120.52.72.23	80	1	-	-	-	-	1.1	-	-	0	369157	200	OK	-	-	(empty)	-	-	-	-	-	-	F31axt4NwV3EKO9Q7e	-	application/x-bzip2
+1471066388.671523	CYr7VF2pQw18dgPwFe	10.10.10.108	53946	91.189.88.152	80	1	-	-	-	-	1.1	-	-	0	0	302	Found	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1471066388.722198	C24MsXCQWiqgQWzV6	10.10.10.108	40738	120.52.72.19	80	1	-	-	-	-	1.1	-	-	0	15226	200	OK	-	-	(empty)	-	-	-	-	-	-	FOSyg13pEg5FOfrBWi	-	application/x-bzip2
+1471066389.282511	CWluKA4XCuEG7Mws51	10.10.10.108	53948	91.189.88.152	80	1	-	-	-	-	1.1	-	-	0	0	302	Found	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1471066389.301016	Cl3hTa1w5R1Ovk7zJg	10.10.10.108	55229	120.52.72.22	80	3	-	-	-	-	1.1	-	-	0	0	304	Not Modified	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1471066389.908942	CNjyn23d2qPjGVMppd	10.10.10.108	53950	91.189.88.152	80	1	-	-	-	-	1.1	-	-	0	0	302	Found	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1471066390.531842	Ci0mWA3y8UTE9kEGI	10.10.10.108	53951	91.189.88.152	80	1	-	-	-	-	1.1	-	-	0	0	302	Found	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1471066391.140467	CltQiF1cf4YVtvJq41	10.10.10.108	53952	91.189.88.152	80	1	-	-	-	-	1.1	-	-	0	0	302	Found	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1471066392.167885	CQO8e41md19XkkhmP	10.10.10.108	53953	91.189.88.152	80	1	-	-	-	-	1.1	-	-	0	0	304	Not Modified	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1471066392.291393	CQO8e41md19XkkhmP	10.10.10.108	53953	91.189.88.152	80	2	-	-	-	-	1.1	-	-	0	0	302	Found	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1471066392.900726	CZ8Psr2Jrofvd0tYSl	10.10.10.108	53955	91.189.88.152	80	1	-	-	-	-	1.1	-	-	0	0	302	Found	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1471066393.513079	CM9VG64deysWc9QMod	10.10.10.108	53956	91.189.88.152	80	1	-	-	-	-	1.1	-	-	0	0	302	Found	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1471066394.124604	CgiNBg3QrYhwdUEvAb	10.10.10.108	53957	91.189.88.152	80	1	-	-	-	-	1.1	-	-	0	0	302	Found	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1471066394.733385	Co8WUC3boioaYaycva	10.10.10.108	53958	91.189.88.152	80	1	-	-	-	-	1.1	-	-	0	0	302	Found	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1471066395.333057	CECGvB2x3UfJzBQTOi	10.10.10.108	53959	91.189.88.152	80	1	-	-	-	-	1.1	-	-	0	0	302	Found	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1471066395.943577	CZF5Fo4ehMAt8NIXw6	10.10.10.108	53960	91.189.88.152	80	1	-	-	-	-	1.1	-	-	0	0	302	Found	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1471066396.568316	CuDsU92cckwvMQLBS4	10.10.10.108	53961	91.189.88.152	80	1	-	-	-	-	1.1	-	-	0	0	302	Found	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1471066397.183407	CUNBZO3hVonbDXZ28j	10.10.10.108	53962	91.189.88.152	80	1	-	-	-	-	1.1	-	-	0	0	302	Found	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1471066398.967182	CAKL9c3YwLBziQoK9k	10.10.10.108	53963	91.189.88.152	80	1	-	-	-	-	1.1	-	-	0	0	302	Found	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1471066399.578996	CXUYc32u5eJJ9rolh9	10.10.10.108	53964	91.189.88.152	80	1	-	-	-	-	1.1	-	-	0	0	302	Found	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1471066400.244968	C4KIj24vRjDikEgCYb	10.10.10.108	53965	91.189.88.152	80	1	-	-	-	-	1.1	-	-	0	0	302	Found	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1471066400.468975	Cl3hTa1w5R1Ovk7zJg	10.10.10.108	55229	120.52.72.22	80	4	-	-	-	-	1.1	-	-	0	3457	200	OK	-	-	(empty)	-	-	-	-	-	-	FLxwnC2hC3M9xmsbDd	-	application/x-bzip2
+1471066374.881100	C2JKea4H2OfMjwpXZd	10.10.10.108	47760	120.52.72.21	80	5	-	-	-	-	1.1	-	-	0	286206	200	OK	-	-	(empty)	-	-	-	-	-	-	FlfkRi49kivcDS7Flk	-	application/x-bzip2
+1471066409.684384	CbE7o521LfXFjKIrm4	10.10.10.108	60506	120.52.72.23	80	1	-	-	-	-	1.1	-	-	0	1350329	200	OK	-	-	(empty)	-	-	-	-	-	-	FDbPdC1MVlXPg8wX6	-	application/x-bzip2
+1471066489.627488	CbE7o521LfXFjKIrm4	10.10.10.108	60506	120.52.72.23	80	2	-	-	-	-	1.1	-	-	0	13418	200	OK	-	-	(empty)	-	-	-	-	-	-	FI0X8MHjs6rEGVfG7	-	application/x-bzip2
+1471066491.825102	CbE7o521LfXFjKIrm4	10.10.10.108	60506	120.52.72.23	80	3	-	-	-	-	1.1	-	-	0	101853	200	OK	-	-	(empty)	-	-	-	-	-	-	FVxSg04CVpdMVUT4Sd	-	application/x-bzip2
+1471066365.691471	C6oyRz2fJ5b0FYTK9g	10.10.10.108	44658	120.52.72.24	80	1	-	-	-	-	1.1	-	-	0	78830	200	OK	-	-	(empty)	-	-	-	-	-	-	Fk4ppp2uTBsWFrmPP4	-	application/x-bzip2
+1471066379.383266	CkXita2VrROtnCOocd	10.10.10.108	35167	120.52.72.20	80	3	-	-	-	-	1.1	-	-	0	316445	200	OK	-	-	(empty)	-	-	-	-	-	-	Ffma8S1c20XRxj40q3	-	application/x-bzip2
+#close	2020-08-06-15-47-21

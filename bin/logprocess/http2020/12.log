@@ -1,0 +1,13 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2020-07-31-19-38-05
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	version	user_agent	origin	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	tags	username	password	proxied	orig_fuids	orig_filenames	orig_mime_types	resp_fuids	resp_filenames	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	string	string	count	count	count	string	count	string	set[enum]	string	string	set[string]	vector[string]	vector[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1591649726.378811	CWpKE02ExHD21WuXGl	10.10.10.11	50452	125.56.201.104	80	1	GET	crl.microsoft.com	/pki/crl/products/WinPCA.crl	-	1.1	Microsoft-CryptoAPI/6.1	-	0	530	200	OK	-	-	(empty)	-	-	-	-	-	-	FAoz4r2elVRdVtMV05	-	-
+1591649762.179756	CAbZIW2kA1D7erPGV9	10.10.10.11	50459	61.158.247.156	80	1	GET	www.download.windowsupdate.com	/msdownload/update/v3/static/trustedr/en/authrootstl.cab	-	1.1	Microsoft-CryptoAPI/6.1	-	0	58383	200	OK	-	-	(empty)	-	-	-	-	-	-	FE1wzv3zkMGuNCaJD8	-	application/vnd.ms-cab-compressed
+1591649767.619728	Ci4YtlxL3E9e44u67	10.10.10.11	50463	125.56.201.104	80	1	GET	crl.microsoft.com	/pki/crl/products/MicCodSigPCA_08-31-2010.crl	-	1.1	Microsoft-CryptoAPI/6.1	-	0	555	200	OK	-	-	(empty)	-	-	-	-	-	-	Fs2CrHttT9wsFc7u5	-	-
+1591649767.829823	Ce4RF1wDHVC7I8Ry4	10.10.10.11	50464	221.194.156.192	80	1	GET	www.microsoft.com	/pki/certs/MicRooCerAut_2010-06-23.crt	-	1.1	Microsoft-CryptoAPI/6.1	-	0	1521	200	OK	-	-	(empty)	-	-	-	-	-	-	FUnKfq4cQZfqEIvKUc	-	-
+#close	2020-07-31-19-38-13

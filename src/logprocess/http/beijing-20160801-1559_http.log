@@ -1,0 +1,74 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2020-08-06-15-45-33
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	version	user_agent	origin	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	tags	username	password	proxied	orig_fuids	orig_filenames	orig_mime_types	resp_fuids	resp_filenames	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	string	string	count	count	count	string	count	string	set[enum]	string	string	set[string]	vector[string]	vector[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1470039713.873722	CZ9THe2NfHsKMd2MNf	10.10.10.103	37684	208.77.20.11	80	1	-	-	-	-	1.1	-	-	0	345	404	Not Found	-	-	(empty)	-	-	-	-	-	-	FtsIhu1WEY8WohXci	-	text/html
+1470039714.078657	CiJOat3fkfxQf1wpf5	10.10.10.103	44535	91.189.92.191	80	1	-	-	-	-	1.1	-	-	0	227	404	Not Found	-	-	(empty)	-	-	-	-	-	-	FKsXrW3uwKt2KRQXV1	-	text/html
+1470039714.112340	CZ9THe2NfHsKMd2MNf	10.10.10.103	37684	208.77.20.11	80	2	-	-	-	-	1.1	-	-	0	0	304	Not Modified	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1470039714.181950	CXJWPh1pEEXsAYu7rb	10.10.10.103	37914	91.189.91.23	80	1	-	-	-	-	1.1	-	-	0	0	304	Not Modified	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1470039714.215780	Cr0jpA2nMF1aOF7cZb	10.10.10.103	47933	91.189.95.83	80	1	-	-	-	-	1.1	-	-	0	0	304	Not Modified	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1470039714.381867	CiJOat3fkfxQf1wpf5	10.10.10.103	44535	91.189.92.191	80	2	-	-	-	-	1.1	-	-	0	0	304	Not Modified	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1470039714.551899	CXJWPh1pEEXsAYu7rb	10.10.10.103	37914	91.189.91.23	80	2	-	-	-	-	1.1	-	-	0	0	304	Not Modified	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1470039714.577328	CIsbf94mlDdn5YTNRk	10.10.10.103	37689	208.77.20.11	80	1	-	-	-	-	1.1	-	-	0	0	304	Not Modified	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1470039714.597337	Cr0jpA2nMF1aOF7cZb	10.10.10.103	47933	91.189.95.83	80	2	-	-	-	-	1.1	-	-	0	0	304	Not Modified	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1470039714.683930	CiJOat3fkfxQf1wpf5	10.10.10.103	44535	91.189.92.191	80	3	-	-	-	-	1.1	-	-	0	0	304	Not Modified	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1470039714.732375	CiJOat3fkfxQf1wpf5	10.10.10.103	44535	91.189.92.191	80	4	-	-	-	-	1.1	-	-	0	0	302	Found	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1470039714.775065	COCcGR13WnFo8wpSUk	10.10.10.103	60368	120.52.72.22	80	1	-	-	-	-	1.1	-	-	0	0	304	Not Modified	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1470039714.913842	CXJWPh1pEEXsAYu7rb	10.10.10.103	37914	91.189.91.23	80	3	-	-	-	-	1.1	-	-	0	0	304	Not Modified	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1470039714.964822	Cr0jpA2nMF1aOF7cZb	10.10.10.103	47933	91.189.95.83	80	3	-	-	-	-	1.1	-	-	0	0	304	Not Modified	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1470039715.062833	CDs6b62GOnchL7SL75	10.10.10.103	37690	208.77.20.11	80	1	-	-	-	-	1.1	-	-	0	0	304	Not Modified	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1470039715.082056	C6svlE4E5juv0qZuA5	10.10.10.103	44538	91.189.92.191	80	1	-	-	-	-	1.1	-	-	0	0	302	Found	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1470039715.126238	CaYGKw2SkZYoBG3GD7	10.10.10.103	40866	120.52.72.20	80	1	-	-	-	-	1.1	-	-	0	0	304	Not Modified	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1470039715.272798	CXJWPh1pEEXsAYu7rb	10.10.10.103	37914	91.189.91.23	80	4	-	-	-	-	1.1	-	-	0	0	304	Not Modified	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1470039715.327780	Cr0jpA2nMF1aOF7cZb	10.10.10.103	47933	91.189.95.83	80	4	-	-	-	-	1.1	-	-	0	0	304	Not Modified	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1470039715.432879	CEJBblwHaOIWtJvR4	10.10.10.103	44541	91.189.92.191	80	1	-	-	-	-	1.1	-	-	0	0	302	Found	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1470039715.475965	ClLVXu3jcD3FOmyJde	10.10.10.103	38208	120.52.72.23	80	1	-	-	-	-	1.1	-	-	0	0	304	Not Modified	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1470039715.544105	CHFLs4223KD3mqzGbi	10.10.10.103	37693	208.77.20.11	80	1	-	-	-	-	1.1	-	-	0	0	304	Not Modified	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1470039715.628022	CXJWPh1pEEXsAYu7rb	10.10.10.103	37914	91.189.91.23	80	5	-	-	-	-	1.1	-	-	0	0	304	Not Modified	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1470039715.696614	Cr0jpA2nMF1aOF7cZb	10.10.10.103	47933	91.189.95.83	80	5	-	-	-	-	1.1	-	-	0	0	304	Not Modified	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1470039715.989716	CXJWPh1pEEXsAYu7rb	10.10.10.103	37914	91.189.91.23	80	6	-	-	-	-	1.1	-	-	0	0	304	Not Modified	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1470039716.024688	CZolFu1zooo6SVfP2d	10.10.10.103	37697	208.77.20.11	80	1	-	-	-	-	1.1	-	-	0	345	404	Not Found	-	-	(empty)	-	-	-	-	-	-	FqRTM7wHIvCoVSZMc	-	text/html
+1470039716.263094	CZolFu1zooo6SVfP2d	10.10.10.103	37697	208.77.20.11	80	2	-	-	-	-	1.1	-	-	0	345	404	Not Found	-	-	(empty)	-	-	-	-	-	-	FvvzPf3wE5FNCMcKD8	-	text/html
+1470039716.352653	CXJWPh1pEEXsAYu7rb	10.10.10.103	37914	91.189.91.23	80	7	-	-	-	-	1.1	-	-	0	0	304	Not Modified	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1470039716.499743	CZolFu1zooo6SVfP2d	10.10.10.103	37697	208.77.20.11	80	3	-	-	-	-	1.1	-	-	0	345	404	Not Found	-	-	(empty)	-	-	-	-	-	-	FbP3MMvFyRYI4sUth	-	text/html
+1470039716.710856	CXJWPh1pEEXsAYu7rb	10.10.10.103	37914	91.189.91.23	80	8	-	-	-	-	1.1	-	-	0	0	304	Not Modified	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1470039716.736917	CZolFu1zooo6SVfP2d	10.10.10.103	37697	208.77.20.11	80	4	-	-	-	-	1.1	-	-	0	345	404	Not Found	-	-	(empty)	-	-	-	-	-	-	FGPxMf2FyPQ2QiuYTe	-	text/html
+1470039716.974316	CZolFu1zooo6SVfP2d	10.10.10.103	37697	208.77.20.11	80	5	-	-	-	-	1.1	-	-	0	345	404	Not Found	-	-	(empty)	-	-	-	-	-	-	FcgJu93PMqhtlQyiVe	-	text/html
+1470039717.070288	CXJWPh1pEEXsAYu7rb	10.10.10.103	37914	91.189.91.23	80	9	-	-	-	-	1.1	-	-	0	0	304	Not Modified	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1470039717.436426	CXJWPh1pEEXsAYu7rb	10.10.10.103	37914	91.189.91.23	80	10	-	-	-	-	1.1	-	-	0	0	304	Not Modified	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1470039717.807431	CXJWPh1pEEXsAYu7rb	10.10.10.103	37914	91.189.91.23	80	11	-	-	-	-	1.1	-	-	0	0	304	Not Modified	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1470039718.145161	CXJWPh1pEEXsAYu7rb	10.10.10.103	37914	91.189.91.23	80	12	-	-	-	-	1.1	-	-	0	0	304	Not Modified	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1470039718.435680	CXJWPh1pEEXsAYu7rb	10.10.10.103	37914	91.189.91.23	80	13	-	-	-	-	1.1	-	-	0	0	304	Not Modified	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1470039718.443490	C9Oygy47SE7ozOzfN8	10.10.10.103	48500	202.118.1.64	80	1	-	-	-	-	1.1	-	-	0	169	404	Not Found	-	-	(empty)	-	-	-	-	-	-	Fr0Mhh32HADc1G58h9	-	text/html
+1470039718.473081	C9Oygy47SE7ozOzfN8	10.10.10.103	48500	202.118.1.64	80	2	-	-	-	-	1.1	-	-	0	0	304	Not Modified	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1470039718.500908	C9Oygy47SE7ozOzfN8	10.10.10.103	48500	202.118.1.64	80	3	-	-	-	-	1.1	-	-	0	0	304	Not Modified	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1470039718.528793	C9Oygy47SE7ozOzfN8	10.10.10.103	48500	202.118.1.64	80	4	-	-	-	-	1.1	-	-	0	0	304	Not Modified	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1470039718.556251	C9Oygy47SE7ozOzfN8	10.10.10.103	48500	202.118.1.64	80	5	-	-	-	-	1.1	-	-	0	0	304	Not Modified	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1470039718.584452	C9Oygy47SE7ozOzfN8	10.10.10.103	48500	202.118.1.64	80	6	-	-	-	-	1.1	-	-	0	0	304	Not Modified	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1470039718.611659	C9Oygy47SE7ozOzfN8	10.10.10.103	48500	202.118.1.64	80	7	-	-	-	-	1.1	-	-	0	0	304	Not Modified	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1470039718.639145	C9Oygy47SE7ozOzfN8	10.10.10.103	48500	202.118.1.64	80	8	-	-	-	-	1.1	-	-	0	0	304	Not Modified	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1470039718.667581	C9Oygy47SE7ozOzfN8	10.10.10.103	48500	202.118.1.64	80	9	-	-	-	-	1.1	-	-	0	0	304	Not Modified	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1470039718.694537	C9Oygy47SE7ozOzfN8	10.10.10.103	48500	202.118.1.64	80	10	-	-	-	-	1.1	-	-	0	0	304	Not Modified	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1470039718.723005	C9Oygy47SE7ozOzfN8	10.10.10.103	48500	202.118.1.64	80	11	-	-	-	-	1.1	-	-	0	0	304	Not Modified	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1470039718.749966	C9Oygy47SE7ozOzfN8	10.10.10.103	48500	202.118.1.64	80	12	-	-	-	-	1.1	-	-	0	0	304	Not Modified	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1470039718.777903	C9Oygy47SE7ozOzfN8	10.10.10.103	48500	202.118.1.64	80	13	-	-	-	-	1.1	-	-	0	0	304	Not Modified	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1470039718.806141	C9Oygy47SE7ozOzfN8	10.10.10.103	48500	202.118.1.64	80	14	-	-	-	-	1.1	-	-	0	0	304	Not Modified	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1470039718.833382	C9Oygy47SE7ozOzfN8	10.10.10.103	48500	202.118.1.64	80	15	-	-	-	-	1.1	-	-	0	0	304	Not Modified	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1470039718.860848	C9Oygy47SE7ozOzfN8	10.10.10.103	48500	202.118.1.64	80	16	-	-	-	-	1.1	-	-	0	0	304	Not Modified	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1470039718.892700	C9Oygy47SE7ozOzfN8	10.10.10.103	48500	202.118.1.64	80	17	-	-	-	-	1.1	-	-	0	0	304	Not Modified	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1470039718.921216	C9Oygy47SE7ozOzfN8	10.10.10.103	48500	202.118.1.64	80	18	-	-	-	-	1.1	-	-	0	0	304	Not Modified	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1470039719.011288	C9Oygy47SE7ozOzfN8	10.10.10.103	48500	202.118.1.64	80	19	-	-	-	-	1.1	-	-	0	0	304	Not Modified	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1470039719.039741	C9Oygy47SE7ozOzfN8	10.10.10.103	48500	202.118.1.64	80	20	-	-	-	-	1.1	-	-	0	0	304	Not Modified	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1470039719.066734	C9Oygy47SE7ozOzfN8	10.10.10.103	48500	202.118.1.64	80	21	-	-	-	-	1.1	-	-	0	0	304	Not Modified	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1470039719.094697	C9Oygy47SE7ozOzfN8	10.10.10.103	48500	202.118.1.64	80	22	-	-	-	-	1.1	-	-	0	0	304	Not Modified	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1470039719.122640	C9Oygy47SE7ozOzfN8	10.10.10.103	48500	202.118.1.64	80	23	-	-	-	-	1.1	-	-	0	0	304	Not Modified	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1470039719.149092	C9Oygy47SE7ozOzfN8	10.10.10.103	48500	202.118.1.64	80	24	-	-	-	-	1.1	-	-	0	0	304	Not Modified	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1470039719.177292	C9Oygy47SE7ozOzfN8	10.10.10.103	48500	202.118.1.64	80	25	-	-	-	-	1.1	-	-	0	0	304	Not Modified	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1470039719.205016	C9Oygy47SE7ozOzfN8	10.10.10.103	48500	202.118.1.64	80	26	-	-	-	-	1.1	-	-	0	0	304	Not Modified	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1470039719.232964	C9Oygy47SE7ozOzfN8	10.10.10.103	48500	202.118.1.64	80	27	-	-	-	-	1.1	-	-	0	0	304	Not Modified	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1470039719.260925	C9Oygy47SE7ozOzfN8	10.10.10.103	48500	202.118.1.64	80	28	-	-	-	-	1.1	-	-	0	0	304	Not Modified	-	-	(empty)	-	-	-	-	-	-	-	-	-
+#close	2020-08-06-15-45-33

@@ -1,0 +1,13 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2020-07-31-19-36-43
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	version	user_agent	origin	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	tags	username	password	proxied	orig_fuids	orig_filenames	orig_mime_types	resp_fuids	resp_filenames	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	string	string	count	count	count	string	count	string	set[enum]	string	string	set[string]	vector[string]	vector[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1591246825.131117	CC17bB3PeGKAbXvLT	10.10.10.11	54344	99.86.193.125	80	1	GET	www.siemens.com	/	-	1.1	Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; Tablet PC 2.0; .NET4.0E)	-	0	183	301	Moved Permanently	-	-	(empty)	-	-	-	-	-	-	Frawc8K6sqIN8Ahv8	-	text/html
+1591246826.661124	CpoiGj1Nzx42zaki25	10.10.10.11	54349	61.168.100.231	80	1	GET	ocsp.globalsign.com	/rootr1/MEwwSjBIMEYwRDAJBgUrDgMCGgUABBS3V7W2nAf4FiMTjpDJKg6+MgGqMQQUYHtmGkUNl8qJUC99BM00qP/8/UsCCwQAAAAAAURO8EJH	-	1.1	Microsoft-CryptoAPI/6.1	-	0	1524	200	OK	-	-	(empty)	-	-	-	-	-	-	FFT3puo47CDP9iCp2	-	application/ocsp-response
+1591246826.861060	CTmIZxLnYvUQhA2ek	10.10.10.11	54350	61.168.100.231	80	1	GET	ocsp2.globalsign.com	/gsorganizationvalsha2g2/ME0wSzBJMEcwRTAJBgUrDgMCGgUABBQMnk2cPe3vhNiR6XLHz4QGvBl7BwQUlt5h8b0cFilTHMDMfTuDAEDmGnwCDCzuGTwYgnjqPkN1cw==	-	1.1	Microsoft-CryptoAPI/6.1	-	0	1574	200	OK	-	-	(empty)	-	-	-	-	-	-	F6HZ6K1PlZoYX7ID5f	-	application/ocsp-response
+1591246829.670430	CTmIZxLnYvUQhA2ek	10.10.10.11	54350	61.168.100.231	80	2	GET	ocsp2.globalsign.com	/gsorganizationvalsha2g2/ME0wSzBJMEcwRTAJBgUrDgMCGgUABBQMnk2cPe3vhNiR6XLHz4QGvBl7BwQUlt5h8b0cFilTHMDMfTuDAEDmGnwCDHJYeDZun1boHUGISA==	-	1.1	Microsoft-CryptoAPI/6.1	-	0	1574	200	OK	-	-	(empty)	-	-	-	-	-	-	FYmzJs24vathY2D9Td	-	application/ocsp-response
+#close	2020-07-31-19-36-44

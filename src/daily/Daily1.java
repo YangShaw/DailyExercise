@@ -6,6 +6,11 @@ import java.util.*;
 public class Daily1 {
     public static void main(String[] args) {
 
+        char ch = '1';
+
+        System.out.println((char)(ch+1));
+        String aaa = "sss:";
+
         double a = 10;
         Object o = a;
         if(o instanceof Integer){
