@@ -8,7 +8,6 @@ public class No02unionFind {
 
     // 连通分量个数
     private int count;
-
     // 并查集数组
     private int[] parent;
     // 辅助数组

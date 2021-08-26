@@ -37,7 +37,6 @@ public class No03doublePointer {
     public ListNode removeNthFromEnd(ListNode head, int n) {
         ListNode fast = head;
         ListNode slow = head;
-        ListNode pre = null;
         for (int i = 0; i < n; i++) {
             fast = fast.next;
         }

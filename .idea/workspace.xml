@@ -1,59 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="e8793876-6e6a-4a88-a04e-e650c54289aa" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DailyExercise.iml" beforeDir="false" afterPath="$PROJECT_DIR$/DailyExercise.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/META-INF/DailyExercise.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/bin/META-INF/DailyExercise.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/daily/BlackBoxTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/daily/BlackBoxTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/daily/Daily1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/daily/Daily1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/leetcode/Add_Binary_67.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/Add_Binary_67.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/leetcode/Climb_Stairs_70.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/Climb_Stairs_70.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/leetcode/CoinChange322.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/CoinChange322.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/leetcode/CombinationSum39.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/CombinationSum39.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/leetcode/Delete_Duplicates_82$ListNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/leetcode/Delete_Duplicates_82.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/leetcode/FindKthLargest215.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/FindKthLargest215.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/leetcode/GetIntersectionNode160.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/GetIntersectionNode160.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/leetcode/HeightChecker1051.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/HeightChecker1051.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/leetcode/LRUCache.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/leetcode/LowestCommonAncestor236.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/LowestCommonAncestor236.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/leetcode/MaxProfit121.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/MaxProfit121.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/leetcode/Max_Area_11.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/Max_Area_11.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/leetcode/Merge_Sorted_Array_88.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/Merge_Sorted_Array_88.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/leetcode/Merge_Sorted_List_std$ListNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/leetcode/Merge_Sorted_List_std.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/leetcode/MinStack.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/leetcode/NextPermutation31.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/NextPermutation31.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/leetcode/ReverseList206.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/ReverseList206.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/leetcode/ThreeSum.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/leetcode/Trap42.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/Trap42.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/leetcode/Two_Sum_1_hash.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/Two_Sum_1_hash.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/leetcode/Valid_Parentheses_20.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/Valid_Parentheses_20.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/leetcode/WordBreak139.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/WordBreak139.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/daily/BlackBoxTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/daily/BlackBoxTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/daily/Daily1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/daily/Daily1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/Add_Binary_67.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/Add_Binary_67.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/Climb_Stairs_70.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/Climb_Stairs_70.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/CoinChange322.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/CoinChange322.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/Delete_Duplicates_82.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/DeleteDuplicates83.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/FindKthLargest215.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/FindKthLargest215.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/GetIntersectionNode160.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/GetIntersectionNode160.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/HeightChecker1051.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/HeightChecker1051.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/LRUCache.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/LRUCache146.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/LowestCommonAncestor236.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/LowestCommonAncestor236.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/MaxProfit121.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/MaxProfit121.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/Max_Area_11.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/Max_Area_11.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/Merge_Sorted_Array_88.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/Merge_Sorted_Array_88.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/Merge_Sorted_List_std.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/MergeTwoLists21.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/MinStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/MinStack155.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/ReverseList206.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/ReverseList206.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/ThreeSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/ThreeSum15.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/Trap42.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/Trap42.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/Two_Sum_1_hash.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/Two_Sum_1_hash.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/Valid_Parentheses_20.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/Valid_Parentheses_20.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/WordBreak139.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/WordBreak139.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithm/chapter1/array/No03doublePointer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/chapter1/array/No03doublePointer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithm/chapter1/datastructure/No02unionFind.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/chapter1/datastructure/No02unionFind.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,6 +81,7 @@
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -203,6 +173,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.No01minDistance" />
@@ -213,6 +194,7 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -337,6 +319,10 @@
       <workItem from="1618629805904" duration="31286000" />
       <workItem from="1618801645636" duration="13081000" />
       <workItem from="1619071595975" duration="712000" />
+      <workItem from="1627438651382" duration="18129000" />
+      <workItem from="1627748728026" duration="87000" />
+      <workItem from="1629683070064" duration="620000" />
+      <workItem from="1629795455744" duration="8879000" />
     </task>
     <task id="LOCAL-00001" summary="next permutation 31">
       <created>1586881652640</created>
@@ -349,7 +335,7 @@
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -448,16 +434,6 @@
           <url>file://$PROJECT_DIR$/src/algorithm/chapter1/datastructure/No09priorityQueue.java</url>
           <line>67</line>
           <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/algorithm/chapter1/datastructure/No09priorityQueue.java</url>
-          <line>15</line>
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/algorithm/chapter1/array/No06randomizedSet.java</url>
-          <line>99</line>
-          <option name="timeStamp" value="9" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/interview0411meituan/Problem4.java</url>
