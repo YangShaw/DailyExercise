@@ -19,10 +19,463 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e8793876-6e6a-4a88-a04e-e650c54289aa" name="Default Changelist" comment="">
+    <list default="true" id="e8793876-6e6a-4a88-a04e-e650c54289aa" name="Default Changelist" comment="next permutation 31">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithm/chapter1/array/No03doublePointer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/chapter1/array/No03doublePointer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithm/chapter1/datastructure/No02unionFind.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/chapter1/datastructure/No02unionFind.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DailyExercise.iml" beforeDir="false" afterPath="$PROJECT_DIR$/DailyExercise.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/META-INF/DailyExercise.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Test621/Problem1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Test621/Problem1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/advancdexercise/Demo.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/advancdexercise/Demo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/advancdexercise/FuncProgramming.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/advancdexercise/FuncProgramming.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/advancdexercise/InjectPerson.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/advancdexercise/InjectPerson.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/advancdexercise/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/advancdexercise/Person.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/advancdexercise/PersonDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/advancdexercise/PersonDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/advancdexercise/ReflectionDemo$Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/advancdexercise/ReflectionDemo$Person.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/advancdexercise/ReflectionDemo$Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/advancdexercise/ReflectionDemo$Student.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/advancdexercise/ReflectionDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/advancdexercise/ReflectionDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/advancdexercise/expproxy/DynamicProxy.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/advancdexercise/expproxy/DynamicProxy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/advancdexercise/expproxy/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/advancdexercise/expproxy/Person.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/advancdexercise/expproxy/StuInvocationHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/advancdexercise/expproxy/StuInvocationHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/advancdexercise/expproxy/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/advancdexercise/expproxy/Student.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/algexercise/Ch2_01.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/algexercise/Ch2_01.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/algexercise/Ch3_01.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/algexercise/Ch3_01.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/algexercise/Ch3_02.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/algexercise/Ch3_02.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/algexercise/Ch5_01.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/algexercise/Ch5_01.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/algexercise/Ch7_01.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/algexercise/Ch7_01.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/algexercise/bt01Knapsack$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/algexercise/bt01Knapsack$Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/algexercise/bt01Knapsack.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/algexercise/bt01Knapsack.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/algorithm/chapter1/array/No01binarySearch.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/algorithm/chapter1/array/No01binarySearch.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/algorithm/chapter1/array/No02applyBinarySearch.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/algorithm/chapter1/array/No02applyBinarySearch.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/algorithm/chapter1/array/No03doublePointer$ListNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/algorithm/chapter1/array/No03doublePointer$ListNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/algorithm/chapter1/array/No03doublePointer.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/algorithm/chapter1/array/No03doublePointer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/algorithm/chapter1/array/No04LRPointer.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/algorithm/chapter1/array/No04LRPointer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/algorithm/chapter1/array/No05slidingWindow.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/algorithm/chapter1/array/No05slidingWindow.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/algorithm/chapter1/array/No06randomizedSet$RandomizedSet.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/algorithm/chapter1/array/No06randomizedSet$RandomizedSet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/algorithm/chapter1/array/No06randomizedSet$Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/algorithm/chapter1/array/No06randomizedSet$Solution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/algorithm/chapter1/array/No06randomizedSet.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/algorithm/chapter1/array/No06randomizedSet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/algorithm/chapter1/array/No07removeDuplicate.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/algorithm/chapter1/array/No07removeDuplicate.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/algorithm/chapter1/binarysearchtree/No01kthSmallest$TreeNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/algorithm/chapter1/binarysearchtree/No01kthSmallest$TreeNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/algorithm/chapter1/binarysearchtree/No01kthSmallest.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/algorithm/chapter1/binarysearchtree/No01kthSmallest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/algorithm/chapter1/binarysearchtree/No02convertBST$TreeNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/algorithm/chapter1/binarysearchtree/No02convertBST$TreeNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/algorithm/chapter1/binarysearchtree/No02convertBST.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/algorithm/chapter1/binarysearchtree/No02convertBST.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/algorithm/chapter1/binarysearchtree/No03isValidBST$TreeNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/algorithm/chapter1/binarysearchtree/No03isValidBST$TreeNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/algorithm/chapter1/binarysearchtree/No03isValidBST.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/algorithm/chapter1/binarysearchtree/No03isValidBST.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/algorithm/chapter1/binarysearchtree/No04isInBST$TreeNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/algorithm/chapter1/binarysearchtree/No04isInBST$TreeNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/algorithm/chapter1/binarysearchtree/No04isInBST.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/algorithm/chapter1/binarysearchtree/No04isInBST.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/algorithm/chapter1/binarytree/NestedIterator$NestedInteger.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/algorithm/chapter1/binarytree/NestedIterator$NestedInteger.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/algorithm/chapter1/binarytree/NestedIterator.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/algorithm/chapter1/binarytree/NestedIterator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/algorithm/chapter1/binarytree/No01invertTree$TreeNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/algorithm/chapter1/binarytree/No01invertTree$TreeNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/algorithm/chapter1/binarytree/No01invertTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/algorithm/chapter1/binarytree/No01invertTree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/algorithm/chapter1/binarytree/No02connectRight$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/algorithm/chapter1/binarytree/No02connectRight$Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/algorithm/chapter1/binarytree/No02connectRight.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/algorithm/chapter1/binarytree/No02connectRight.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/algorithm/chapter1/binarytree/No03flattenTree$TreeNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/algorithm/chapter1/binarytree/No03flattenTree$TreeNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/algorithm/chapter1/binarytree/No03flattenTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/algorithm/chapter1/binarytree/No03flattenTree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/algorithm/chapter1/binarytree/No04constructMaxTree$TreeNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/algorithm/chapter1/binarytree/No04constructMaxTree$TreeNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/algorithm/chapter1/binarytree/No04constructMaxTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/algorithm/chapter1/binarytree/No04constructMaxTree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/algorithm/chapter1/binarytree/No05buildTree$TreeNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/algorithm/chapter1/binarytree/No05buildTree$TreeNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/algorithm/chapter1/binarytree/No05buildTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/algorithm/chapter1/binarytree/No05buildTree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/algorithm/chapter1/binarytree/No07Codec$TreeNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/algorithm/chapter1/binarytree/No07Codec$TreeNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/algorithm/chapter1/binarytree/No07Codec.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/algorithm/chapter1/binarytree/No07Codec.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/algorithm/chapter1/binarytree/No6findDupSubtrees$TreeNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/algorithm/chapter1/binarytree/No6findDupSubtrees$TreeNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/algorithm/chapter1/binarytree/No6findDupSubtrees.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/algorithm/chapter1/binarytree/No6findDupSubtrees.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/algorithm/chapter1/datastructure/No01streamMedianFinder.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/algorithm/chapter1/datastructure/No01streamMedianFinder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/algorithm/chapter1/datastructure/No02unionFind.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/algorithm/chapter1/datastructure/No02unionFind.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/algorithm/chapter1/datastructure/No03equationsPossible$UF.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/algorithm/chapter1/datastructure/No03equationsPossible$UF.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/algorithm/chapter1/datastructure/No03equationsPossible.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/algorithm/chapter1/datastructure/No03equationsPossible.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/algorithm/chapter1/datastructure/No04LRU$DoubleList.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/algorithm/chapter1/datastructure/No04LRU$DoubleList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/algorithm/chapter1/datastructure/No04LRU$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/algorithm/chapter1/datastructure/No04LRU$Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/algorithm/chapter1/datastructure/No04LRU.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/algorithm/chapter1/datastructure/No04LRU.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/algorithm/chapter1/datastructure/No05LFU.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/algorithm/chapter1/datastructure/No05LFU.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/algorithm/chapter1/datastructure/No06Twitter$Tweet.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/algorithm/chapter1/datastructure/No06Twitter$Tweet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/algorithm/chapter1/datastructure/No06Twitter$User.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/algorithm/chapter1/datastructure/No06Twitter$User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/algorithm/chapter1/datastructure/No06Twitter.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/algorithm/chapter1/datastructure/No06Twitter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/algorithm/chapter1/datastructure/No07monotonicStack.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/algorithm/chapter1/datastructure/No07monotonicStack.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/algorithm/chapter1/datastructure/No08monotonicQueue$MonotonicQueue.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/algorithm/chapter1/datastructure/No08monotonicQueue$MonotonicQueue.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/algorithm/chapter1/datastructure/No08monotonicQueue.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/algorithm/chapter1/datastructure/No08monotonicQueue.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/algorithm/chapter1/datastructure/No09priorityQueue$MaxPQ.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/algorithm/chapter1/datastructure/No09priorityQueue$MaxPQ.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/algorithm/chapter1/datastructure/No09priorityQueue.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/algorithm/chapter1/datastructure/No09priorityQueue.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/algorithm/chapter1/datastructure/No10stackAndQueue$MyQueue.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/algorithm/chapter1/datastructure/No10stackAndQueue$MyQueue.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/algorithm/chapter1/datastructure/No10stackAndQueue.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/algorithm/chapter1/datastructure/No10stackAndQueue.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/algorithm/chapter1/linkedlist/No01reverse$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/algorithm/chapter1/linkedlist/No01reverse$Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/algorithm/chapter1/linkedlist/No01reverse.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/algorithm/chapter1/linkedlist/No01reverse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/algorithm/chapter1/linkedlist/No02reverseN$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/algorithm/chapter1/linkedlist/No02reverseN$Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/algorithm/chapter1/linkedlist/No02reverseN.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/algorithm/chapter1/linkedlist/No02reverseN.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/algorithm/chapter1/linkedlist/No03reverseKGroup$ListNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/algorithm/chapter1/linkedlist/No03reverseKGroup$ListNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/algorithm/chapter1/linkedlist/No03reverseKGroup.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/algorithm/chapter1/linkedlist/No03reverseKGroup.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/algorithm/chapter1/linkedlist/No04traverseLinkedList$ListNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/algorithm/chapter1/linkedlist/No04traverseLinkedList$ListNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/algorithm/chapter1/linkedlist/No04traverseLinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/algorithm/chapter1/linkedlist/No04traverseLinkedList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/algorithm/chapter2/bagproblem/No01basicBag.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/algorithm/chapter2/bagproblem/No01basicBag.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/algorithm/chapter2/bagproblem/No02canPartition.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/algorithm/chapter2/bagproblem/No02canPartition.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/algorithm/chapter2/bagproblem/No03completeBag.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/algorithm/chapter2/bagproblem/No03completeBag.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/algorithm/chapter2/greedy/Intervals.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/algorithm/chapter2/greedy/Intervals.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/algorithm/chapter2/greedy/JumpGame.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/algorithm/chapter2/greedy/JumpGame.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/algorithm/chapter2/subSeq/No01minDistance.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/algorithm/chapter2/subSeq/No01minDistance.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/algorithm/chapter3/bfs/No01minDepth$TreeNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/algorithm/chapter3/bfs/No01minDepth$TreeNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/algorithm/chapter3/bfs/No01minDepth.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/algorithm/chapter3/bfs/No01minDepth.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/algorithm/chapter3/bfs/No02openLock.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/algorithm/chapter3/bfs/No02openLock.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/algorithm/chapter3/bfs/No03slidingPuzzle.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/algorithm/chapter3/bfs/No03slidingPuzzle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/algorithm/chapter3/traverse/No01traverse.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/algorithm/chapter3/traverse/No01traverse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/algorithm/chapter3/traverse/No02nQueens.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/algorithm/chapter3/traverse/No02nQueens.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/algorithm/chapter3/traverse/No03subset.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/algorithm/chapter3/traverse/No03subset.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/algorithm/chapter3/traverse/No04combine.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/algorithm/chapter3/traverse/No04combine.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/algorithm/chapter3/traverse/No05sudoku.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/algorithm/chapter3/traverse/No05sudoku.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/algorithm/chapter3/tricks/No01bitMani.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/algorithm/chapter3/tricks/No01bitMani.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/algorithm/chapter3/tricks/No02factorial.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/algorithm/chapter3/tricks/No02factorial.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/algorithm/chapter3/tricks/No03primes.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/algorithm/chapter3/tricks/No03primes.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/algorithm/chapter3/tricks/No04superPow.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/algorithm/chapter3/tricks/No04superPow.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/algorithm/chapter3/tricks/No05missedAndRepeated.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/algorithm/chapter3/tricks/No05missedAndRepeated.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/algorithm/chapter3/tricks/No07getRandom$ListNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/algorithm/chapter3/tricks/No07getRandom$ListNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/algorithm/chapter3/tricks/No07getRandom.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/algorithm/chapter3/tricks/No07getRandom.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/algorithm/chapter3/tricks2/No01subarraySum.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/algorithm/chapter3/tricks2/No01subarraySum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/algorithm/chapter3/tricks2/No02diffArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/algorithm/chapter3/tricks2/No02diffArray.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/algorithm/chapter4/Ali$Solver.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/algorithm/chapter4/Ali$Solver.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/algorithm/chapter4/Ali.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/algorithm/chapter4/Ali.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/algorithm/chapter4/No01palindrome.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/algorithm/chapter4/No01palindrome.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/algorithm/classicalgs/HeapSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/algorithm/classicalgs/HeapSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/algorithm/classicalgs/MaxProfit.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/algorithm/classicalgs/MaxProfit.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/algorithm/classicalgs/MergeSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/algorithm/classicalgs/MergeSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/algorithm/classicalgs/QuickSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/algorithm/classicalgs/QuickSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/algorithm/classicalgs/Span.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/algorithm/classicalgs/Span.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/algorithm/classicalgs/TwoSum.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/algorithm/classicalgs/TwoSum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/algorithm/multithread/No1114$Foo.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/algorithm/multithread/No1114$Foo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/algorithm/multithread/No1114.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/algorithm/multithread/No1114.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/algorithm/multithread/No1115$FooBar.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/algorithm/multithread/No1115$FooBar.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/algorithm/multithread/No1115.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/algorithm/multithread/No1115.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/algorithm/multithread/No1116$ZeroEvenOdd.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/algorithm/multithread/No1116$ZeroEvenOdd.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/algorithm/multithread/No1116.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/algorithm/multithread/No1116.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/algorithm/tooffer/No03findRepeatNumber.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/algorithm/tooffer/No03findRepeatNumber.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/algorithm/tooffer/No04findNumberIn2DArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/algorithm/tooffer/No04findNumberIn2DArray.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/algorithm/tooffer/No05replaceSpace.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/algorithm/tooffer/No05replaceSpace.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/algorithm/tooffer/No06reversePrint$ListNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/algorithm/tooffer/No06reversePrint$ListNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/algorithm/tooffer/No06reversePrint.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/algorithm/tooffer/No06reversePrint.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/algorithm/tooffer/No07buildTree$TreeNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/algorithm/tooffer/No07buildTree$TreeNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/algorithm/tooffer/No07buildTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/algorithm/tooffer/No07buildTree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/algorithm/tooffer/No09CQueue$CQueue.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/algorithm/tooffer/No09CQueue$CQueue.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/algorithm/tooffer/No09CQueue.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/algorithm/tooffer/No09CQueue.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/algorithm/tooffer/No10fib.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/algorithm/tooffer/No10fib.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/algorithm/tooffer/No11minArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/algorithm/tooffer/No11minArray.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/algorithm/tooffer/No12existPath.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/algorithm/tooffer/No12existPath.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/daily/AnnoDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/daily/AnnoDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/daily/Base.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/daily/Base.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/daily/BlackBoxTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/daily/BlackBoxTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/daily/BlackBoxTestTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/daily/DSNotes.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/daily/DSNotes.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/daily/Daily1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/daily/Daily1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/daily/DailyTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/daily/DailyTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/daily/Exercise.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/daily/Exercise.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/daily/Extension.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/daily/Extension.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/daily/GraduateStudent.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/daily/GraduateStudent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/daily/L.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/daily/L.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/daily/Mini.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/daily/Mini.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/daily/MyAnno.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/daily/MyAnno.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/daily/MyPerson.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/daily/MyPerson.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/daily/P.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/daily/P.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/daily/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/daily/Person.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/daily/PersonSupplier.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/daily/PersonSupplier.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/daily/PrintTask.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/daily/PrintTask.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/daily/Question1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/daily/Question1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/daily/Question2.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/daily/Question2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/daily/Question3.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/daily/Question3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/daily/Question4$Point.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/daily/Question4$Point.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/daily/Question4.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/daily/Question4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/daily/ReflectionDemo$AddOperate.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/daily/ReflectionDemo$AddOperate.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/daily/ReflectionDemo$Operate.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/daily/ReflectionDemo$Operate.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/daily/ReflectionDemo$SubOperate.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/daily/ReflectionDemo$SubOperate.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/daily/ReflectionDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/daily/ReflectionDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/daily/StreamDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/daily/StreamDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/daily/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/daily/Student.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/daily/Sub.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/daily/Sub.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/daily/Sup.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/daily/Sup.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/daily/T.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/daily/T.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/daily/TestHomework.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/daily/TestSeri.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/daily/TestSeri.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/daily/ThreadTest$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/daily/ThreadTest$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/daily/ThreadTest$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/daily/ThreadTest$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/daily/ThreadTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/daily/ThreadTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/daily/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/daily/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/finalexercise/ClassBook.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/finalexercise/ClassBook.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/finalexercise/Exercise_01.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/finalexercise/Exercise_01.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interview0407Ali/Problem1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/interview0407Ali/Problem1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interview0407Ali/Problem2.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/interview0407Ali/Problem2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interview0411meituan/Problem1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/interview0411meituan/Problem1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interview0411meituan/Problem2.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/interview0411meituan/Problem2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interview0411meituan/Problem4.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/interview0411meituan/Problem4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interview0418tengxun/Problem1$ListNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/interview0418tengxun/Problem1$ListNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interview0418tengxun/Problem1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/interview0418tengxun/Problem1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interview0418tengxun/Problem2$Ad.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/interview0418tengxun/Problem2$Ad.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interview0418tengxun/Problem2.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/interview0418tengxun/Problem2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interview0418tengxun/Problem3.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/interview0418tengxun/Problem3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interview0418tengxun/Problem4.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/interview0418tengxun/Problem4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interview713/Problem1$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/interview713/Problem1$Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interview713/Problem1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/interview713/Problem1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interview713/Problem2$TreeNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/interview713/Problem2$TreeNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interview713/Problem2.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/interview713/Problem2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interview713/Problem3.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/interview713/Problem3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interview713/Problem4.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/interview713/Problem4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interview713/Problem5.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/interview713/Problem5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/interview718Huawei/Problem.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/interview718Huawei/Problem.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/javaexercise/Circle2D.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/javaexercise/Circle2D.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/javaexercise/Employee.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/javaexercise/Employee.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/javaexercise/Faculty.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/javaexercise/Faculty.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/javaexercise/Location.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/javaexercise/Location.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/javaexercise/MyDate.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/javaexercise/MyDate.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/javaexercise/MyPoint.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/javaexercise/MyPoint.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/javaexercise/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/javaexercise/Person.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/javaexercise/Rectangle.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/javaexercise/Rectangle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/javaexercise/Staff.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/javaexercise/Staff.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/javaexercise/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/javaexercise/Student.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/javaexercise/WebCrawler.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/javaexercise/WebCrawler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/javaexercise/exercise_02_06.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/javaexercise/exercise_02_06.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/javaexercise/exercise_03_08.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/javaexercise/exercise_03_08.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/javaexercise/exercise_04_21.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/javaexercise/exercise_04_21.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/javaexercise/exercise_05_10.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/javaexercise/exercise_05_10.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/javaexercise/exercise_06_08.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/javaexercise/exercise_06_08.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/javaexercise/exercise_07_05.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/javaexercise/exercise_07_05.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/javaexercise/exercise_07_07.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/javaexercise/exercise_07_07.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/javaexercise/exercise_08_05.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/javaexercise/exercise_08_05.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/javaexercise/exercise_09_01.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/javaexercise/exercise_09_01.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/javaexercise/exercise_09_13.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/javaexercise/exercise_09_13.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/javaexercise/exercise_10_11.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/javaexercise/exercise_10_11.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/javaexercise/exercise_10_14.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/javaexercise/exercise_10_14.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/javaexercise/exercise_10_4.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/javaexercise/exercise_10_4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/javaexercise/exercise_11_02.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/javaexercise/exercise_11_02.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/javaexercise/exercise_12_15.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/javaexercise/exercise_12_15.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/javatest/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/javatest/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/javatest/Problem1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/javatest/Problem1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/javatest/Problem2.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/javatest/Problem2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/javatest/Problem3.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/javatest/Problem3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/javatest/Problem3_2.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/javatest/Problem3_2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/javatest/Problem4.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/javatest/Problem4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/javatest/Problem5.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/javatest/Problem5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/javatest/Problem5_2.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/javatest/Problem5_2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/javatest/Problem6.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/javatest/Problem6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/javatest2/Problem1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/javatest2/Problem1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/javatest2/Problem2.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/javatest2/Problem2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/javatest2/Problem3.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/javatest2/Problem3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/javatest2/Problem4.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/javatest2/Problem4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/javatest2/Problem5.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/javatest2/Problem5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/javatest3/Problem1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/javatest3/Problem1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/javatest3/Problem2.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/javatest3/Problem2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/javatest3/Problem3.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/javatest3/Problem3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/javatest3/Problem4.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/javatest3/Problem4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/javatest3/Problem5.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/javatest3/Problem5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/javatest4/Problem1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/javatest4/Problem1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/javatest4/Problem2.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/javatest4/Problem2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/javatest4/Problem3.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/javatest4/Problem3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/javatest4/Problem4.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/javatest4/Problem4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/javatest4/Problem4_2.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/javatest4/Problem4_2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/javatest4/Problem5.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/javatest4/Problem5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/jsonexercise/JsonDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/jsonexercise/JsonDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/jsonexercise/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/jsonexercise/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/A.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/A.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/AddTwoNumbers2$ListNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/AddTwoNumbers2$ListNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/AddTwoNumbers2.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/AddTwoNumbers2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/Add_Binary_67.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/Add_Binary_67.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/AsteroidCollision.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/AsteroidCollision.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/B.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/B.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/BuildTree105$TreeNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/BuildTree105$TreeNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/BuildTree105.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/BuildTree105.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/CalPoints.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/CalPoints.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/CanWinNim.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/CanWinNim.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/Change518.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/Change518.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/Climb_Stairs_70.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/Climb_Stairs_70.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/CoinChange322.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/CoinChange322.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/CombinationSum2.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/CombinationSum2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/CombinationSum39.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/CombinationSum39.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/CommonChars1002.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/CommonChars1002.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/ContainsDuplicate.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/ContainsDuplicate.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/ContainsDuplicate2.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/ContainsDuplicate2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/Count_and_Say_38.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/Count_and_Say_38.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/DailyTemperature.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/DailyTemperature.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/DeleteDuplicates83$ListNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/DeleteDuplicates83$ListNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/DeleteDuplicates83.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/DeleteDuplicates83.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/DeleteNode237$ListNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/DeleteNode237$ListNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/DeleteNode237.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/DeleteNode237.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/DetectCircl142$ListNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/DetectCircl142$ListNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/DetectCircl142.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/DetectCircl142.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/DiameterOfBinaryTree543$TreeNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/DiameterOfBinaryTree543$TreeNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/DiameterOfBinaryTree543.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/DiameterOfBinaryTree543.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/DivisorGame1025.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/DivisorGame1025.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/EvalRPN150.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/EvalRPN150.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/Exist79$Tuple.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/Exist79$Tuple.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/Exist79.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/Exist79.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/FindAnagrams438.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/FindAnagrams438.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/FindKthLargest215.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/FindKthLargest215.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/FindMedianSortedArrays4.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/FindMedianSortedArrays4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/GenerateMatrix59.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/GenerateMatrix59.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/GenerateParenthesis22.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/GenerateParenthesis22.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/GetIntersectionNode160$ListNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/GetIntersectionNode160$ListNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/GetIntersectionNode160.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/GetIntersectionNode160.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/GrayCode.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/GrayCode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/GroupAnagrams49.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/GroupAnagrams49.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/HasCycle141$ListNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/HasCycle141$ListNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/HasCycle141.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/HasCycle141.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/HasPathSum112$TreeNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/HasPathSum112$TreeNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/HasPathSum112.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/HasPathSum112.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/HeightChecker1051.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/HeightChecker1051.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/Implement_Strstr_28.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/Implement_Strstr_28.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/InorderTraversal94$TreeNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/InorderTraversal94$TreeNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/InorderTraversal94.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/InorderTraversal94.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/IsBalanced110$TreeNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/IsBalanced110$TreeNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/IsBalanced110.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/IsBalanced110.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/IsPowerOfTwo.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/IsPowerOfTwo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/IsStraight61.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/IsStraight61.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/IsSubsequence392.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/IsSubsequence392.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/IsVaild1003.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/IsVaild1003.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/KthSmallest230$TreeNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/KthSmallest230$TreeNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/KthSmallest230.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/KthSmallest230.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/LRUCache146.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/LRUCache146.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/LengthOfLongestSubstring3.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/LengthOfLongestSubstring3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/Length_of_Last_Word_58.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/Length_of_Last_Word_58.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/LetterCombinations17.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/LetterCombinations17.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/LevelOrder102$TreeNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/LevelOrder102$TreeNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/LevelOrder102.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/LevelOrder102.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/LongestCommonSubsequence1143.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/LongestCommonSubsequence1143.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/LongestPalidrome5.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/LongestPalidrome5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/Longest_Common_Prefix_14.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/Longest_Common_Prefix_14.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/LowestCommonAncestor235$TreeNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/LowestCommonAncestor235$TreeNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/LowestCommonAncestor235.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/LowestCommonAncestor235.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/LowestCommonAncestor236$TreeNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/LowestCommonAncestor236$TreeNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/LowestCommonAncestor236.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/LowestCommonAncestor236.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/MajorityElement.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/MajorityElement.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/Manacher.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/Manacher.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/Marge_Sorted_List_21$ListNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/Marge_Sorted_List_21$ListNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/Marge_Sorted_List_21.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/Marge_Sorted_List_21.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/MaxEnvelopes.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/MaxEnvelopes.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/MaxPathSum125$TreeNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/MaxPathSum125$TreeNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/MaxPathSum125.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/MaxPathSum125.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/MaxProfit121.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/MaxProfit121.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/MaxProfit122.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/MaxProfit122.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/Max_Area_11.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/Max_Area_11.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/Max_Depth_104$TreeNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/Max_Depth_104$TreeNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/Max_Depth_104.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/Max_Depth_104.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/Max_Subarray_53.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/Max_Subarray_53.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/MaximalSquare.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/MaximalSquare.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/Merge56.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/Merge56.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/MergeKLists$ListNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/MergeKLists$ListNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/MergeKLists.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/MergeKLists.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/MergeKLists23$ListNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/MergeKLists23$ListNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/MergeKLists23.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/MergeKLists23.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/MergeTwoLists21$ListNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/MergeTwoLists21$ListNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/MergeTwoLists21.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/MergeTwoLists21.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/Merge_Sorted_Array_88.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/Merge_Sorted_Array_88.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/MinCostClimbingStairs746.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/MinCostClimbingStairs746.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/MinStack155.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/MinStack155.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/MinSubArrayLen.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/MinSubArrayLen.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/MoveZeroes.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/MoveZeroes.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/Multiply43.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/Multiply43.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/MyCircularQueue622.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/MyCircularQueue622.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/MyComparator$sortByMyClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/MyComparator$sortByMyClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/MyComparator.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/MyComparator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/MyQueue232.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/MyQueue232.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/NextGreaterElement496.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/NextGreaterElement496.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/NextGreaterElements503.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/NextGreaterElements503.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/NextPermutation31.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/NextPermutation31.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/No1178findNumOfValidWords.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/No1178findNumOfValidWords.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/No300lengthOfLIS.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/No300lengthOfLIS.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/No303NumArray$NumArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/No303NumArray$NumArray.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/No303NumArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/No303NumArray.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/No395longestSubstring.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/No395longestSubstring.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/No448findDisappearedNumbers.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/No448findDisappearedNumbers.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/No896isMonotonic.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/No896isMonotonic.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/NumTrees96.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/NumTrees96.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/Palindrome_Number_9.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/Palindrome_Number_9.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/PathSum34$TreeNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/PathSum34$TreeNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/PathSum34.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/PathSum34.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/Permute46.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/Permute46.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/PermuteUnique47.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/PermuteUnique47.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/Plus_One_66.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/Plus_One_66.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/PostorderTraversal145$TreeNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/PostorderTraversal145$TreeNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/PostorderTraversal145.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/PostorderTraversal145.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/PreorderTraversal144$TreeNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/PreorderTraversal144$TreeNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/PreorderTraversal144.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/PreorderTraversal144.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/ProductExceptSelf.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/ProductExceptSelf.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/RecentCounter933.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/RecentCounter933.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/RemoveOuterParentheses1021.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/RemoveOuterParentheses1021.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/Remove_Duplicates_26.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/Remove_Duplicates_26.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/Remove_Duplicates_Sorted_LinkedList_83$ListNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/Remove_Duplicates_Sorted_LinkedList_83$ListNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/Remove_Duplicates_Sorted_LinkedList_83.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/Remove_Duplicates_Sorted_LinkedList_83.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/Remove_Element_27.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/Remove_Element_27.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/ReplaceElements1299.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/ReplaceElements1299.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/RestoreIpAddress.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/RestoreIpAddress.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/Reverse7.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/Reverse7.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/ReverseKGroup25$ListNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/ReverseKGroup25$ListNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/ReverseKGroup25.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/ReverseKGroup25.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/ReverseList206$ListNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/ReverseList206$ListNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/ReverseList206.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/ReverseList206.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/ReverseStr.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/ReverseStr.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/ReverseString.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/ReverseString.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/ReverseWords557.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/ReverseWords557.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/Reverse_Integer_2.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/Reverse_Integer_2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/Reverse_Integer_std.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/Reverse_Integer_std.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/RightSideView199$TreeNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/RightSideView199$TreeNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/RightSideView199.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/RightSideView199.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/Rob198.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/Rob198.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/Roman_to_Integer_13.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/Roman_to_Integer_13.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/Rotate48.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/Rotate48.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/RotateRight61$ListNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/RotateRight61$ListNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/RotateRight61.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/RotateRight61.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/Same_Tree_100$TreeNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/Same_Tree_100$TreeNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/Same_Tree_100.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/Same_Tree_100.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/SearchRotatedArray33.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/SearchRotatedArray33.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/Search_Insert_Position_35.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/Search_Insert_Position_35.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/SimplifyPath71.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/SimplifyPath71.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/SingleNumber136.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/SingleNumber136.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/SortColors75.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/SortColors75.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/SortList148$ListNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/SortList148$ListNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/SortList148.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/SortList148.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/SortedArrayToBST108$TreeNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/SortedArrayToBST108$TreeNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/SortedArrayToBST108.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/SortedArrayToBST108.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/SpiralOrder54.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/SpiralOrder54.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/Sqrt_69.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/Sqrt_69.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/StockSpanner901.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/StockSpanner901.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/StockSpanner_901.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/StockSpanner_901.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/StringMultiply.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/StringMultiply.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/Subsets.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/Subsets.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/SubsetsWithDup.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/SubsetsWithDup.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/Symmetric_Tree_101$TreeNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/Symmetric_Tree_101$TreeNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/Symmetric_Tree_101.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/Symmetric_Tree_101.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/ThreeSum15.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/ThreeSum15.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/ThreeSumClosest.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/ThreeSumClosest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/Trap42.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/Trap42.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/TwoSum1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/TwoSum1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/Two_Sum_1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/Two_Sum_1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/Two_Sum_1_hash.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/Two_Sum_1_hash.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/UniquePaths62.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/UniquePaths62.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/Valid_Parentheses_20.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/Valid_Parentheses_20.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/ValidateStackSequences946.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/ValidateStackSequences946.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/WordBreak139.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/WordBreak139.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/arrayPairSum503.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/arrayPairSum503.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/isMatch10.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/isMatch10.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/sortArrayByParity905.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/sortArrayByParity905.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/logprocess/Conn.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/logprocess/Conn.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/logprocess/ConnPro.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/logprocess/ConnPro.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/logprocess/Files.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/logprocess/Files.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/logprocess/FilesPreprocess.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/logprocess/FilesPreprocess.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/logprocess/HTTP.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/logprocess/HTTP.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/logprocess/HttpPreprocess.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/logprocess/HttpPreprocess.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/multithread/DeadLockDemo$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/multithread/DeadLockDemo$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/multithread/DeadLockDemo$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/multithread/DeadLockDemo$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/multithread/DeadLockDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/multithread/DeadLockDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/multithread/DeadLockSolveDemo$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/multithread/DeadLockSolveDemo$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/multithread/DeadLockSolveDemo$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/multithread/DeadLockSolveDemo$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/multithread/DeadLockSolveDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/multithread/DeadLockSolveDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/multithread/PrintABC$ThreadA.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/multithread/PrintABC$ThreadA.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/multithread/PrintABC$ThreadB.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/multithread/PrintABC$ThreadB.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/multithread/PrintABC$ThreadC.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/multithread/PrintABC$ThreadC.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/multithread/PrintABC.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/multithread/PrintABC.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/multithread/Singleton.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/multithread/Singleton.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/multithread/ThreadPool.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/multithread/ThreadPool.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/multithread/printabc/ABCSemaphore$ThreadA.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/multithread/printabc/ABCSemaphore$ThreadA.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/multithread/printabc/ABCSemaphore$ThreadB.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/multithread/printabc/ABCSemaphore$ThreadB.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/multithread/printabc/ABCSemaphore$ThreadC.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/multithread/printabc/ABCSemaphore$ThreadC.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/multithread/printabc/ABCSemaphore.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/multithread/printabc/ABCSemaphore.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/week207/Problem1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/week207/Problem1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/week207/Problem2.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/week207/Problem2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/week726/Problem1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/week726/Problem1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/week726/Problem2.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/week726/Problem2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/daily/BlackBoxTestTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/daily/TestHomework.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,6 +535,7 @@
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -94,7 +548,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="editing.templates" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -107,13 +561,24 @@
       <recent name="javatest3" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.No01minDistance">
-    <configuration name="No01basicBag" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithm.chapter2.bagproblem.No01basicBag" />
+  <component name="RunManager" selected="Application.No210findOrder">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Exe" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcodegrindingguide.Exe" />
       <module name="DailyExercise" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algorithm.chapter2.bagproblem.*" />
+          <option name="PATTERN" value="leetcodegrindingguide.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -134,12 +599,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Problem1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="interview0418tengxun.Problem1" />
+    <configuration name="No210findOrder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcodegrindingguide.chapter15.No210findOrder" />
       <module name="DailyExercise" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="interview0418tengxun.*" />
+          <option name="PATTERN" value="leetcodegrindingguide.chapter15.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -147,12 +612,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Problem2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="interview0418tengxun.Problem2" />
+    <configuration name="No215" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcodegrindingguide.chapter5x.No215" />
       <module name="DailyExercise" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="interview0418tengxun.*" />
+          <option name="PATTERN" value="leetcodegrindingguide.chapter5x.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -160,37 +625,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Problem3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="interview0418tengxun.Problem3" />
+    <configuration name="Problem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test621.Problem" />
       <module name="DailyExercise" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="interview0418tengxun.*" />
+          <option name="PATTERN" value="Test621.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.No210findOrder" />
+        <item itemvalue="Application.Exe" />
+        <item itemvalue="Application.Problem" />
+        <item itemvalue="Application.No215" />
         <item itemvalue="Application.No01minDistance" />
-        <item itemvalue="Application.No01basicBag" />
-        <item itemvalue="Application.Problem1" />
-        <item itemvalue="Application.Problem2" />
-        <item itemvalue="Application.Problem3" />
       </list>
     </recent_temporary>
   </component>
@@ -323,6 +777,12 @@
       <workItem from="1627748728026" duration="87000" />
       <workItem from="1629683070064" duration="620000" />
       <workItem from="1629795455744" duration="8879000" />
+      <workItem from="1630125757682" duration="2638000" />
+      <workItem from="1630129584969" duration="14782000" />
+      <workItem from="1630739396828" duration="21229000" />
+      <workItem from="1630825095527" duration="156000" />
+      <workItem from="1630825349331" duration="2743000" />
+      <workItem from="1630845629437" duration="646000" />
     </task>
     <task id="LOCAL-00001" summary="next permutation 31">
       <created>1586881652640</created>
@@ -353,70 +813,6 @@
     <MESSAGE value="next permutation 31" />
     <option name="LAST_COMMIT_MESSAGE" value="next permutation 31" />
   </component>
-  <component name="WindowStateProjectService">
-    <state x="765" y="225" key="#com.intellij.ide.util.MemberChooser" timestamp="1618752558711">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="-1308" y="180" key="#com.intellij.ide.util.MemberChooser/-1920.0.1536.832/0.0.1920.1040@-1920.0.1536.832" timestamp="1617950887290" />
-    <state x="765" y="225" key="#com.intellij.ide.util.MemberChooser/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1618752558711" />
-    <state width="1493" height="183" key="GridCell.Tab.0.bottom" timestamp="1619088739522">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="196" key="GridCell.Tab.0.bottom/-1920.0.1536.832/0.0.1920.1040@-1920.0.1536.832" timestamp="1618280733405" />
-    <state width="1877" height="183" key="GridCell.Tab.0.bottom/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1619071688471" />
-    <state width="1493" height="183" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1619088739522" />
-    <state width="1493" height="183" key="GridCell.Tab.0.center" timestamp="1619088739522">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="196" key="GridCell.Tab.0.center/-1920.0.1536.832/0.0.1920.1040@-1920.0.1536.832" timestamp="1618280733405" />
-    <state width="1877" height="183" key="GridCell.Tab.0.center/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1619071688471" />
-    <state width="1493" height="183" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1619088739522" />
-    <state width="1493" height="183" key="GridCell.Tab.0.left" timestamp="1619088739522">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="196" key="GridCell.Tab.0.left/-1920.0.1536.832/0.0.1920.1040@-1920.0.1536.832" timestamp="1618280733405" />
-    <state width="1877" height="183" key="GridCell.Tab.0.left/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1619071688471" />
-    <state width="1493" height="183" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1619088739522" />
-    <state width="1493" height="183" key="GridCell.Tab.0.right" timestamp="1619088739522">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="196" key="GridCell.Tab.0.right/-1920.0.1536.832/0.0.1920.1040@-1920.0.1536.832" timestamp="1618280733405" />
-    <state width="1877" height="183" key="GridCell.Tab.0.right/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1619071688471" />
-    <state width="1493" height="183" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1619088739522" />
-    <state width="1493" height="2" key="GridCell.Tab.1.bottom" timestamp="1618116945133">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1493" height="2" key="GridCell.Tab.1.bottom/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1618116945133" />
-    <state width="1493" height="2" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1618112620411" />
-    <state width="1493" height="2" key="GridCell.Tab.1.center" timestamp="1618116945133">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1493" height="2" key="GridCell.Tab.1.center/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1618116945133" />
-    <state width="1493" height="2" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1618112620410" />
-    <state width="1493" height="2" key="GridCell.Tab.1.left" timestamp="1618116945133">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1493" height="2" key="GridCell.Tab.1.left/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1618116945133" />
-    <state width="1493" height="2" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1618112620407" />
-    <state width="1493" height="2" key="GridCell.Tab.1.right" timestamp="1618116945133">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1493" height="2" key="GridCell.Tab.1.right/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1618116945133" />
-    <state width="1493" height="2" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1618112620411" />
-    <state x="270" y="56" key="SettingsEditor" timestamp="1615650852999">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="270" y="56" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1615650852999" />
-    <state x="425" y="187" key="run.anything.popup" timestamp="1615827661090">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1615827661090" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1618817278668">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1618817278668" />
-    <state x="498" y="178" width="672" height="538" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1617758763554" />
-  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
@@ -443,7 +839,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/leetcode/ReverseKGroup25.java</url>
           <line>11</line>
-          <properties class="leetcode.ReverseKGroup25" method="reverseKGroup">
+          <properties class="leetcode.ReverseKGroup25">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="2" />
